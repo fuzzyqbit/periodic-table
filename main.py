@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tkinter as tk
 
 from periodic_table.model import Element
