@@ -112,6 +112,20 @@ def test_caesium_electronegativity():
     assert cs.electronegativity == pytest.approx(0.79, rel=0.02)
 
 
+def test_krypton_has_no_electronegativity():
+    kr = by_z(36)
+    assert kr.symbol == "Kr"
+    assert kr.category is Category.NOBLE_GAS
+    assert kr.electronegativity is None
+
+
+def test_xenon_has_no_electronegativity():
+    xe = by_z(54)
+    assert xe.symbol == "Xe"
+    assert xe.category is Category.NOBLE_GAS
+    assert xe.electronegativity is None
+
+
 def test_lanthanum_is_lanthanide_no_group():
     la = by_z(57)
     assert la.category is Category.LANTHANIDE

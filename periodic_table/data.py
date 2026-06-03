@@ -151,7 +151,7 @@ ELEMENTS: list[Element] = [
     Element(atomic_number=36,  symbol="Kr",  name="Krypton",       mass=83.798,
             period=4, group=18,   category=Category.NOBLE_GAS,
             electron_config="[Ar] 3d10 4s2 4p6",
-            electronegativity=3.00, phase="gas"),
+            electronegativity=None, phase="gas"),
 
     # Period 5
     Element(atomic_number=37,  symbol="Rb",  name="Rubidium",      mass=85.468,
@@ -225,7 +225,7 @@ ELEMENTS: list[Element] = [
     Element(atomic_number=54,  symbol="Xe",  name="Xenon",         mass=131.29,
             period=5, group=18,   category=Category.NOBLE_GAS,
             electron_config="[Kr] 4d10 5s2 5p6",
-            electronegativity=2.60, phase="gas"),
+            electronegativity=None, phase="gas"),
 
     # Period 6
     Element(atomic_number=55,  symbol="Cs",  name="Caesium",       mass=132.91,
