@@ -108,7 +108,15 @@ Static `list[Element]` of 118 elements built at module import. Source: IUPAC ref
 
 ### `placement.placement_for(element) -> (row, col)`
 
-Pure function. Returns 0-indexed `(row, col)` for the main grid. Lanthanides and actinides return their position in their respective strips (rendered as separate sub-grids beneath the main 18x7 grid). Placeholder cells `*` at `(5, 2)` and `**` at `(6, 2)` mark where the La/Ac series belong.
+Pure function. Returns 0-indexed `(row, col)` for the unified table grid.
+
+Convention:
+- Rows `0..6`: main 7-period grid, cols `0..17`.
+- Row `7`: lanthanide strip (La..Lu), cols `0..14`. La → `(7, 0)`, Lu → `(7, 14)`.
+- Row `8`: actinide strip (Ac..Lr), cols `0..14`. Ac → `(8, 0)`, Lr → `(8, 14)`.
+- Placeholder cells `*` at `(5, 2)` and `**` at `(6, 2)` mark where the La/Ac series belong in the main grid; they are non-clickable labels, not elements.
+
+`PeriodicGridView` uses this single convention for `tk.grid()` placement; no separate sub-grids needed.
 
 ### `shells.fill_shells(Z) -> list[int]`
 
@@ -229,7 +237,7 @@ No global state. No mutation of `ELEMENTS`. All views read from immutable datacl
   - Instantiate `SearchBar`, `PeriodicGridView`, an `ElementDetailWindow(root, ELEMENTS[0])`, and an `AtomWindow(root, ELEMENTS[117])`.
   - Assert no exceptions raised.
   - Destroy root.
-  - Skipped if `$DISPLAY` unset on Linux CI (`pytest.skip` guarded).
+  - Guarded by `pytest.importorskip("tkinter")` and a try/except around `tk.Tk()` to skip on headless CI where Tk cannot open a display.
 
 ## Open Questions / Future Work
 
