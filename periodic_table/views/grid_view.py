@@ -46,6 +46,12 @@ class PeriodicGridView(tk.Frame):
             padx=1, pady=1, sticky="nsew",
         )
 
+        tk.Label(
+            self,
+            text="Periodic Table of Elements",
+            font=("TkDefaultFont", 20, "bold"),
+        ).grid(row=0, column=2, columnspan=15, sticky="nsew", padx=4, pady=4)
+
     def highlight(self, query: str) -> None:
         for element in ELEMENTS:
             btn, base = self._cells[element.atomic_number]
