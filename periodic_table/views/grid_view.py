@@ -3,6 +3,7 @@ from typing import Callable
 
 from periodic_table.categories import CATEGORY_COLORS, DIM_COLOR
 from periodic_table.data import ELEMENTS
+from periodic_table.discovery import DISCOVERED_YEAR
 from periodic_table.model import Element
 from periodic_table.placement import (
     ACTINIDE_PLACEHOLDER,
@@ -17,9 +18,13 @@ class PeriodicGridView(tk.Frame):
         self,
         parent: tk.Misc,
         on_select: Callable[[Element], None],
+        on_compare: Callable[[Element, Element], None],
     ) -> None:
         super().__init__(parent)
+        self._default_on_select = on_select
         self._on_select = on_select
+        self._on_compare = on_compare
+        self._compare_pick: Element | None = None
         self._cells: dict[int, tuple[tk.Label, str]] = {}  # Z -> (cell, base_color)
 
         for element in ELEMENTS:
@@ -38,6 +43,7 @@ class PeriodicGridView(tk.Frame):
             )
             cell.grid(row=row, column=col, padx=1, pady=1, sticky="nsew")
             cell.bind("<Button-1>", lambda _ev, e=element: self._on_select(e))
+            cell.bind("<Shift-Button-1>", lambda _ev, e=element: self._handle_shift_click(e))
             self._cells[element.atomic_number] = (cell, base)
 
         tk.Label(self, text="*",  bg="#ffffff").grid(
@@ -59,3 +65,37 @@ class PeriodicGridView(tk.Frame):
         for element in ELEMENTS:
             cell, base = self._cells[element.atomic_number]
             cell.configure(bg=base if match(query, element) else DIM_COLOR)
+
+    def set_click_handler(self, handler: Callable[[Element], None]) -> None:
+        self._on_select = handler
+
+    def reset_click_handler(self) -> None:
+        self._on_select = self._default_on_select
+
+    def flash_cell(self, z: int, color: str, duration_ms: int = 400) -> None:
+        cell, base = self._cells[z]
+        cell.configure(bg=color)
+        cell.after(duration_ms, lambda: cell.configure(bg=base))
+
+    def filter_by_year(self, year: int) -> None:
+        for element in ELEMENTS:
+            cell, _base = self._cells[element.atomic_number]
+            discovered = DISCOVERED_YEAR[element.atomic_number]
+            if discovered == 0 or discovered <= year:
+                cell.grid()
+            else:
+                cell.grid_remove()
+
+    def _handle_shift_click(self, picked: Element) -> None:
+        if self._compare_pick is None:
+            self._compare_pick = picked
+            cell, _base = self._cells[picked.atomic_number]
+            cell.configure(borderwidth=3, relief=tk.SOLID)
+            return
+        first = self._compare_pick
+        self._compare_pick = None
+        cell, _base = self._cells[first.atomic_number]
+        cell.configure(borderwidth=1, relief=tk.RAISED)
+        if first.atomic_number == picked.atomic_number:
+            return
+        self._on_compare(first, picked)
