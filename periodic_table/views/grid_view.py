@@ -20,22 +20,25 @@ class PeriodicGridView(tk.Frame):
     ) -> None:
         super().__init__(parent)
         self._on_select = on_select
-        self._cells: dict[int, tuple[tk.Button, str]] = {}  # Z -> (button, base_color)
+        self._cells: dict[int, tuple[tk.Label, str]] = {}  # Z -> (cell, base_color)
 
         for element in ELEMENTS:
             row, col = placement_for(element)
             base = CATEGORY_COLORS[element.category]
-            btn = tk.Button(
+            cell = tk.Label(
                 self,
                 text=f"{element.atomic_number}\n{element.symbol}",
                 bg=base,
+                fg="black",
                 width=4,
                 height=2,
                 relief=tk.RAISED,
-                command=lambda e=element: self._on_select(e),
+                borderwidth=1,
+                cursor="hand2",
             )
-            btn.grid(row=row, column=col, padx=1, pady=1, sticky="nsew")
-            self._cells[element.atomic_number] = (btn, base)
+            cell.grid(row=row, column=col, padx=1, pady=1, sticky="nsew")
+            cell.bind("<Button-1>", lambda _ev, e=element: self._on_select(e))
+            self._cells[element.atomic_number] = (cell, base)
 
         tk.Label(self, text="*",  bg="#ffffff").grid(
             row=LANTHANIDE_PLACEHOLDER[0], column=LANTHANIDE_PLACEHOLDER[1],
@@ -54,5 +57,5 @@ class PeriodicGridView(tk.Frame):
 
     def highlight(self, query: str) -> None:
         for element in ELEMENTS:
-            btn, base = self._cells[element.atomic_number]
-            btn.configure(bg=base if match(query, element) else DIM_COLOR)
+            cell, base = self._cells[element.atomic_number]
+            cell.configure(bg=base if match(query, element) else DIM_COLOR)
