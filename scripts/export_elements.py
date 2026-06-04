@@ -47,7 +47,7 @@ def main() -> None:
         "actinide_placeholder": list(ACTINIDE_PLACEHOLDER),
     }
 
-    out = ROOT / "web" / "elements.json"
+    out = ROOT / "docs" / "elements.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, indent=2) + "\n")
     print(f"wrote {len(elements)} elements to {out.relative_to(ROOT)}")
