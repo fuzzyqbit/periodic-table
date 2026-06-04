@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periodic Table of Elements</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Periodic Table of Elements</h1>
+    <div class="toolbar">
+      <input id="search" type="text" placeholder="Search by symbol, name, or atomic number…" autocomplete="off">
+      <button id="quiz-btn">Quiz</button>
+      <span class="hint">Shift+click two elements to compare.</span>
+    </div>
+    <div class="timeline">
+      <label for="year">Show elements known by:</label>
+      <input id="year" type="range" min="1600" max="2025" value="2025">
+      <span id="year-label">2025</span>
+      <button id="year-reset">Reset</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="grid" aria-label="Periodic table grid"></div>
+    <div id="legend" aria-label="Category legend"></div>
+  </main>
+
+  <!-- Element detail modal -->
+  <div id="detail-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button class="close" data-close="detail-modal" aria-label="Close">×</button>
+      <h2 id="detail-title">—</h2>
+      <dl id="detail-fields"></dl>
+      <button id="show-atom">Show atom</button>
+    </div>
+  </div>
+
+  <!-- Atom visualization modal -->
+  <div id="atom-modal" class="modal" hidden>
+    <div class="modal-card atom-card">
+      <button class="close" data-close="atom-modal" aria-label="Close">×</button>
+      <h2 id="atom-title">Atom</h2>
+      <canvas id="atom-canvas" width="600" height="600" aria-label="Bohr atom diagram"></canvas>
+    </div>
+  </div>
+
+  <!-- Comparison modal -->
+  <div id="compare-modal" class="modal" hidden>
+    <div class="modal-card wide">
+      <button class="close" data-close="compare-modal" aria-label="Close">×</button>
+      <h2>Compare elements</h2>
+      <table id="compare-table"></table>
+    </div>
+  </div>
+
+  <!-- Quiz modal -->
+  <div id="quiz-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button class="close" data-close="quiz-modal" aria-label="Close">×</button>
+      <h2>Quiz — Find the Element</h2>
+      <p>Click the element shown below on the grid.</p>
+      <p id="quiz-prompt" class="prompt">Press Start</p>
+      <p id="quiz-timer">0.0 s</p>
+      <p id="quiz-score">Score: 0 / 0</p>
+      <button id="quiz-action">Start</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
