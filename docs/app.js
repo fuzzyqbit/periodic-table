@@ -194,6 +194,61 @@ function wireModals() {
     const z = parseInt(document.getElementById("show-atom").dataset.z, 10);
     if (!Number.isNaN(z)) openAtom(state.byZ.get(z));
   });
+
+  enableDrag(
+    document.getElementById("quiz-panel"),
+    document.getElementById("quiz-drag-handle"),
+  );
+}
+
+function enableDrag(panel, handle) {
+  let dragging = false;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  function startDrag(clientX, clientY) {
+    const rect = panel.getBoundingClientRect();
+    offsetX = clientX - rect.left;
+    offsetY = clientY - rect.top;
+    dragging = true;
+    panel.classList.add("dragging");
+  }
+
+  function moveDrag(clientX, clientY) {
+    if (!dragging) return;
+    const maxX = window.innerWidth - panel.offsetWidth;
+    const maxY = window.innerHeight - panel.offsetHeight;
+    const x = Math.max(0, Math.min(maxX, clientX - offsetX));
+    const y = Math.max(0, Math.min(maxY, clientY - offsetY));
+    panel.style.left = `${x}px`;
+    panel.style.top = `${y}px`;
+  }
+
+  function endDrag() {
+    if (!dragging) return;
+    dragging = false;
+    panel.classList.remove("dragging");
+  }
+
+  handle.addEventListener("mousedown", ev => {
+    if (ev.target.closest(".close")) return;
+    startDrag(ev.clientX, ev.clientY);
+    ev.preventDefault();
+  });
+  document.addEventListener("mousemove", ev => moveDrag(ev.clientX, ev.clientY));
+  document.addEventListener("mouseup", endDrag);
+
+  handle.addEventListener("touchstart", ev => {
+    if (ev.target.closest(".close")) return;
+    const t = ev.touches[0];
+    startDrag(t.clientX, t.clientY);
+  }, { passive: true });
+  document.addEventListener("touchmove", ev => {
+    if (!dragging) return;
+    const t = ev.touches[0];
+    moveDrag(t.clientX, t.clientY);
+  }, { passive: true });
+  document.addEventListener("touchend", endDrag);
 }
 
 // --- detail view ---------------------------------------------------------
@@ -350,7 +405,7 @@ function deltaLabel(a, b) {
 // --- quiz ----------------------------------------------------------------
 
 function openQuiz() {
-  document.getElementById("quiz-modal").hidden = false;
+  document.getElementById("quiz-panel").hidden = false;
   resetQuizUi();
   state.quiz.score = 0;
   state.quiz.attempts = 0;

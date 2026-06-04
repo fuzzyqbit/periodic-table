@@ -55,12 +55,14 @@
     </div>
   </div>
 
-  <!-- Quiz modal -->
-  <div id="quiz-modal" class="modal" hidden>
-    <div class="modal-card">
-      <button class="close" data-close="quiz-modal" aria-label="Close">×</button>
-      <h2>Quiz — Find the Element</h2>
-      <p>Click the element shown below on the grid.</p>
+  <!-- Quiz panel (floating, draggable, non-modal) -->
+  <div id="quiz-panel" class="floating" hidden>
+    <div class="floating-header" id="quiz-drag-handle">
+      <span>Quiz — Find the Element</span>
+      <button class="close" data-close="quiz-panel" aria-label="Close">×</button>
+    </div>
+    <div class="floating-body">
+      <p class="muted">Click the element shown below on the grid.</p>
       <p id="quiz-prompt" class="prompt">Press Start</p>
       <p id="quiz-timer">0.0 s</p>
       <p id="quiz-score">Score: 0 / 0</p>

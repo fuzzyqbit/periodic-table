@@ -257,6 +257,61 @@ main {
   border: 1px solid var(--border);
 }
 
+/* Floating draggable panel (used by Quiz) */
+.floating {
+  position: fixed;
+  top: 120px;
+  left: 30px;
+  z-index: 20;
+  background: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.22);
+  border: 1px solid var(--border);
+  min-width: 280px;
+  max-width: 360px;
+  user-select: none;
+}
+
+.floating[hidden] { display: none; }
+
+.floating-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px 8px 14px;
+  background: #f1f3f7;
+  border-bottom: 1px solid var(--border);
+  border-radius: 8px 8px 0 0;
+  cursor: move;
+  font-weight: 600;
+}
+
+.floating-header .close {
+  background: transparent;
+  color: var(--muted);
+  padding: 0 6px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.floating-body {
+  padding: 14px 16px 16px 16px;
+}
+
+.floating-body .muted {
+  color: var(--muted);
+  margin: 0 0 8px 0;
+  font-size: 13px;
+}
+
+.floating-body p {
+  margin: 6px 0;
+}
+
+.floating.dragging {
+  box-shadow: 0 12px 36px rgba(0,0,0,0.32);
+}
+
 @media (max-width: 900px) {
   #grid { grid-template-columns: repeat(18, minmax(28px, 1fr)); }
   .cell { min-height: 38px; padding: 2px; }
