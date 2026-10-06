@@ -420,6 +420,19 @@ function resetQuizUi() {
   action.onclick = quizStart;
 }
 
+// Called by topics.js when the user leaves the Periodic Table tab.
+function closeTableOverlays() {
+  for (const modal of document.querySelectorAll(".modal")) {
+    modal.hidden = true;
+  }
+  document.getElementById("quiz-panel").hidden = true;
+  if (state.quiz.timerId) cancelAnimationFrame(state.quiz.timerId);
+  state.quiz.startedAt = null;
+  state.quiz.handlerActive = false;
+  state.quiz.target = null;
+  resetQuizUi();
+}
+
 function quizStart() {
   const list = state.data.elements;
   state.quiz.target = list[Math.floor(Math.random() * list.length)];

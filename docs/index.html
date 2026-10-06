@@ -9,22 +9,38 @@
 <body>
   <header>
     <h1>Periodic Table of Elements</h1>
-    <div class="toolbar">
-      <input id="search" type="text" placeholder="Search by symbol, name, or atomic number…" autocomplete="off">
-      <button id="quiz-btn">Quiz</button>
-      <span class="hint">Shift+click two elements to compare.</span>
-    </div>
-    <div class="timeline">
-      <label for="year">Show elements known by:</label>
-      <input id="year" type="range" min="1600" max="2025" value="2025">
-      <span id="year-label">2025</span>
-      <button id="year-reset">Reset</button>
+    <nav id="tabs" class="tabs" role="tablist" aria-label="Sections">
+      <button type="button" role="tab" data-tab="table" aria-selected="true">Periodic Table</button>
+    </nav>
+    <div id="table-controls">
+      <div class="toolbar">
+        <input id="search" type="text" placeholder="Search by symbol, name, or atomic number…" autocomplete="off">
+        <button id="quiz-btn">Quiz</button>
+        <span class="hint">Shift+click two elements to compare.</span>
+      </div>
+      <div class="timeline">
+        <label for="year">Show elements known by:</label>
+        <input id="year" type="range" min="1600" max="2025" value="2025">
+        <span id="year-label">2025</span>
+        <button id="year-reset">Reset</button>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main id="table-view">
     <div id="grid" aria-label="Periodic table grid"></div>
     <div id="legend" aria-label="Category legend"></div>
+  </main>
+
+  <main id="topic-view" hidden>
+    <div id="diagram-switcher" class="diagram-switcher" role="group" aria-label="Diagrams"></div>
+    <div class="topic-layout">
+      <section class="diagram-col">
+        <div id="diagram-holder" class="diagram-holder"></div>
+        <div id="part-buttons" class="part-buttons" role="group" aria-label="Parts of this diagram"></div>
+      </section>
+      <aside id="info-panel" class="info-panel" aria-live="polite"></aside>
+    </div>
   </main>
 
   <!-- Element detail modal -->
@@ -71,5 +87,6 @@
   </div>
 
   <script src="app.js"></script>
+  <script src="topics.js"></script>
 </body>
 </html>
