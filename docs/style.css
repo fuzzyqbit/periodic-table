@@ -382,7 +382,6 @@ main {
 
 .part {
   cursor: pointer;
-  outline: none;
   transition: opacity 120ms ease;
 }
 
@@ -391,7 +390,12 @@ main {
   filter: brightness(1.1) drop-shadow(0 0 3px rgba(44, 109, 240, 0.9));
 }
 
+/* Cues that do not depend on CSS filter, which some browsers skip inside SVG. */
+.part:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.diagram-holder:has(.part.hover) .part:not(.hover):not(.selected) { opacity: 0.6; }
+
 .has-selection .part:not(.selected) { opacity: 0.35; }
+.has-selection:has(.part.hover) .part.hover:not(.selected) { opacity: 0.8; }
 
 .part.selected { filter: drop-shadow(0 0 4px rgba(44, 109, 240, 1)); }
 

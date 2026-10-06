@@ -60,7 +60,9 @@ async function showTopic(id, diagramId) {
     const topic = viewer.topics.get(id);
     const diagram = topic.diagrams.find(d => d.id === diagramId) || topic.diagrams[0];
     if (!viewer.svgs.has(diagram.svg)) {
-      viewer.svgs.set(diagram.svg, await fetchText(diagram.svg));
+      const text = await fetchText(diagram.svg);
+      parseSvg(text, diagram.svg);   // only cache a response that really is an SVG
+      viewer.svgs.set(diagram.svg, text);
     }
     if (token !== viewer.loadToken) return;
     viewer.topic = topic;
@@ -75,6 +77,14 @@ async function showTopic(id, diagramId) {
     console.error(err);
     renderLoadError(() => showTopic(id, diagramId));
   }
+}
+
+function parseSvg(text, path) {
+  const doc = new DOMParser().parseFromString(text, "image/svg+xml");
+  if (doc.documentElement.nodeName !== "svg" || doc.querySelector("parsererror")) {
+    throw new Error(`${path} is not a valid SVG`);
+  }
+  return doc.documentElement;
 }
 
 function el(tag, text, className) {
@@ -100,12 +110,8 @@ function renderSwitcher() {
 
 function renderDiagram() {
   const holder = document.getElementById("diagram-holder");
-  const doc = new DOMParser().parseFromString(
-    viewer.svgs.get(viewer.diagram.svg), "image/svg+xml");
-  if (doc.documentElement.nodeName !== "svg") {
-    throw new Error(`${viewer.diagram.svg} is not a valid SVG`);
-  }
-  const svg = document.adoptNode(doc.documentElement);
+  const svg = document.adoptNode(
+    parseSvg(viewer.svgs.get(viewer.diagram.svg), viewer.diagram.svg));
   svg.setAttribute("role", "group");
   svg.setAttribute("aria-label", viewer.diagram.title);
   holder.classList.remove("has-selection");
@@ -168,6 +174,11 @@ function selectPart(id) {
     btn.setAttribute("aria-pressed", String(btn.dataset.part === id));
   }
   renderInfo();
+  // On narrow screens the panel sits below the diagram; bring it into view.
+  if (window.matchMedia("(max-width: 900px)").matches) {
+    document.getElementById("info-panel")
+      .scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
 }
 
 function renderInfo() {

@@ -127,7 +127,7 @@
       "facts": [
         "It is about a quarter of your height.",
         "It can support many times the weight of the body.",
-        "The ends of the femur contain red marrow, which makes blood cells."
+        "The upper end of the femur contains red marrow, which makes blood cells."
       ]
     },
     "patella": {
@@ -200,7 +200,7 @@
     "red-marrow": {
       "name": "Red marrow",
       "summary": "The soft tissue inside bones that makes blood cells.",
-      "details": "Red marrow is a soft, jelly-like tissue that fills the spaces in spongy bone. It contains stem cells, which divide again and again to produce every kind of blood cell: red cells, white cells and platelets. New cells pass into blood vessels in the marrow and are carried away. A baby has red marrow in all of its bones. In adults it is found mainly in the pelvis, ribs, breastbone, spine and the ends of the femur and humerus.",
+      "details": "Red marrow is a soft, jelly-like tissue that fills the spaces in spongy bone. It contains stem cells, which divide again and again to produce every kind of blood cell: red cells, white cells and platelets. New cells pass into blood vessels in the marrow and are carried away. A baby has red marrow in all of its bones. In adults it is found mainly in the pelvis, ribs, breastbone, spine and the upper ends of the femur and humerus.",
       "facts": [
         "It makes hundreds of billions of new blood cells every day.",
         "A bone marrow transplant gives a patient healthy blood-forming stem cells.",
