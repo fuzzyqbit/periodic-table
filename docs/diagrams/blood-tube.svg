@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="sans-serif">
+<g data-part="plasma"><rect x="255" y="110" width="130" height="226" fill="#f6e58a"/><line x1="435" y1="223" x2="385" y2="223" stroke="#555" stroke-width="1"/><text x="440" y="228" font-size="16" text-anchor="start" fill="#1f2024">Plasma: about 55%</text></g>
+<g data-part="red-blood-cells"><path d="M255,349 L385,349 L385,470 A65,65 0 0 1 255,470 Z" fill="#a51f1f"/><line x1="435" y1="430" x2="385" y2="430" stroke="#555" stroke-width="1"/><text x="440" y="435" font-size="16" text-anchor="start" fill="#1f2024">Red blood cells: about 45%</text></g>
+<g data-part="buffy-coat"><rect x="255" y="335" width="130" height="15" fill="#f3efe2" stroke="#b9b29a" stroke-width="1"/><line x1="435" y1="343" x2="385" y2="343" stroke="#555" stroke-width="1"/><text x="440" y="348" font-size="16" text-anchor="start" fill="#1f2024">Buffy coat: under 1%</text></g>
+<path d="M250,60 L250,470 A70,70 0 0 0 390,470 L390,60" fill="none" stroke="#666" stroke-width="4"/><ellipse cx="320" cy="60" rx="74" ry="9" fill="none" stroke="#666" stroke-width="4"/>
+</svg>

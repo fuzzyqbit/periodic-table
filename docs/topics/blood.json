@@ -1,0 +1,139 @@
+{
+  "id": "blood",
+  "title": "Blood",
+  "parts": {
+    "vessel-wall": {
+      "name": "Blood vessel wall",
+      "summary": "The tube that blood travels through.",
+      "details": "Blood moves around the body inside a closed network of tubes called blood vessels. Arteries carry blood away from the heart and have thick, stretchy, muscular walls to cope with the high pressure. Veins carry blood back to the heart; their walls are thinner and they have valves to stop blood flowing backwards. Capillaries are the tiniest vessels, with walls only one cell thick, so oxygen, food and waste can pass between the blood and the body's tissues.",
+      "facts": [
+        "Laid end to end, an adult's blood vessels would stretch roughly 100,000 kilometres.",
+        "The largest artery, the aorta, is about as wide as a garden hose.",
+        "Many capillaries are so narrow that red blood cells pass through in single file."
+      ]
+    },
+    "plasma": {
+      "name": "Plasma",
+      "summary": "The pale yellow liquid that carries everything else in the blood.",
+      "details": "Plasma makes up about 55 percent of blood. It is about 90 percent water, with many things dissolved in it: sugars and other nutrients from food, salts, hormones, and waste such as carbon dioxide and urea on the way to being removed. It also carries proteins, including antibodies that fight infection and clotting proteins that help seal wounds. Blood cells and platelets float in the plasma and are swept along by it.",
+      "facts": [
+        "On its own, plasma is straw-coloured, not red.",
+        "It helps spread heat around the body, keeping your temperature even.",
+        "Donated plasma is used to treat burns, shock and bleeding disorders."
+      ]
+    },
+    "red-blood-cells": {
+      "name": "Red blood cells",
+      "summary": "The cells that carry oxygen from the lungs to the rest of the body.",
+      "details": "Red blood cells are packed with haemoglobin, a protein containing iron that picks up oxygen in the lungs and lets it go in the tissues. Haemoglobin is what makes blood red. Each cell is a disc dented on both sides, a shape that gives a large surface for oxygen to pass through and lets the cell bend through narrow capillaries. Mature red cells have no nucleus, leaving more room for haemoglobin. They make up about 45 percent of blood.",
+      "facts": [
+        "A cubic millimetre of blood, about the size of a pinhead, holds around 5 million red cells.",
+        "Each one lasts about 120 days before it is broken down in the spleen and liver.",
+        "They are made in red bone marrow, at a rate of roughly 2 million every second.",
+        "They also help carry carbon dioxide back to the lungs."
+      ]
+    },
+    "white-blood-cells": {
+      "name": "White blood cells",
+      "summary": "The cells that defend the body against germs.",
+      "details": "White blood cells are part of the immune system. They find and destroy bacteria, viruses and other invaders, and clear away dead or damaged cells. Unlike red cells, they have a nucleus, and many can squeeze out through capillary walls to reach an infection in the tissues. There are far fewer of them than red cells, roughly one for every 600 to 700. There are five main types, each with its own job; see the 'White blood cell types' diagram.",
+      "facts": [
+        "They are made in the bone marrow, like all blood cells.",
+        "Their number rises when you have an infection, which is why doctors count them in blood tests.",
+        "They are colourless; the name comes from the whitish layer they form when blood is separated."
+      ]
+    },
+    "platelets": {
+      "name": "Platelets",
+      "summary": "Tiny cell fragments that help blood to clot.",
+      "details": "Platelets are not whole cells. They are small pieces that break off from very large cells in the bone marrow. When a blood vessel is damaged, platelets stick to the broken edge and to each other, forming a plug. They also release chemicals that turn a clotting protein in the plasma into a mesh of sticky threads. The mesh traps blood cells and hardens into a clot, which dries to become a scab.",
+      "facts": [
+        "A cubic millimetre of blood contains roughly 150,000 to 400,000 platelets.",
+        "Each platelet lasts only about 8 to 10 days.",
+        "They have no nucleus."
+      ]
+    },
+    "buffy-coat": {
+      "name": "Buffy coat",
+      "summary": "The thin, pale layer of white blood cells and platelets in separated blood.",
+      "details": "When a tube of blood is spun very fast, its parts separate by weight. The heavy red cells sink to the bottom and the light plasma stays on top. Between them is a thin, whitish-yellow band called the buffy coat. It contains nearly all of the white blood cells and platelets. Even though these do vital jobs, the layer is very thin, because together they make up less than 1 percent of the blood.",
+      "facts": [
+        "'Buff' is an old word for a pale yellowish-brown colour.",
+        "Scientists often collect the buffy coat when they need DNA, because red blood cells have no nucleus and so no DNA."
+      ]
+    },
+    "neutrophil": {
+      "name": "Neutrophil",
+      "summary": "The most common white blood cell and the first to arrive at an infection.",
+      "details": "Neutrophils make up about 50 to 70 percent of white blood cells. You can recognise one by its nucleus, which is divided into several connected lobes. Within minutes of an injury or infection, neutrophils leave the blood and move into the tissue. There they swallow bacteria whole, a process called phagocytosis, and destroy them with enzymes. Neutrophils are short-lived, usually surviving only hours to a few days.",
+      "facts": [
+        "Pus is made largely of dead neutrophils.",
+        "The bone marrow makes around 100 billion of them every day.",
+        "Their nucleus usually has three to five lobes."
+      ]
+    },
+    "lymphocyte": {
+      "name": "Lymphocyte",
+      "summary": "The white blood cell that targets specific germs and remembers them.",
+      "details": "Lymphocytes make up about 20 to 40 percent of white blood cells. They have a large, round nucleus that fills most of the cell. There are two main kinds. B cells make antibodies, proteins that stick to one particular germ and mark it for destruction. T cells kill body cells that have been infected and direct other immune cells. Some lymphocytes become memory cells that stay in the body for years, ready to respond quickly if the same germ returns.",
+      "facts": [
+        "Memory cells are why vaccines work and why you usually catch chickenpox only once.",
+        "Many lymphocytes live in the lymph nodes, spleen and tonsils, not in the blood.",
+        "T cells are named after the thymus, the organ in the chest where they mature."
+      ]
+    },
+    "monocyte": {
+      "name": "Monocyte",
+      "summary": "The largest white blood cell, which becomes a germ-eating macrophage.",
+      "details": "Monocytes make up about 2 to 8 percent of white blood cells and are the biggest of the five types. Their nucleus is shaped like a kidney bean. A monocyte travels in the blood for a day or so, then moves into the tissues and grows into a macrophage, a name that means 'big eater'. Macrophages swallow germs, dead cells and debris, and show pieces of what they have eaten to lymphocytes to help start a targeted attack.",
+      "facts": [
+        "Macrophages can live for months, much longer than neutrophils.",
+        "They help clean up and repair tissue after an injury.",
+        "A single macrophage can swallow around 100 bacteria before it dies."
+      ]
+    },
+    "eosinophil": {
+      "name": "Eosinophil",
+      "summary": "A white blood cell that fights parasites and takes part in allergies.",
+      "details": "Eosinophils make up about 1 to 4 percent of white blood cells. They have a nucleus with two lobes and are filled with grains that turn pink-red when stained for the microscope. Their main targets are parasites such as worms, which are far too big to swallow, so eosinophils release chemicals from their grains to damage them. They are also active in allergies and asthma, where they can add to the swelling and irritation.",
+      "facts": [
+        "They are named after eosin, the red dye that colours their grains.",
+        "Most eosinophils live in tissues such as the lining of the gut and lungs, not in the blood.",
+        "A high eosinophil count can be a sign of an allergy or a parasite infection."
+      ]
+    },
+    "basophil": {
+      "name": "Basophil",
+      "summary": "The rarest white blood cell, which sets off allergic reactions.",
+      "details": "Basophils make up less than 1 percent of white blood cells. They are packed with large grains that stain dark blue-purple and often hide the nucleus. The grains contain histamine and other chemicals. When a basophil is triggered, it releases them, causing nearby blood vessels to widen and leak. This brings more blood and immune cells to the area, but it also causes the redness, swelling and itching of an allergic reaction.",
+      "facts": [
+        "Antihistamine medicines work by blocking the effects of histamine.",
+        "Their grains also contain heparin, a substance that slows blood clotting.",
+        "They are involved in hay fever, hives and asthma."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "blood-vessel",
+      "title": "Blood in a vessel",
+      "intro": "Blood is a liquid tissue: cells and cell fragments floating in a watery liquid called plasma. An adult has about 5 litres of it. This is a blood vessel cut open to show what is flowing inside.",
+      "svg": "diagrams/blood-vessel.svg",
+      "parts": ["vessel-wall", "plasma", "red-blood-cells", "white-blood-cells", "platelets"]
+    },
+    {
+      "id": "blood-tube",
+      "title": "Spun tube",
+      "intro": "Spinning a tube of blood very fast in a machine called a centrifuge separates it into layers by weight, showing how much of each part there is.",
+      "svg": "diagrams/blood-tube.svg",
+      "parts": ["plasma", "buffy-coat", "red-blood-cells"]
+    },
+    {
+      "id": "white-cell-types",
+      "title": "White blood cell types",
+      "intro": "There are five main kinds of white blood cell. Under a microscope they are told apart by the shape of the nucleus and by the grains inside the cell.",
+      "svg": "diagrams/white-cell-types.svg",
+      "parts": ["neutrophil", "lymphocyte", "monocyte", "eosinophil", "basophil"]
+    }
+  ]
+}
