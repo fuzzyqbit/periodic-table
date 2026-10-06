@@ -1,0 +1,207 @@
+{
+  "id": "nervous",
+  "title": "Nervous System",
+  "parts": {
+    "brain": {
+      "name": "Brain",
+      "summary": "The body's control centre.",
+      "details": "The brain receives information from the senses, makes decisions and sends out instructions to the rest of the body. It also stores memories and produces thoughts and feelings. It is made of about 86 billion nerve cells, called neurons, each connected to thousands of others. An adult brain weighs about 1.4 kilograms. It is soft, so it is protected by the hard bones of the skull and cushioned by a layer of fluid.",
+      "facts": [
+        "Together with the spinal cord it makes up the central nervous system.",
+        "It is only about 2 percent of your body weight but uses about 20 percent of your energy.",
+        "The brain itself cannot feel pain, because it has no pain sensors."
+      ]
+    },
+    "spinal-cord": {
+      "name": "Spinal cord",
+      "summary": "The main cable of nerve tissue linking the brain to the body.",
+      "details": "The spinal cord is a thick bundle of nerve tissue that runs from the base of the brain down through a tunnel inside the bones of the spine. It carries messages in both directions: information from the body up to the brain, and commands from the brain down to the muscles. It can also act on its own. In a reflex, such as pulling your hand off something hot, the spinal cord sends the command before the brain is even aware.",
+      "facts": [
+        "In an adult it is about 45 centimetres long and roughly as thick as a finger.",
+        "It is shorter than the spine, ending near the lower back.",
+        "Damage to the spinal cord can cut off feeling and movement below the injury."
+      ]
+    },
+    "cranial-nerves": {
+      "name": "Cranial nerves",
+      "summary": "Twelve pairs of nerves that come straight from the brain.",
+      "details": "Most nerves reach the brain by way of the spinal cord, but the cranial nerves connect to the brain directly. There are 12 pairs. Most of them serve the head and neck. They carry information from the eyes, ears, nose and tongue, and control the muscles used for moving the eyes, chewing, swallowing, speaking and making facial expressions. One pair, the vagus nerves, travels much further, reaching the heart, lungs and digestive system.",
+      "facts": [
+        "The optic nerve, which carries sight, contains about a million nerve fibres.",
+        "The vagus nerve helps slow the heart and control digestion.",
+        "Doctors test cranial nerves with simple checks, such as asking you to smile or follow a finger with your eyes."
+      ]
+    },
+    "peripheral-nerves": {
+      "name": "Spinal and peripheral nerves",
+      "summary": "The nerves that branch out from the spinal cord to every part of the body.",
+      "details": "Thirty-one pairs of spinal nerves leave the spinal cord through gaps between the bones of the spine. They divide again and again, reaching the skin, muscles and organs. Together with the cranial nerves they form the peripheral nervous system. Sensory nerve fibres carry information inwards, such as touch, pain and temperature. Motor nerve fibres carry commands outwards, telling muscles to contract. Most nerves contain both kinds bundled together, like wires in a cable.",
+      "facts": [
+        "The sciatic nerve, running from the lower back down each leg, is the longest and thickest nerve in the body.",
+        "Hitting your 'funny bone' is really bumping the ulnar nerve at the elbow.",
+        "Unlike the brain and spinal cord, peripheral nerves can often slowly regrow after damage."
+      ]
+    },
+    "dendrites": {
+      "name": "Dendrites",
+      "summary": "Branching fibres that receive signals from other neurons.",
+      "details": "Dendrites are short, branched extensions that spread out from the cell body like the branches of a tree. They are the neuron's inputs. Their surfaces are covered with connection points where the ends of other neurons meet them. When a signal arrives at one of these points, the dendrite passes a small electrical change towards the cell body. The more branches a neuron has, the more other neurons it can listen to.",
+      "facts": [
+        "The word comes from the Greek for 'tree'.",
+        "A single neuron can receive signals from thousands of others.",
+        "Learning new things causes dendrites to grow new connections."
+      ]
+    },
+    "cell-body": {
+      "name": "Cell body",
+      "summary": "The main part of the neuron, which keeps it alive and decides when to fire.",
+      "details": "The cell body, also called the soma, contains the nucleus and most of the neuron's organelles. It makes the proteins and energy the whole cell needs, including the long axon. It also acts as a decision point. Signals arriving from all the dendrites are added together here. If the total is strong enough, the neuron fires, sending an electrical signal down its axon. If not, nothing is sent.",
+      "facts": [
+        "The grey matter of the brain is made mostly of neuron cell bodies.",
+        "A neuron either fires fully or not at all; there is no half signal.",
+        "A cell body is tiny, typically less than a tenth of a millimetre across."
+      ]
+    },
+    "neuron-nucleus": {
+      "name": "Nucleus",
+      "summary": "The control centre of the neuron, holding its DNA.",
+      "details": "Like almost every cell, a neuron has a nucleus containing DNA, the instructions for making all the proteins the cell needs. A neuron uses these instructions constantly, because it must build and maintain its long fibres and make the chemicals it uses for signalling. Most neurons never divide once they are formed. That means the neurons you have now are mostly the same ones you were born with, and they must last a lifetime.",
+      "facts": [
+        "Because most neurons do not divide, lost neurons are generally not replaced.",
+        "A few brain areas, including one involved in memory, can make some new neurons in adults."
+      ]
+    },
+    "axon": {
+      "name": "Axon",
+      "summary": "The long fibre that carries signals away from the cell body.",
+      "details": "Each neuron has one axon, a thin fibre that acts as its output cable. When the neuron fires, an electrical signal called a nerve impulse travels along the axon from the cell body to the far end. The impulse is a wave of charged particles moving in and out through the axon's membrane. Axons can be very short or extremely long, and bundles of many axons wrapped together are what we call nerves.",
+      "facts": [
+        "The longest axons in your body run about a metre, from the base of the spine to the toes.",
+        "A nerve impulse always travels in one direction along the axon.",
+        "An axon is far thinner than a human hair."
+      ]
+    },
+    "myelin-sheath": {
+      "name": "Myelin sheath",
+      "summary": "A fatty wrapping that insulates the axon and speeds up signals.",
+      "details": "Many axons are wrapped in myelin, a fatty material laid down in segments by special helper cells that coil around the axon many times. Myelin works like the plastic coating on an electrical wire. It stops the signal leaking away and lets it travel much faster. Signals in the fastest myelinated axons move at about 120 metres per second, compared with around 1 metre per second in axons without myelin.",
+      "facts": [
+        "Myelin is whitish, which gives the brain's 'white matter' its colour.",
+        "In multiple sclerosis the myelin is damaged, so signals slow down or fail.",
+        "Babies' nerves are not fully myelinated, one reason their movements are uncoordinated at first."
+      ]
+    },
+    "nodes-of-ranvier": {
+      "name": "Nodes of Ranvier",
+      "summary": "Small gaps in the myelin where the signal is boosted.",
+      "details": "The myelin sheath is not continuous. Between each segment there is a tiny gap where the axon's membrane is bare. These gaps are called nodes of Ranvier. The electrical signal cannot pass through the insulated sections in the usual way, so it effectively jumps from one node to the next, being renewed at each one. This jumping is what makes signals in myelinated axons so much faster than in bare ones.",
+      "facts": [
+        "They are named after Louis-Antoine Ranvier, the French scientist who described them in 1878.",
+        "The jumping of the signal from node to node is called saltatory conduction, from the Latin for 'to leap'.",
+        "Each gap is only about a thousandth of a millimetre wide."
+      ]
+    },
+    "axon-terminals": {
+      "name": "Axon terminals",
+      "summary": "The branched ends of the axon, which pass the signal on.",
+      "details": "At its far end the axon splits into many fine branches, each finishing in a small swelling called an axon terminal. Inside each terminal are tiny bubbles filled with chemical messengers called neurotransmitters. When a nerve impulse arrives, the bubbles merge with the membrane and release their neurotransmitters into the gap between this neuron and the next cell. That is how the signal crosses from one cell to another.",
+      "facts": [
+        "One axon can branch to make contact with many different cells.",
+        "There are dozens of different neurotransmitters, including dopamine and serotonin.",
+        "After use, neurotransmitters are quickly broken down or taken back up to be used again."
+      ]
+    },
+    "synapse": {
+      "name": "Synapse",
+      "summary": "The tiny gap where one neuron passes its signal to the next cell.",
+      "details": "Neurons do not actually touch. Between an axon terminal and the next cell there is a very narrow gap called a synapse. An electrical signal cannot cross it, so the message is carried by chemicals instead. Neurotransmitters released from the terminal drift across the gap and fit into matching receptors on the other side, like keys in locks. This either encourages the next cell to fire or makes it less likely to.",
+      "facts": [
+        "The gap is about 20 to 40 nanometres wide, thousands of times thinner than a hair.",
+        "The human brain has an estimated 100 trillion synapses.",
+        "Many medicines and drugs work by changing what happens at synapses."
+      ]
+    },
+    "frontal-lobe": {
+      "name": "Frontal lobe",
+      "summary": "The front of the brain: thinking, planning, personality and movement.",
+      "details": "The frontal lobe sits behind the forehead and is the largest of the four lobes. It handles the kinds of thinking people usually mean by 'using your head': planning ahead, solving problems, making decisions and controlling impulses. It shapes personality and social behaviour. A strip along its back edge, the motor cortex, starts all voluntary movements, and an area usually on its left side helps produce speech.",
+      "facts": [
+        "It is the last part of the brain to finish developing, in the mid-twenties.",
+        "The left side of the brain controls the right side of the body, and the right controls the left.",
+        "Damage here can change a person's personality."
+      ]
+    },
+    "parietal-lobe": {
+      "name": "Parietal lobe",
+      "summary": "The top of the brain: touch and awareness of space.",
+      "details": "The parietal lobe lies behind the frontal lobe, at the top and towards the back of the head. A strip along its front edge receives information from the skin and body about touch, pressure, temperature and pain. The rest of the lobe combines information from different senses to build a sense of where your body is and where things are around you. It is used in tasks such as reading a map, catching a ball and doing arithmetic.",
+      "facts": [
+        "Sensitive areas such as the lips and fingertips take up far more of its surface than the back or legs.",
+        "It lets you know where your hand is even with your eyes closed."
+      ]
+    },
+    "temporal-lobe": {
+      "name": "Temporal lobe",
+      "summary": "The side of the brain: hearing, language and memory.",
+      "details": "The temporal lobes sit at the sides of the brain, roughly behind the ears. They process sound, turning signals from the ears into things you recognise, such as speech and music. An area usually on the left side is important for understanding language. The temporal lobe is also essential for memory. Deep inside it is the hippocampus, which turns new experiences into long-term memories, and it helps you recognise faces and objects.",
+      "facts": [
+        "The hippocampus is named after the Greek word for seahorse, because of its curved shape.",
+        "Damage to the hippocampus can stop a person forming new memories.",
+        "Nearby, the amygdala is involved in emotions such as fear."
+      ]
+    },
+    "occipital-lobe": {
+      "name": "Occipital lobe",
+      "summary": "The back of the brain: vision.",
+      "details": "The occipital lobe is at the very back of the head and is the brain's vision centre. Signals from the eyes travel along the optic nerves right through the brain to reach it. There they are worked on step by step. First simple features such as edges, colours and movement are picked out, and then these are combined into the detailed picture of the world that you see.",
+      "facts": [
+        "It is the smallest of the four lobes.",
+        "A hard knock to the back of the head can make you 'see stars' because it disturbs this area.",
+        "The image that lands on the back of each eye is upside down; the brain interprets it the right way up."
+      ]
+    },
+    "cerebellum": {
+      "name": "Cerebellum",
+      "summary": "The 'little brain' that controls balance and coordination.",
+      "details": "The cerebellum sits underneath the back of the brain. It does not start movements, but it makes them smooth and accurate. It constantly compares what your muscles are doing with what the brain intended and makes tiny corrections. It keeps you balanced and upright and controls the timing of skilled movements. When you practise riding a bike or playing an instrument until it becomes automatic, much of that learning is stored in the cerebellum.",
+      "facts": [
+        "Its name is Latin for 'little brain'.",
+        "It is about a tenth of the brain's volume but contains more than half of its neurons.",
+        "Alcohol affects the cerebellum, which is why it causes clumsiness and unsteadiness."
+      ]
+    },
+    "brainstem": {
+      "name": "Brainstem",
+      "summary": "The stalk joining the brain to the spinal cord, which runs the body's automatic functions.",
+      "details": "The brainstem is at the base of the brain and continues down into the spinal cord. All the messages travelling between the brain and the body pass through it. It also controls the vital functions that you never have to think about and that keep you alive: breathing, heartbeat, blood pressure and swallowing. It helps control sleep and waking, and reflexes such as coughing, sneezing and blinking.",
+      "facts": [
+        "It has three parts: the midbrain, the pons and the medulla.",
+        "Most of the cranial nerves connect to the brainstem.",
+        "It is only about 7 to 8 centimetres long."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "nervous-body",
+      "title": "Body overview",
+      "intro": "The nervous system has two divisions. The central nervous system is the brain and spinal cord. The peripheral nervous system is all the nerves that branch out from them to the rest of the body.",
+      "svg": "diagrams/nervous-body.svg",
+      "parts": ["brain", "spinal-cord", "cranial-nerves", "peripheral-nerves"]
+    },
+    {
+      "id": "neuron",
+      "title": "Neuron",
+      "intro": "A neuron is a nerve cell, built for carrying signals. Signals travel one way: in through the dendrites, through the cell body, and out along the axon to the next cell.",
+      "svg": "diagrams/neuron.svg",
+      "parts": ["dendrites", "cell-body", "neuron-nucleus", "axon", "myelin-sheath", "nodes-of-ranvier", "axon-terminals", "synapse"]
+    },
+    {
+      "id": "brain",
+      "title": "Brain regions",
+      "intro": "This is a side view of the brain, with the front of the head on the left. The large wrinkled part, the cerebrum, is divided into four lobes. The cerebellum and brainstem sit below it.",
+      "svg": "diagrams/brain.svg",
+      "parts": ["frontal-lobe", "parietal-lobe", "temporal-lobe", "occipital-lobe", "cerebellum", "brainstem"]
+    }
+  ]
+}
