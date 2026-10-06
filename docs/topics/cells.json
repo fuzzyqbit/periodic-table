@@ -131,6 +131,37 @@
         "Taking material in by folding the membrane inwards to make a vesicle is called endocytosis.",
         "Nerve cells use vesicles to release the chemicals that pass signals to the next cell."
       ]
+    },
+    "cell-wall": {
+      "name": "Cell wall",
+      "summary": "A stiff outer layer that supports and protects a plant cell.",
+      "details": "The cell wall lies outside the cell membrane. It is made mostly of cellulose, a tough fibre built from long chains of sugar. The wall gives the cell a fixed, boxy shape and stops it from bursting when it fills with water. Unlike the membrane, it does not control what passes: water and dissolved substances move through it freely. Animal cells have no cell wall, which is why they are soft and flexible.",
+      "facts": [
+        "Cellulose is the main ingredient of wood, cotton and paper.",
+        "Humans cannot digest cellulose; it is the fibre in our diet.",
+        "Tiny channels through the walls link neighbouring plant cells so they can share materials."
+      ]
+    },
+    "chloroplasts": {
+      "name": "Chloroplasts",
+      "summary": "Green organelles that use sunlight to make food.",
+      "details": "Chloroplasts are where photosynthesis happens. They contain chlorophyll, a green pigment that traps the energy in light. The chloroplast uses that energy to join carbon dioxide from the air with water from the soil, making glucose, a sugar the plant uses as food. Oxygen is given off as a by-product. Inside each chloroplast are stacks of flat discs, like piles of coins, where the light is captured.",
+      "facts": [
+        "Photosynthesis in one line: carbon dioxide + water + light gives glucose + oxygen.",
+        "Chlorophyll reflects green light, which is why leaves look green.",
+        "Like mitochondria, chloroplasts have their own DNA.",
+        "A single leaf cell can hold 40 to 50 chloroplasts."
+      ]
+    },
+    "central-vacuole": {
+      "name": "Central vacuole",
+      "summary": "A large water-filled sac that stores materials and keeps the plant firm.",
+      "details": "The central vacuole is a big bag of watery liquid called cell sap, surrounded by its own membrane. In a mature plant cell it can take up as much as 90 percent of the space. It stores water, sugars, salts and waste. When it is full it pushes outwards against the cell wall, and this pressure keeps the cell stiff. When a plant runs short of water its vacuoles shrink, the cells go soft and the plant wilts.",
+      "facts": [
+        "The outward push of a full vacuole is called turgor pressure.",
+        "The colours of many flower petals come from pigments stored in the vacuole.",
+        "Animal cells have only small, temporary vacuoles, or none at all."
+      ]
     }
   },
   "diagrams": [
@@ -139,7 +170,41 @@
       "title": "Animal cell",
       "intro": "Animal cells have no rigid wall, so they are soft and come in many shapes. Each part inside, called an organelle, has its own job.",
       "svg": "diagrams/animal-cell.svg",
-      "parts": ["cell-membrane", "cytoplasm", "nucleus", "nucleolus", "mitochondria", "ribosomes", "rough-er", "smooth-er", "golgi", "lysosomes", "centrioles", "cytoskeleton", "vesicles"]
+      "parts": [
+        "cell-membrane",
+        "cytoplasm",
+        "nucleus",
+        "nucleolus",
+        "mitochondria",
+        "ribosomes",
+        "rough-er",
+        "smooth-er",
+        "golgi",
+        "lysosomes",
+        "centrioles",
+        "cytoskeleton",
+        "vesicles"
+      ]
+    },
+    {
+      "id": "plant-cell",
+      "title": "Plant cell",
+      "intro": "Plant cells have three things animal cells lack: a stiff cell wall, green chloroplasts that make food from sunlight, and one large central vacuole.",
+      "svg": "diagrams/plant-cell.svg",
+      "parts": [
+        "cell-wall",
+        "cell-membrane",
+        "cytoplasm",
+        "nucleus",
+        "nucleolus",
+        "chloroplasts",
+        "central-vacuole",
+        "mitochondria",
+        "ribosomes",
+        "rough-er",
+        "smooth-er",
+        "golgi"
+      ]
     }
   ]
 }
