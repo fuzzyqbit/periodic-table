@@ -1,0 +1,266 @@
+{
+  "id": "skeleton",
+  "title": "Skeleton",
+  "parts": {
+    "skull": {
+      "name": "Skull",
+      "summary": "The bony case that protects the brain and shapes the face.",
+      "details": "The skull is made of 22 bones. Eight of them are curved plates that lock together to form the cranium, the rounded case around the brain. The other fourteen form the face, including the cheekbones, the upper jaw and the sockets that hold the eyes. In an adult, the plates of the cranium are joined by wavy, immovable joints called sutures, which makes the skull strong enough to protect the brain from knocks.",
+      "facts": [
+        "A baby's skull bones are not yet joined, leaving soft gaps that let the head squeeze through the birth canal and the brain grow.",
+        "A large hole in the base of the skull lets the spinal cord connect to the brain.",
+        "The smallest bones in the body, the three bones of the middle ear, sit inside the skull."
+      ]
+    },
+    "mandible": {
+      "name": "Jaw (mandible)",
+      "summary": "The lower jaw, the only bone in the skull that moves.",
+      "details": "The mandible is the U-shaped bone of the lower jaw. It holds the lower teeth and joins the rest of the skull at a hinge just in front of each ear. Powerful muscles pull it up and move it from side to side so that you can bite and chew. It also moves every time you speak. It is the largest and strongest bone of the face.",
+      "facts": [
+        "You can feel the jaw joint move by placing a finger just in front of your ear and opening your mouth.",
+        "The jaw muscle is one of the strongest muscles in the body for its size.",
+        "The upper jaw, the maxilla, is fixed and does not move."
+      ]
+    },
+    "clavicle": {
+      "name": "Collarbone (clavicle)",
+      "summary": "The slender bone linking the breastbone to the shoulder.",
+      "details": "There are two collarbones, one on each side, running across the top of the chest. Each connects the breastbone to a shoulder blade. They work like struts, holding the shoulders out to the side so the arms can swing freely. Because the collarbone is thin and takes the force when you fall onto an outstretched arm or a shoulder, it is one of the most commonly broken bones in the body.",
+      "facts": [
+        "You can feel your collarbones just under the skin at the base of your neck.",
+        "The name clavicle comes from the Latin for 'little key', after its shape.",
+        "It is the only long bone in the body that lies horizontally."
+      ]
+    },
+    "scapula": {
+      "name": "Shoulder blade (scapula)",
+      "summary": "The flat, triangular bone at the back of each shoulder.",
+      "details": "The shoulder blades lie on the upper back, one on each side, over the ribs. Each has a shallow cup at its outer corner that the ball at the top of the upper arm bone fits into, forming the shoulder joint. The shoulder blade is not fixed to the ribs; it is held in place by muscles and can slide over the back. This, together with the shallow socket, lets the arm move in almost any direction.",
+      "facts": [
+        "Seventeen muscles attach to each shoulder blade.",
+        "The shoulder is the most mobile joint in the body, which also makes it the easiest to dislocate.",
+        "Its only bony link to the rest of the skeleton is through the collarbone."
+      ]
+    },
+    "sternum": {
+      "name": "Breastbone (sternum)",
+      "summary": "The flat bone down the centre of the chest.",
+      "details": "The breastbone is a long, flat bone, shaped a little like a dagger, in the middle of the chest. The collarbones join it at the top, and the ribs are attached to its sides by strips of flexible cartilage. This flexibility lets the rib cage expand when you breathe in. Together with the ribs, the breastbone forms a shield in front of the heart and the large blood vessels.",
+      "facts": [
+        "In first aid, chest compressions are done by pressing on the lower half of the breastbone.",
+        "It contains red bone marrow that makes blood cells throughout life.",
+        "It forms from several pieces that fuse together as you grow up."
+      ]
+    },
+    "ribs": {
+      "name": "Ribs",
+      "summary": "Twelve pairs of curved bones forming a cage around the heart and lungs.",
+      "details": "Every rib is joined to the spine at the back. At the front, the top seven pairs are joined directly to the breastbone by their own strip of cartilage. The next three pairs join the cartilage of the rib above. The last two pairs are called floating ribs because they are not attached at the front at all. Muscles between the ribs lift the cage up and out when you breathe in, making room for the lungs to fill.",
+      "facts": [
+        "Men and women have the same number of ribs: 24.",
+        "The rib cage also protects the liver, spleen and kidneys.",
+        "About 1 person in 200 has an extra rib near the neck."
+      ]
+    },
+    "spine": {
+      "name": "Spine",
+      "summary": "The column of bones that holds the body upright and protects the spinal cord.",
+      "details": "The spine, or backbone, is a stack of 33 bones called vertebrae. The top 24 are separate and can move. Below them, five are fused together to form the sacrum, and the last four are fused into the tailbone. Each vertebra has a hole through it, and together these form a tunnel that protects the spinal cord. Between the vertebrae are discs of tough cartilage that cushion them and let the spine bend and twist.",
+      "facts": [
+        "The spine has a gentle S-shaped curve, which helps it absorb shock like a spring.",
+        "Seven vertebrae are in the neck, the same number as in a giraffe.",
+        "You are slightly taller in the morning, because the discs are squashed a little during the day."
+      ]
+    },
+    "humerus": {
+      "name": "Humerus",
+      "summary": "The bone of the upper arm.",
+      "details": "The humerus runs from the shoulder to the elbow and is the longest bone in the arm. Its top end is a smooth ball that fits into the socket of the shoulder blade, forming a joint that lets the arm move in a full circle. Its lower end is shaped to form a hinge with the two bones of the forearm at the elbow. The muscles that bend and straighten the elbow, the biceps and triceps, lie along it.",
+      "facts": [
+        "The 'funny bone' is not a bone; it is a nerve passing close to the lower end of the humerus.",
+        "It is the longest and largest bone of the arm."
+      ]
+    },
+    "radius": {
+      "name": "Radius",
+      "summary": "The forearm bone on the thumb side.",
+      "details": "The radius is one of the two bones of the forearm, running from the elbow to the wrist on the same side as the thumb. Its upper end is a small disc that can spin against the humerus and ulna. This lets the radius roll over the ulna, which is how you turn your palm up or down. Its lower end is wide and forms most of the wrist joint, so it carries much of the load when you push with your hand.",
+      "facts": [
+        "When you turn your palm down, the radius crosses over the ulna.",
+        "A broken wrist is very often a break at the lower end of the radius.",
+        "The pulse at your wrist is felt over the radius."
+      ]
+    },
+    "ulna": {
+      "name": "Ulna",
+      "summary": "The forearm bone on the little-finger side.",
+      "details": "The ulna runs alongside the radius from the elbow to the wrist, on the side of the little finger. It is the longer of the two forearm bones. Its upper end has a hook-shaped notch that grips the end of the humerus, forming the main hinge of the elbow. The bony point you can feel at the back of your elbow is the top of the ulna. The ulna stays still while the radius rotates around it.",
+      "facts": [
+        "The point of the elbow is called the olecranon.",
+        "The ulna is wider at the elbow and the radius is wider at the wrist."
+      ]
+    },
+    "hand-bones": {
+      "name": "Hand bones",
+      "summary": "The 27 small bones of each wrist and hand.",
+      "details": "Each hand has 27 bones in three groups. Eight small, pebble-shaped carpals in two rows form the wrist and let it bend in many directions. Five metacarpals form the palm. Fourteen phalanges form the fingers: three in each finger and two in the thumb. The thumb's joint at the base lets it swing across the palm to touch the fingertips, which is what allows humans to grip tools precisely.",
+      "facts": [
+        "Your two hands together contain 54 bones, about a quarter of all the bones in your body.",
+        "The knuckles are the rounded ends of the metacarpals.",
+        "There are no muscles in the fingers; they are moved by tendons from muscles in the palm and forearm."
+      ]
+    },
+    "pelvis": {
+      "name": "Pelvis",
+      "summary": "The bowl-shaped ring of bones at the hips.",
+      "details": "The pelvis is made of two large hip bones joined to the base of the spine at the back and to each other at the front. It carries the weight of the upper body and passes it to the legs. A deep socket on each side holds the ball at the top of the thigh bone, forming the hip joint. The bowl shape supports and protects the organs in the lower abdomen, including the bladder and part of the intestines.",
+      "facts": [
+        "A woman's pelvis is usually wider than a man's, leaving room for childbirth.",
+        "Each hip bone forms from three bones that fuse together during the teenage years.",
+        "When you sit, your weight rests on two bony bumps at the bottom of the pelvis."
+      ]
+    },
+    "femur": {
+      "name": "Femur",
+      "summary": "The thigh bone, the longest and strongest bone in the body.",
+      "details": "The femur runs from the hip to the knee. The ball at its top fits deep into the socket of the pelvis, making a joint that is strong and stable but still allows the leg to swing in several directions. Its lower end forms the knee joint with the shinbone. The femur has to carry the whole weight of the body with every step, and much more when you run or jump, so it is very thick and strong.",
+      "facts": [
+        "It is about a quarter of your height.",
+        "It can support many times the weight of the body.",
+        "The ends of the femur contain red marrow, which makes blood cells."
+      ]
+    },
+    "patella": {
+      "name": "Kneecap (patella)",
+      "summary": "The small bone at the front of the knee.",
+      "details": "The kneecap is a small, flat, roughly triangular bone. Unlike most bones, it is not joined directly to another bone. It sits inside the tendon that connects the large muscles at the front of the thigh to the shinbone. It protects the front of the knee joint and acts like a pulley, holding the tendon away from the joint so the thigh muscles get better leverage when they straighten the leg.",
+      "facts": [
+        "A bone that forms inside a tendon is called a sesamoid bone; the kneecap is the largest one.",
+        "Babies are born with kneecaps made of soft cartilage, which turn to bone between about ages 3 and 6."
+      ]
+    },
+    "tibia": {
+      "name": "Tibia",
+      "summary": "The shinbone, the main weight-bearing bone of the lower leg.",
+      "details": "The tibia is the larger of the two bones between the knee and the ankle, and lies on the inner side of the leg. Its broad, flat top forms the knee joint with the femur, and its lower end forms the bony bump on the inside of the ankle. It carries almost all of the body's weight down to the foot. Its front edge lies just under the skin, which is why a knock on the shin is so painful.",
+      "facts": [
+        "It is the second longest bone in the body, after the femur.",
+        "You can feel the front edge of your tibia all the way down your shin."
+      ]
+    },
+    "fibula": {
+      "name": "Fibula",
+      "summary": "The thin bone on the outer side of the lower leg.",
+      "details": "The fibula runs beside the tibia from just below the knee to the ankle. It is long but very slender, and carries only a small share of the body's weight. Its main jobs are to give muscles of the lower leg a place to attach and to steady the ankle. Its lower end forms the bony bump on the outside of the ankle, which helps stop the foot from rolling too far outwards.",
+      "facts": [
+        "Its name is Latin for 'brooch pin', because with the tibia it resembles an old-fashioned clasp.",
+        "Because it carries little weight, surgeons can use pieces of it to repair bones elsewhere in the body."
+      ]
+    },
+    "foot-bones": {
+      "name": "Foot bones",
+      "summary": "The 26 bones of each ankle and foot.",
+      "details": "Each foot has 26 bones. Seven chunky tarsals form the ankle and heel, including the heel bone, the largest in the foot. Five metatarsals form the long middle part of the foot. Fourteen phalanges form the toes: two in the big toe and three in each of the others. The bones are arranged in arches, held up by ligaments and tendons. The arches flatten slightly with each step, working as springs to absorb shock.",
+      "facts": [
+        "Together, your feet have 52 bones.",
+        "The heel bone is called the calcaneus.",
+        "People with low arches are said to have flat feet."
+      ]
+    },
+    "periosteum": {
+      "name": "Periosteum",
+      "summary": "The thin, tough skin that covers the outside of a bone.",
+      "details": "The periosteum is a membrane wrapped tightly around the bone everywhere except at the joints. It is full of blood vessels that feed the bone, and nerves, which is why a broken bone or a knock on the shin hurts so much. Its inner layer contains cells that can make new bone. These cells make bones thicker as you grow and are the first to start repairs when a bone breaks. Tendons and ligaments anchor into it.",
+      "facts": [
+        "The name means 'around the bone'.",
+        "It is thicker and more active in children, which is one reason their broken bones heal faster.",
+        "Bone itself has few pain sensors; most bone pain comes from the periosteum."
+      ]
+    },
+    "compact-bone": {
+      "name": "Compact bone",
+      "summary": "The dense, hard outer layer that gives a bone its strength.",
+      "details": "Compact bone forms the solid wall of the shaft and a thin shell over the ends. It is made of two materials working together. Fibres of a protein called collagen make it slightly flexible, and crystals of calcium minerals make it hard. Under a microscope it is built from thousands of tiny tubes packed side by side, each with a small canal in the middle for blood vessels. Living bone cells sit in spaces within it.",
+      "facts": [
+        "About 80 percent of the weight of your skeleton is compact bone.",
+        "Weight for weight, bone is stronger than steel.",
+        "Bone is constantly broken down and rebuilt; most of the adult skeleton is replaced about every ten years."
+      ]
+    },
+    "spongy-bone": {
+      "name": "Spongy bone",
+      "summary": "The light, honeycomb-like bone inside the ends of a bone.",
+      "details": "Spongy bone is found inside the ends of long bones and in the middle of flat bones such as the ribs. It is not soft; it is a lattice of thin, hard struts with spaces between them. The struts line up along the directions in which the bone is pushed and pulled, so the bone is strong where it needs to be without being heavy. The spaces are filled with red marrow.",
+      "facts": [
+        "It is also called cancellous bone.",
+        "If all your bones were solid, your skeleton would be too heavy to move easily.",
+        "In osteoporosis the struts become thinner, so bones break more easily."
+      ]
+    },
+    "red-marrow": {
+      "name": "Red marrow",
+      "summary": "The soft tissue inside bones that makes blood cells.",
+      "details": "Red marrow is a soft, jelly-like tissue that fills the spaces in spongy bone. It contains stem cells, which divide again and again to produce every kind of blood cell: red cells, white cells and platelets. New cells pass into blood vessels in the marrow and are carried away. A baby has red marrow in all of its bones. In adults it is found mainly in the pelvis, ribs, breastbone, spine and the ends of the femur and humerus.",
+      "facts": [
+        "It makes hundreds of billions of new blood cells every day.",
+        "A bone marrow transplant gives a patient healthy blood-forming stem cells.",
+        "It is red because of the huge number of red blood cells being made in it."
+      ]
+    },
+    "yellow-marrow": {
+      "name": "Yellow marrow",
+      "summary": "Fatty tissue that fills the hollow shaft of a long bone.",
+      "details": "The shaft of a long bone is a hollow tube, and the space inside is called the medullary cavity. In adults it is filled with yellow marrow, which is mostly fat cells and acts as an energy store. Being hollow also makes the bone lighter without making it much weaker, in the same way that a bicycle frame is made of tubes and not solid rods. If the body loses a great deal of blood, yellow marrow can change back into red marrow.",
+      "facts": [
+        "Children have mostly red marrow; it is gradually replaced by yellow marrow as they grow.",
+        "By adulthood about half of all bone marrow is yellow."
+      ]
+    },
+    "articular-cartilage": {
+      "name": "Articular cartilage",
+      "summary": "The smooth, slippery cap on the end of a bone at a joint.",
+      "details": "Where two bones meet at a moving joint, their ends are covered with a thin layer of cartilage. Cartilage is a firm, rubbery tissue, smoother than ice. It lets the bones glide over each other with almost no friction and spreads the load when the joint is pressed together, protecting the bone underneath. Cartilage has no blood supply of its own, so if it is damaged it heals very slowly, or not at all.",
+      "facts": [
+        "'Articular' means 'of a joint'.",
+        "In osteoarthritis this cartilage wears away, so the joint becomes stiff and painful.",
+        "The joint is also lubricated by a slippery liquid called synovial fluid."
+      ]
+    },
+    "growth-plate": {
+      "name": "Growth plate",
+      "summary": "A disc of cartilage near the end of a child's bone, where the bone grows longer.",
+      "details": "In children and teenagers, each long bone has a thin plate of cartilage near each end. Cartilage cells in the plate keep dividing, and the older cartilage behind them is steadily replaced by hard bone. In this way the bone gets longer. Towards the end of the teenage years, hormones cause the plates to turn completely into bone. After that the bones can no longer lengthen, and growth in height stops.",
+      "facts": [
+        "It is also called the epiphyseal plate.",
+        "Doctors can estimate a child's age, and how much growing is left, from an X-ray of the growth plates in the hand.",
+        "In adults a faint line in the bone shows where the growth plate used to be."
+      ]
+    },
+    "bone-blood-vessels": {
+      "name": "Blood vessels",
+      "summary": "The arteries and veins that keep a bone alive.",
+      "details": "Bone is living tissue and needs a constant blood supply. Arteries enter through small holes in the surface of the bone and branch out through the marrow and along tiny canals in the compact bone, delivering oxygen and nutrients to the bone cells. Veins carry blood back out, taking waste with it. They also carry away the new blood cells made in the red marrow, which is how those cells reach the rest of the body.",
+      "facts": [
+        "The hole where the main artery enters a bone is called the nutrient foramen.",
+        "Because bones have a rich blood supply, a broken bone bleeds, and that blood clot is the first step of healing.",
+        "Bones receive about 5 to 10 percent of the blood pumped by the heart."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "skeleton",
+      "title": "Full skeleton",
+      "intro": "An adult has 206 bones. Together they support the body, protect organs such as the brain, heart and lungs, give muscles something to pull on so you can move, store minerals and make blood cells.",
+      "svg": "diagrams/skeleton.svg",
+      "parts": ["skull", "mandible", "clavicle", "scapula", "sternum", "ribs", "spine", "humerus", "radius", "ulna", "hand-bones", "pelvis", "femur", "patella", "tibia", "fibula", "foot-bones"]
+    },
+    {
+      "id": "long-bone",
+      "title": "Inside a long bone",
+      "intro": "Bone is living tissue with its own blood supply. This is a long bone, such as the thigh bone, cut open lengthwise to show the layers inside. It is drawn as a growing child's bone, so the growth plates are visible.",
+      "svg": "diagrams/long-bone.svg",
+      "parts": ["periosteum", "compact-bone", "spongy-bone", "red-marrow", "yellow-marrow", "articular-cartilage", "growth-plate", "bone-blood-vessels"]
+    }
+  ]
+}
