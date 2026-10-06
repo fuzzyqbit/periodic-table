@@ -336,7 +336,92 @@ main {
   font-weight: 600;
 }
 
+#topic-view { max-width: 1400px; margin: 0 auto; }
+
+.diagram-switcher {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.switch-btn,
+.part-buttons button {
+  background: var(--card-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.switch-btn[aria-pressed="true"],
+.part-buttons button[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--accent-fg);
+  border-color: var(--accent);
+}
+
+.topic-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(260px, 2fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.diagram-holder {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.diagram-holder svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 72vh;
+}
+
+.part {
+  cursor: pointer;
+  outline: none;
+  transition: opacity 120ms ease;
+}
+
+.part.hover,
+.part:focus-visible {
+  filter: brightness(1.1) drop-shadow(0 0 3px rgba(44, 109, 240, 0.9));
+}
+
+.has-selection .part:not(.selected) { opacity: 0.35; }
+
+.part.selected { filter: drop-shadow(0 0 4px rgba(44, 109, 240, 1)); }
+
+.part-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.part-buttons button { padding: 5px 10px; font-size: 13px; }
+
+.info-panel {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.info-panel h2 { margin: 0 0 6px 0; font-size: 20px; }
+.info-panel h3 { margin: 14px 0 4px 0; font-size: 14px; }
+.info-panel p { margin: 0 0 10px 0; }
+.info-panel .summary { font-weight: 600; }
+.info-panel .muted { color: var(--muted); }
+.info-panel ul { margin: 0; padding-left: 20px; }
+
 @media (max-width: 900px) {
+  .topic-layout { grid-template-columns: 1fr; }
   #grid { grid-template-columns: repeat(18, minmax(28px, 1fr)); }
   .cell { min-height: 38px; padding: 2px; }
   .cell .sym { font-size: 13px; }

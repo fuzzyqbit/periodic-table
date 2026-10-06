@@ -1,0 +1,145 @@
+{
+  "id": "cells",
+  "title": "Cells",
+  "parts": {
+    "cell-membrane": {
+      "name": "Cell membrane",
+      "summary": "The thin, flexible skin that surrounds the cell and controls what goes in and out.",
+      "details": "The cell membrane is a double layer of fat molecules called phospholipids, with proteins dotted through it. It is selectively permeable, which means it lets some things through and blocks others. Water, oxygen and food molecules can enter, waste can leave, and harmful substances are mostly kept out. Some of its proteins act as gates or pumps, and others pick up chemical signals from outside so the cell can respond to its surroundings.",
+      "facts": [
+        "It is only about 7 to 8 nanometres thick, roughly ten thousand times thinner than a sheet of paper.",
+        "Every living cell has one, including plant cells and bacteria.",
+        "It is flexible and can reseal itself if it gets a small tear."
+      ]
+    },
+    "cytoplasm": {
+      "name": "Cytoplasm",
+      "summary": "The jelly-like fluid that fills the cell and holds everything in place.",
+      "details": "Cytoplasm is everything between the cell membrane and the nucleus. Most of it is a watery gel with salts, sugars and proteins dissolved in it. The organelles, which are the cell's working parts, float in this gel. Many of the cell's chemical reactions happen here, including the first step of breaking down sugar for energy. The cytoplasm is always slowly moving, which helps carry materials from one part of the cell to another.",
+      "facts": [
+        "It is about 70 to 80 percent water.",
+        "The fluid part on its own, without the organelles, is called cytosol.",
+        "The first stage of releasing energy from sugar, called glycolysis, happens in the cytoplasm."
+      ]
+    },
+    "nucleus": {
+      "name": "Nucleus",
+      "summary": "The control centre of the cell, where the DNA is kept.",
+      "details": "The nucleus holds the cell's DNA, the long molecules that carry the instructions for building and running the whole organism. In a human cell the DNA is packed into 46 chromosomes. The nucleus is wrapped in a double membrane with tiny holes called pores. The DNA itself stays inside, so the cell makes working copies of its instructions, called RNA, and sends them out through the pores to tell the rest of the cell which proteins to make.",
+      "facts": [
+        "It is usually the largest organelle in an animal cell.",
+        "If the DNA from one human cell were stretched out, it would be about 2 metres long.",
+        "Mature red blood cells have no nucleus, which leaves more room for carrying oxygen."
+      ]
+    },
+    "nucleolus": {
+      "name": "Nucleolus",
+      "summary": "A dense spot inside the nucleus that makes the parts for ribosomes.",
+      "details": "The nucleolus is a dark, crowded region inside the nucleus. It has no membrane of its own. Its job is to build the two halves of each ribosome, using a special kind of RNA and proteins brought in from the cytoplasm. The finished halves leave through the pores in the nucleus and join together outside, ready to make proteins. Cells that make a lot of protein, such as growing cells, have large nucleoli.",
+      "facts": [
+        "The plural of nucleolus is nucleoli, and some cells have more than one.",
+        "It disappears while a cell is dividing and re-forms afterwards.",
+        "It is the most easily seen structure inside the nucleus under a light microscope."
+      ]
+    },
+    "mitochondria": {
+      "name": "Mitochondria",
+      "summary": "The cell's power stations, which release energy from food.",
+      "details": "Mitochondria carry out cellular respiration. They use oxygen to break down glucose, a sugar from food, and store the released energy in a molecule called ATP, which the cell spends like a rechargeable battery. Each one has a smooth outer membrane and an inner membrane folded many times, which gives more surface for the reactions to happen on. Cells that work hard, such as muscle and heart cells, can contain thousands of mitochondria.",
+      "facts": [
+        "One of them is called a mitochondrion.",
+        "They have their own small loop of DNA, which you inherit from your mother.",
+        "Respiration gives off carbon dioxide and water as waste, which is why you breathe out carbon dioxide."
+      ]
+    },
+    "ribosomes": {
+      "name": "Ribosomes",
+      "summary": "Tiny machines that build proteins.",
+      "details": "Ribosomes read the instructions carried on RNA from the nucleus and join small building blocks called amino acids into a chain in exactly the right order. That chain then folds up to become a protein. Proteins do most of the work in a cell, from speeding up reactions to building structures. Some ribosomes float freely in the cytoplasm and others sit on the rough endoplasmic reticulum. Unlike most organelles, ribosomes have no membrane around them.",
+      "facts": [
+        "A single cell can contain several million ribosomes.",
+        "They are far too small to see with a light microscope.",
+        "Bacteria have ribosomes too, and some antibiotics work by jamming them."
+      ]
+    },
+    "rough-er": {
+      "name": "Rough endoplasmic reticulum",
+      "summary": "A network of folded membranes covered in ribosomes, where proteins are made and shaped.",
+      "details": "The rough endoplasmic reticulum, or rough ER, is a stack of folded membrane sheets joined to the outside of the nucleus. It looks rough under a powerful microscope because its surface is dotted with ribosomes. As those ribosomes make proteins, the new chains pass inside the rough ER, where they are folded into the right shape. They are then packed into small bubbles and sent on to the Golgi apparatus for finishing.",
+      "facts": [
+        "It mostly makes proteins that will be sent out of the cell or built into membranes.",
+        "Cells that release a lot of protein, such as those making digestive enzymes, have a great deal of rough ER.",
+        "Endoplasmic reticulum means 'network within the cytoplasm'."
+      ]
+    },
+    "smooth-er": {
+      "name": "Smooth endoplasmic reticulum",
+      "summary": "A network of membrane tubes with no ribosomes, which makes fats and breaks down toxins.",
+      "details": "The smooth endoplasmic reticulum, or smooth ER, is connected to the rough ER but is shaped like tubes and has no ribosomes on it. It makes lipids, which are fats and oils, including the ones used to build new cell membranes. It also makes some hormones. In liver cells the smooth ER breaks down drugs, alcohol and other harmful chemicals, so those cells contain a lot of it.",
+      "facts": [
+        "In muscle cells a special form of smooth ER stores the calcium that triggers the muscle to contract.",
+        "Cells that make steroid hormones are packed with smooth ER.",
+        "The rough and smooth ER together can make up more than half of all the membrane in a cell."
+      ]
+    },
+    "golgi": {
+      "name": "Golgi apparatus",
+      "summary": "The cell's post office, which finishes, sorts and packages proteins.",
+      "details": "The Golgi apparatus is a stack of flattened membrane sacs. Proteins and fats arrive from the endoplasmic reticulum in small bubbles. As they pass through the stack they are finished off, often by having sugars attached, and then sorted by where they need to go. Finally they are packed into new bubbles called vesicles and sent to another part of the cell or to the cell membrane to be released outside.",
+      "facts": [
+        "It is named after Camillo Golgi, the Italian scientist who discovered it in 1898.",
+        "It also makes lysosomes.",
+        "Cells that release a lot of material, such as those making mucus, have very large Golgi stacks."
+      ]
+    },
+    "lysosomes": {
+      "name": "Lysosomes",
+      "summary": "Small sacs of digestive enzymes that break down waste: the cell's recycling crew.",
+      "details": "Lysosomes are small membrane bags filled with powerful enzymes, which are proteins that break other molecules apart. They digest worn-out organelles, bits of food and germs the cell has swallowed, and the useful pieces are recycled to build new parts. The inside of a lysosome is acidic, and its enzymes only work well in acid, which helps protect the rest of the cell if one leaks. Lysosomes are found mainly in animal cells.",
+      "facts": [
+        "A typical animal cell has several hundred lysosomes.",
+        "White blood cells use them to destroy the bacteria they swallow.",
+        "They are made by the Golgi apparatus."
+      ]
+    },
+    "centrioles": {
+      "name": "Centrioles",
+      "summary": "A pair of tiny tube bundles that help organise cell division.",
+      "details": "Centrioles are two short cylinders that sit at right angles to each other near the nucleus. Each is built from tiny protein tubes called microtubules. When a cell is about to divide, the centrioles copy themselves and the two pairs move to opposite ends of the cell. They help organise the spindle, a set of fibres that pulls the copied chromosomes apart so each new cell gets a complete set.",
+      "facts": [
+        "They are found in animal cells but not in most plant cells.",
+        "Each one is made of nine groups of three microtubules arranged in a ring.",
+        "They also form the base of cilia and flagella, the tiny hairs and tails some cells use to move."
+      ]
+    },
+    "cytoskeleton": {
+      "name": "Cytoskeleton",
+      "summary": "A network of protein fibres that gives the cell its shape and helps it move.",
+      "details": "The cytoskeleton is a web of protein threads running all through the cytoplasm. It works like both a skeleton and a set of muscles. It holds the cell in shape, keeps organelles in position and lets some cells crawl or change shape. Its fibres also act as tracks. Tiny motor proteins walk along them carrying vesicles and organelles from one part of the cell to another.",
+      "facts": [
+        "It has three kinds of fibre: thin microfilaments, medium intermediate filaments and thick, hollow microtubules.",
+        "It is constantly being taken apart and rebuilt as the cell's needs change.",
+        "During cell division it forms the spindle that separates the chromosomes."
+      ]
+    },
+    "vesicles": {
+      "name": "Vesicles",
+      "summary": "Small membrane bubbles that carry materials around the cell.",
+      "details": "Vesicles are tiny bags made of the same kind of membrane as the rest of the cell. They pinch off from one organelle, travel through the cytoplasm and merge with another, delivering whatever is inside. They carry new proteins from the endoplasmic reticulum to the Golgi apparatus, and from the Golgi to the cell membrane. When a vesicle merges with the cell membrane, its contents are released outside the cell.",
+      "facts": [
+        "Releasing material from the cell this way is called exocytosis.",
+        "Taking material in by folding the membrane inwards to make a vesicle is called endocytosis.",
+        "Nerve cells use vesicles to release the chemicals that pass signals to the next cell."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "animal-cell",
+      "title": "Animal cell",
+      "intro": "Animal cells have no rigid wall, so they are soft and come in many shapes. Each part inside, called an organelle, has its own job.",
+      "svg": "diagrams/animal-cell.svg",
+      "parts": ["cell-membrane", "cytoplasm", "nucleus", "nucleolus", "mitochondria", "ribosomes", "rough-er", "smooth-er", "golgi", "lysosomes", "centrioles", "cytoskeleton", "vesicles"]
+    }
+  ]
+}
