@@ -1,0 +1,219 @@
+{
+  "id": "muscles",
+  "title": "Muscles",
+  "parts": {
+    "deltoid": {
+      "name": "Deltoid",
+      "summary": "The rounded muscle that caps the shoulder and lifts the arm.",
+      "details": "The deltoid is the thick, rounded muscle that covers the top of your shoulder like a cap. It joins the collarbone and shoulder blade to the bone of the upper arm. Its main job is lifting the arm out to the side, as when you raise your hand. Its front part also swings the arm forwards and its back part swings it backwards. The name comes from the Greek letter delta, which is shaped like a triangle, because the muscle is roughly triangular.",
+      "facts": [
+        "It gives the shoulder its rounded outline.",
+        "The capital Greek letter delta looks like this: Δ.",
+        "Injections such as vaccines are often given into this muscle."
+      ]
+    },
+    "pectorals": {
+      "name": "Pectorals",
+      "summary": "The chest muscles, which pull the arms forwards and across the body.",
+      "details": "The pectorals are the muscles of the chest. The largest one on each side is shaped like a fan. It spreads out from the breastbone, collarbone and ribs and narrows to a tendon fixed to the upper arm bone. When the pectorals pull, they bring the arms forwards and across the front of the body. You use them whenever you push something away, throw a ball, hug someone or do a press-up.",
+      "facts": [
+        "The name comes from pectus, the Latin word for chest.",
+        "There are two on each side: a large one on top and a smaller one hidden underneath.",
+        "In birds they are the flight muscles, which is why a bird's breast is so large."
+      ]
+    },
+    "biceps": {
+      "name": "Biceps",
+      "summary": "The muscle on the front of the upper arm, which bends the elbow.",
+      "details": "The biceps lies along the front of the upper arm. Tendons join it to the shoulder blade at the top and to the forearm, just below the elbow, at the bottom. When it pulls, it bends the elbow and lifts the forearm. It also turns the palm to face upwards. As it works it gets shorter and fatter, which is the bulge you see when you bend your arm. A muscle cannot push, so the biceps cannot straighten the arm again. That is the job of its partner, the triceps.",
+      "facts": [
+        "Biceps means 'two heads': it has two separate tendons at its top end.",
+        "A muscle that bends a joint is called a flexor.",
+        "Turning a screwdriver or a door handle with your right hand uses its palm-turning action."
+      ]
+    },
+    "triceps": {
+      "name": "Triceps",
+      "summary": "The muscle on the back of the upper arm, which straightens the elbow.",
+      "details": "The triceps runs down the back of the upper arm. At the bottom its tendon passes behind the elbow and is fixed to the bony point you can feel there. When the triceps pulls, it straightens the elbow. At the same moment the biceps relaxes and is stretched back to its longer shape, ready to work again. When the arm bends, the two swap roles. You use the triceps to push a door open or to do a press-up.",
+      "facts": [
+        "Triceps means 'three heads': it has three separate parts at its top end.",
+        "A muscle that straightens a joint is called an extensor.",
+        "A pair of muscles that work against each other like this is called an antagonistic pair."
+      ]
+    },
+    "abdominals": {
+      "name": "Abdominals",
+      "summary": "The belly muscles, which bend and twist the body and hold the organs in.",
+      "details": "The abdominals are sheets of muscle that cover the front and sides of the belly. They bend the body forwards, as in a sit-up, and twist it from side to side. There are no bones in front of the belly, so these muscles also act as a strong wall that holds the organs in place, and they help to support the back. The 'six-pack' is not six separate muscles. It is one long pair of muscles, side by side, divided into blocks by bands of tendon.",
+      "facts": [
+        "The muscles at the sides lie in three layers, with their fibres running in different directions, like plywood.",
+        "They tighten when you cough, laugh or breathe out hard.",
+        "Everyone has the six-pack muscle; it only shows when there is little fat over it."
+      ]
+    },
+    "trapezius": {
+      "name": "Trapezius",
+      "summary": "A large kite-shaped muscle across the upper back and neck.",
+      "details": "The trapezius is a broad, flat muscle shaped like a kite. It stretches from the base of the skull down the spine to the middle of the back, and out to both shoulders. Different parts of it lift the shoulder blades, pull them together and pull them down. You use it to shrug your shoulders. It also helps to hold up the head and tilt it backwards.",
+      "facts": [
+        "It is named after the trapezium, a four-sided shape.",
+        "It often feels tight and sore after a long time bent over a desk or a phone.",
+        "It lies just under the skin, on top of the other back muscles."
+      ]
+    },
+    "lats": {
+      "name": "Latissimus dorsi (lats)",
+      "summary": "The broadest muscle of the back, which pulls the arm down and back.",
+      "details": "The latissimus dorsi, or 'lats' for short, is the widest muscle of the back. It spreads across the lower and middle back on each side and narrows to a tendon that is fixed to the upper arm bone, near the armpit. When it pulls, it brings a raised arm down and back towards the body. That makes it a key muscle for swimming, rowing, climbing and pull-ups.",
+      "facts": [
+        "Its name is Latin for 'broadest of the back'.",
+        "It forms the back wall of the armpit.",
+        "Well-developed lats give swimmers their V-shaped backs."
+      ]
+    },
+    "gluteals": {
+      "name": "Gluteals",
+      "summary": "The buttock muscles, which straighten the hip.",
+      "details": "The gluteals are the muscles of the buttocks. There are three on each side. The largest, the gluteus maximus, is one of the biggest and strongest muscles in the body. Its job is to straighten the hip, pulling the thigh back into line with the body. You use it to stand up from a chair, climb stairs, run and jump. The two smaller gluteals keep the hips level each time you lift one foot off the ground to take a step.",
+      "facts": [
+        "They are often called the glutes.",
+        "They join the hip bones to the thigh bone.",
+        "The gluteus maximus works much harder when you run or climb than when you walk gently on flat ground."
+      ]
+    },
+    "quadriceps": {
+      "name": "Quadriceps",
+      "summary": "Four muscles on the front of the thigh, which straighten the knee.",
+      "details": "The quadriceps is a group of four muscles on the front of the thigh. At the bottom they all join into one strong tendon that passes over the front of the knee and is fixed to the shin bone. When they pull, they straighten the knee. That is the movement you need for kicking a ball, jumping, climbing stairs and standing up from a chair. They also hold the knee steady while you stand.",
+      "facts": [
+        "Quadriceps means 'four heads'; they are often called the quads.",
+        "The kneecap sits inside their tendon.",
+        "When a doctor taps just below your kneecap, it is this muscle group that makes your leg kick."
+      ]
+    },
+    "hamstrings": {
+      "name": "Hamstrings",
+      "summary": "Three muscles on the back of the thigh, which bend the knee.",
+      "details": "The hamstrings are a group of three muscles that run down the back of the thigh, from the bottom of the hip bones to just below the knee. When they pull, they bend the knee and bring the heel up towards the buttock. They are the partners of the quadriceps on the front of the thigh: one group bends the knee and the other straightens it. In every running stride the two groups take turns to work.",
+      "facts": [
+        "They also help the gluteals to straighten the hip.",
+        "You can feel their tendons as firm cords on either side of the back of your knee.",
+        "A 'pulled hamstring' is a tear in these muscles, a common injury in sprinters."
+      ]
+    },
+    "calf": {
+      "name": "Calf muscle",
+      "summary": "The muscle on the back of the lower leg, which points the foot down.",
+      "details": "The calf muscle forms the bulge on the back of the lower leg. When it pulls, it lifts the heel and points the foot downwards. This pushes the ball of the foot against the ground, which drives you forwards and upwards when you walk, run or jump. You use it to stand on tiptoe. It is joined to the heel bone by the Achilles tendon, the thick cord you can feel at the back of your ankle.",
+      "facts": [
+        "The Achilles tendon is the thickest and strongest tendon in the body.",
+        "The calf is really two muscles, one lying on top of the other.",
+        "The tendon is named after Achilles, a hero of Greek legend whose only weak spot was his heel."
+      ]
+    },
+    "tendon": {
+      "name": "Tendons",
+      "summary": "Tough cords that join muscles to bones.",
+      "details": "A tendon is a tough, pale cord that joins a muscle to a bone. Most muscles narrow into a tendon at each end. Tendons are made of strong fibres of a protein called collagen, packed tightly side by side. They hardly stretch at all. So when a muscle shortens, its pull passes straight through the tendon and moves the bone. Tendons are easy to mix up with ligaments, but a ligament joins one bone to another bone and holds a joint together.",
+      "facts": [
+        "You can see tendons moving on the back of your hand when you wiggle your fingers.",
+        "The muscle's own wrappings run on past its end and join together to form the tendon.",
+        "Tendons have a poor blood supply, so they heal slowly after an injury."
+      ]
+    },
+    "arm-bones": {
+      "name": "Arm bones",
+      "summary": "The three long bones that the arm muscles pull on.",
+      "details": "The arm has three long bones. The humerus is the single bone of the upper arm, running from the shoulder to the elbow. The forearm has two bones side by side, the radius and the ulna, running from the elbow to the wrist. Muscles cannot move anything by themselves. They need something stiff to pull on. Bones act as levers: when a muscle pulls on a bone, the bone swings around a joint, like a seesaw turning on its pivot.",
+      "facts": [
+        "The radius is on the thumb side of the forearm and the ulna is on the little-finger side.",
+        "The biceps is fixed to the radius and the triceps to the ulna.",
+        "The biceps pulls very close to the elbow, so a small shortening of the muscle moves the hand a long way."
+      ]
+    },
+    "elbow-joint": {
+      "name": "Elbow joint",
+      "summary": "The hinge between the upper arm and the forearm.",
+      "details": "The elbow is where the humerus of the upper arm meets the two bones of the forearm. It is a hinge joint. Like the hinge of a door, it bends and straightens in one direction only and does not move from side to side. That is why one pair of muscles is enough to work it: the biceps bends it and the triceps straightens it. The ends of the bones are covered in smooth cartilage so that they slide easily.",
+      "facts": [
+        "The knee and the finger joints are hinge joints too.",
+        "Turning your palm up and down is a different movement: the radius rolls around the ulna.",
+        "The tingle of hitting your 'funny bone' comes from a nerve that passes just behind the elbow."
+      ]
+    },
+    "whole-muscle": {
+      "name": "Whole muscle",
+      "summary": "An organ made of thousands of muscle fibres wrapped in a tough sheath.",
+      "details": "A whole muscle, such as the biceps, is an organ. It is made of many thousands of long, thin cells called muscle fibres, packed together in bundles. A tough, thin sheath wraps around the outside and holds everything together. A muscle also contains blood vessels to supply it and nerves that tell it when to pull. Together, the muscles that move your skeleton make up roughly a third to 40% of an adult's body weight.",
+      "facts": [
+        "Most muscles are fat in the middle, called the belly, and narrow at the ends.",
+        "The meat we eat is mostly the muscle of animals.",
+        "Exercise makes muscles bigger mainly by making each fibre thicker, not by adding many new fibres."
+      ]
+    },
+    "fascicle": {
+      "name": "Bundle (fascicle)",
+      "summary": "A bundle of muscle fibres inside its own wrapping.",
+      "details": "Inside a muscle, the fibres are not all loose together. They are grouped into bundles called fascicles. Each bundle has its own thin wrapping, and many bundles packed side by side make up the whole muscle. The bundles are just big enough to see without a microscope. They are the 'grain' in a piece of cooked meat, the stringy strands that it pulls apart into.",
+      "facts": [
+        "Fascicle comes from a Latin word meaning 'little bundle'.",
+        "Small blood vessels and nerves run in the gaps between the bundles.",
+        "The wrapping around each bundle is thin, tough connective tissue, much like the material that tendons are made of."
+      ]
+    },
+    "muscle-fibre": {
+      "name": "Muscle fibre",
+      "summary": "A single muscle cell, very long and very thin.",
+      "details": "A muscle fibre is a single muscle cell, but an unusual one. It is very long and thin, shaped like a thread. Most cells have one nucleus, the part that holds the cell's instructions. A muscle fibre has many, spaced along its edge. It also has large numbers of mitochondria, the tiny structures that release energy from food, because pulling takes a lot of energy. Under a microscope a muscle fibre looks striped, with light and dark bands across it.",
+      "facts": [
+        "A fibre can be several centimetres long, yet it is about as thin as a fine hair.",
+        "Each fibre forms when many smaller cells join together, which is why it has many nuclei.",
+        "A fibre only pulls when a nerve signal tells it to."
+      ]
+    },
+    "myofibril": {
+      "name": "Myofibril",
+      "summary": "One of the thread-like rods inside a muscle fibre that do the pulling.",
+      "details": "Each muscle fibre is packed with hundreds of even thinner rods called myofibrils, which run along its whole length. A myofibril is made of two kinds of protein thread, called filaments: thick ones and thin ones. They are arranged in short units repeated end to end. When the muscle works, the thin filaments slide in between the thick ones, so every unit gets a little shorter. Millions of tiny units shortening together make the whole muscle shorter.",
+      "facts": [
+        "The thick filaments are made of the protein myosin and the thin ones of actin.",
+        "The filaments do not shrink; they only slide past each other.",
+        "The neat, repeating pattern of the filaments is what makes a muscle fibre look striped."
+      ]
+    },
+    "blood-vessels": {
+      "name": "Blood vessels",
+      "summary": "The muscle's supply lines, bringing oxygen and sugar and taking away waste.",
+      "details": "A working muscle uses a great deal of energy, so it needs a rich blood supply. Arteries bring blood carrying oxygen and sugar, the fuel that muscle cells use to release energy. Veins carry the blood away again, along with carbon dioxide and heat that the muscle has made. The vessels branch into fine capillaries that run between the muscle fibres. During exercise the vessels widen, and the flow of blood to a working muscle rises many times over.",
+      "facts": [
+        "The heat made by working muscles is why exercise warms you up.",
+        "Shivering is muscles pulling in quick bursts just to make heat.",
+        "Muscle looks red partly because of a protein in its cells that stores oxygen, called myoglobin."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "major-muscles",
+      "title": "Major muscles, front and back",
+      "intro": "The body has more than 600 skeletal muscles. These are the muscles joined to your bones, the ones you move on purpose. Here are some of the biggest, shown from the front and from the back. The shapes are simplified, and many smaller muscles are left out.",
+      "svg": "diagrams/major-muscles.svg",
+      "parts": ["deltoid", "pectorals", "biceps", "triceps", "abdominals", "trapezius", "lats", "gluteals", "quadriceps", "hamstrings", "calf"]
+    },
+    {
+      "id": "muscle-pair",
+      "title": "Muscles work in pairs",
+      "intro": "Muscles can only pull, never push. So they work in pairs: one muscle bends a joint and its partner straightens it again. The upper arm is the classic example. Compare the bent arm with the straight one and see which muscle is short and fat in each. This is a simplified drawing.",
+      "svg": "diagrams/muscle-pair.svg",
+      "parts": ["biceps", "triceps", "tendon", "arm-bones", "elbow-joint"]
+    },
+    {
+      "id": "muscle-inside",
+      "title": "Inside a muscle",
+      "intro": "A muscle is built like a rope: bundles inside bundles. Reading from left to right, each level is magnified to show the next one, from the whole muscle down to the tiny rods that do the pulling. The drawing is simplified and not to scale.",
+      "svg": "diagrams/muscle-inside.svg",
+      "parts": ["whole-muscle", "fascicle", "muscle-fibre", "myofibril", "tendon", "blood-vessels"]
+    }
+  ]
+}

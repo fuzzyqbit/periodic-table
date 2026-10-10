@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" font-family="sans-serif">
+<circle cx="215" cy="78" r="28" fill="#8f96a0"/>
+<rect x="202" y="98" width="26" height="24" fill="#8f96a0"/>
+<path d="M229,112 L275,128 L273,170 L263,250 L259,290 L267,335 L267,352 L215,366 L163,352 L163,335 L171,290 L167,250 L157,170 L155,128 L201,112 Z" fill="#8f96a0" stroke="#8f96a0" stroke-width="4" stroke-linejoin="round"/>
+<line x1="279" y1="142" x2="289" y2="245" stroke="#8f96a0" stroke-width="32" stroke-linecap="round"/>
+<line x1="289" y1="245" x2="295" y2="335" stroke="#8f96a0" stroke-width="26" stroke-linecap="round"/>
+<line x1="242" y1="358" x2="244" y2="460" stroke="#8f96a0" stroke-width="50" stroke-linecap="round"/>
+<line x1="244" y1="460" x2="245" y2="572" stroke="#8f96a0" stroke-width="34" stroke-linecap="round"/>
+<line x1="151" y1="142" x2="141" y2="245" stroke="#8f96a0" stroke-width="32" stroke-linecap="round"/>
+<line x1="141" y1="245" x2="135" y2="335" stroke="#8f96a0" stroke-width="26" stroke-linecap="round"/>
+<line x1="188" y1="358" x2="186" y2="460" stroke="#8f96a0" stroke-width="50" stroke-linecap="round"/>
+<line x1="186" y1="460" x2="185" y2="572" stroke="#8f96a0" stroke-width="34" stroke-linecap="round"/>
+<ellipse cx="296" cy="352" rx="11.0" ry="15.0" fill="#8f96a0"/>
+<ellipse cx="248" cy="590" rx="18.0" ry="11.0" fill="#8f96a0"/>
+<ellipse cx="134" cy="352" rx="11.0" ry="15.0" fill="#8f96a0"/>
+<ellipse cx="182" cy="590" rx="18.0" ry="11.0" fill="#8f96a0"/>
+<circle cx="215" cy="78" r="26" fill="#dcdfe4"/>
+<rect x="204" y="98" width="22" height="24" fill="#dcdfe4"/>
+<path d="M229,112 L275,128 L273,170 L263,250 L259,290 L267,335 L267,352 L215,366 L163,352 L163,335 L171,290 L167,250 L157,170 L155,128 L201,112 Z" fill="#dcdfe4"/>
+<line x1="279" y1="142" x2="289" y2="245" stroke="#dcdfe4" stroke-width="28" stroke-linecap="round"/>
+<line x1="289" y1="245" x2="295" y2="335" stroke="#dcdfe4" stroke-width="22" stroke-linecap="round"/>
+<line x1="242" y1="358" x2="244" y2="460" stroke="#dcdfe4" stroke-width="46" stroke-linecap="round"/>
+<line x1="244" y1="460" x2="245" y2="572" stroke="#dcdfe4" stroke-width="30" stroke-linecap="round"/>
+<line x1="151" y1="142" x2="141" y2="245" stroke="#dcdfe4" stroke-width="28" stroke-linecap="round"/>
+<line x1="141" y1="245" x2="135" y2="335" stroke="#dcdfe4" stroke-width="22" stroke-linecap="round"/>
+<line x1="188" y1="358" x2="186" y2="460" stroke="#dcdfe4" stroke-width="46" stroke-linecap="round"/>
+<line x1="186" y1="460" x2="185" y2="572" stroke="#dcdfe4" stroke-width="30" stroke-linecap="round"/>
+<ellipse cx="296" cy="352" rx="9.0" ry="13.0" fill="#dcdfe4"/>
+<ellipse cx="248" cy="590" rx="16.0" ry="9.0" fill="#dcdfe4"/>
+<ellipse cx="134" cy="352" rx="9.0" ry="13.0" fill="#dcdfe4"/>
+<ellipse cx="182" cy="590" rx="16.0" ry="9.0" fill="#dcdfe4"/>
+<circle cx="585" cy="78" r="28" fill="#8f96a0"/>
+<rect x="572" y="98" width="26" height="24" fill="#8f96a0"/>
+<path d="M599,112 L645,128 L643,170 L633,250 L629,290 L637,335 L637,352 L585,366 L533,352 L533,335 L541,290 L537,250 L527,170 L525,128 L571,112 Z" fill="#8f96a0" stroke="#8f96a0" stroke-width="4" stroke-linejoin="round"/>
+<line x1="649" y1="142" x2="659" y2="245" stroke="#8f96a0" stroke-width="32" stroke-linecap="round"/>
+<line x1="659" y1="245" x2="665" y2="335" stroke="#8f96a0" stroke-width="26" stroke-linecap="round"/>
+<line x1="612" y1="358" x2="614" y2="460" stroke="#8f96a0" stroke-width="50" stroke-linecap="round"/>
+<line x1="614" y1="460" x2="615" y2="572" stroke="#8f96a0" stroke-width="34" stroke-linecap="round"/>
+<line x1="521" y1="142" x2="511" y2="245" stroke="#8f96a0" stroke-width="32" stroke-linecap="round"/>
+<line x1="511" y1="245" x2="505" y2="335" stroke="#8f96a0" stroke-width="26" stroke-linecap="round"/>
+<line x1="558" y1="358" x2="556" y2="460" stroke="#8f96a0" stroke-width="50" stroke-linecap="round"/>
+<line x1="556" y1="460" x2="555" y2="572" stroke="#8f96a0" stroke-width="34" stroke-linecap="round"/>
+<ellipse cx="666" cy="352" rx="11.0" ry="15.0" fill="#8f96a0"/>
+<ellipse cx="618" cy="590" rx="18.0" ry="11.0" fill="#8f96a0"/>
+<ellipse cx="504" cy="352" rx="11.0" ry="15.0" fill="#8f96a0"/>
+<ellipse cx="552" cy="590" rx="18.0" ry="11.0" fill="#8f96a0"/>
+<circle cx="585" cy="78" r="26" fill="#dcdfe4"/>
+<rect x="574" y="98" width="22" height="24" fill="#dcdfe4"/>
+<path d="M599,112 L645,128 L643,170 L633,250 L629,290 L637,335 L637,352 L585,366 L533,352 L533,335 L541,290 L537,250 L527,170 L525,128 L571,112 Z" fill="#dcdfe4"/>
+<line x1="649" y1="142" x2="659" y2="245" stroke="#dcdfe4" stroke-width="28" stroke-linecap="round"/>
+<line x1="659" y1="245" x2="665" y2="335" stroke="#dcdfe4" stroke-width="22" stroke-linecap="round"/>
+<line x1="612" y1="358" x2="614" y2="460" stroke="#dcdfe4" stroke-width="46" stroke-linecap="round"/>
+<line x1="614" y1="460" x2="615" y2="572" stroke="#dcdfe4" stroke-width="30" stroke-linecap="round"/>
+<line x1="521" y1="142" x2="511" y2="245" stroke="#dcdfe4" stroke-width="28" stroke-linecap="round"/>
+<line x1="511" y1="245" x2="505" y2="335" stroke="#dcdfe4" stroke-width="22" stroke-linecap="round"/>
+<line x1="558" y1="358" x2="556" y2="460" stroke="#dcdfe4" stroke-width="46" stroke-linecap="round"/>
+<line x1="556" y1="460" x2="555" y2="572" stroke="#dcdfe4" stroke-width="30" stroke-linecap="round"/>
+<ellipse cx="666" cy="352" rx="9.0" ry="13.0" fill="#dcdfe4"/>
+<ellipse cx="618" cy="590" rx="16.0" ry="9.0" fill="#dcdfe4"/>
+<ellipse cx="504" cy="352" rx="9.0" ry="13.0" fill="#dcdfe4"/>
+<ellipse cx="552" cy="590" rx="16.0" ry="9.0" fill="#dcdfe4"/>
+<text x="215" y="628" font-size="14" text-anchor="middle" fill="#6b7280">Front</text>
+<text x="585" y="628" font-size="14" text-anchor="middle" fill="#6b7280">Back</text>
+<g data-part="pectorals"><path d="M218,136 L255,130 Q267,148 266,164 Q249,190 218,182 Z" fill="#e05c5c" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="272" y1="67" x2="233" y2="150" stroke="#555" stroke-width="1"/><text x="277" y="62" font-size="16" text-anchor="start" fill="#1f2024">Pectorals</text></g>
+<g data-part="pectorals"><path d="M212,136 L175,130 Q163,148 164,164 Q181,190 212,182 Z" fill="#e05c5c" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="abdominals"><path d="M190,194 L240,194 L238,272 Q230,308 215,312 Q200,308 192,272 Z" fill="#f2c94c" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="191" y1="220" x2="239" y2="220" stroke="#333" stroke-opacity="0.55" stroke-width="1.2"/><line x1="191" y1="246" x2="239" y2="246" stroke="#333" stroke-opacity="0.55" stroke-width="1.2"/><line x1="191" y1="272" x2="239" y2="272" stroke="#333" stroke-opacity="0.55" stroke-width="1.2"/><line x1="215" y1="194" x2="215" y2="312" stroke="#333" stroke-opacity="0.55" stroke-width="1.2"/><line x1="318" y1="257" x2="240" y2="252" stroke="#555" stroke-width="1"/><text x="322" y="262" font-size="16" text-anchor="start" fill="#1f2024">Abdominals</text></g>
+<g data-part="biceps"><ellipse cx="145" cy="206" rx="11" ry="30" fill="#9b6bc9" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(5.5 145 206)"/><line x1="108" y1="206" x2="134" y2="206" stroke="#555" stroke-width="1"/><text x="104" y="211" font-size="16" text-anchor="end" fill="#1f2024">Biceps</text></g>
+<g data-part="biceps"><ellipse cx="285" cy="206" rx="11" ry="30" fill="#9b6bc9" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(-5.5 285 206)"/></g>
+<g data-part="deltoid"><path d="M177,122 Q151,116 138,138 Q133,164 141,186 Q151,168 163,158 Q173,142 177,122 Z" fill="#f2994a" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="108" y1="120" x2="149" y2="138" stroke="#555" stroke-width="1"/><text x="104" y="125" font-size="16" text-anchor="end" fill="#1f2024">Deltoid</text></g>
+<g data-part="deltoid"><path d="M253,122 Q279,116 292,138 Q297,164 289,186 Q279,168 267,158 Q257,142 253,122 Z" fill="#f2994a" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="quadriceps"><ellipse cx="187" cy="408" rx="18" ry="46" fill="#6fbf73" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(1 187 408)"/><line x1="108" y1="408" x2="169" y2="408" stroke="#555" stroke-width="1"/><text x="104" y="413" font-size="16" text-anchor="end" fill="#1f2024">Quadriceps</text></g>
+<g data-part="quadriceps"><ellipse cx="243" cy="408" rx="18" ry="46" fill="#6fbf73" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(-1 243 408)"/></g>
+<g data-part="lats"><path d="M531,162 Q533,232 555,292 L580,306 L580,200 Q555,190 531,162 Z" fill="#e78ac3" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="482" y1="277" x2="547" y2="262" stroke="#555" stroke-width="1"/><text x="478" y="282" font-size="16" text-anchor="end" fill="#1f2024">Lats</text></g>
+<g data-part="lats"><path d="M639,162 Q637,232 615,292 L590,306 L590,200 Q615,190 639,162 Z" fill="#e78ac3" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="trapezius"><path d="M585,100 L598,110 Q615,124 639,130 Q615,150 601,170 L585,236 L569,170 Q555,150 531,130 Q555,124 572,110 Z" fill="#4fb3bf" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="482" y1="80" x2="563" y2="120" stroke="#555" stroke-width="1"/><text x="478" y="84" font-size="16" text-anchor="end" fill="#1f2024">Trapezius</text></g>
+<g data-part="triceps"><ellipse cx="655" cy="206" rx="11" ry="30" fill="#5b8def" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(-5.5 655 206)"/><line x1="692" y1="206" x2="666" y2="206" stroke="#555" stroke-width="1"/><text x="696" y="211" font-size="16" text-anchor="start" fill="#1f2024">Triceps</text></g>
+<g data-part="triceps"><ellipse cx="515" cy="206" rx="11" ry="30" fill="#5b8def" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(5.5 515 206)"/></g>
+<g data-part="deltoid"><path d="M547,122 Q521,116 508,138 Q503,164 511,186 Q521,168 533,158 Q543,142 547,122 Z" fill="#f2994a" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="deltoid"><path d="M623,122 Q649,116 662,138 Q667,164 659,186 Q649,168 637,158 Q627,142 623,122 Z" fill="#f2994a" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="gluteals"><ellipse cx="611" cy="338" rx="23" ry="25" fill="#c9a26b" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="692" y1="391" x2="629" y2="352" stroke="#555" stroke-width="1"/><text x="696" y="397" font-size="16" text-anchor="start" fill="#1f2024">Gluteals</text></g>
+<g data-part="gluteals"><ellipse cx="559" cy="338" rx="23" ry="25" fill="#c9a26b" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+<g data-part="hamstrings"><ellipse cx="557" cy="416" rx="17" ry="40" fill="#a3c644" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(1 557 416)"/><line x1="482" y1="416" x2="540" y2="416" stroke="#555" stroke-width="1"/><text x="478" y="421" font-size="16" text-anchor="end" fill="#1f2024">Hamstrings</text></g>
+<g data-part="hamstrings"><ellipse cx="613" cy="416" rx="17" ry="40" fill="#a3c644" stroke="#333" stroke-width="2" stroke-linejoin="round" transform="rotate(-1 613 416)"/></g>
+<g data-part="calf"><ellipse cx="615" cy="508" rx="13" ry="36" fill="#7986cb" stroke="#333" stroke-width="2" stroke-linejoin="round"/><line x1="692" y1="508" x2="628" y2="508" stroke="#555" stroke-width="1"/><text x="696" y="513" font-size="16" text-anchor="start" fill="#1f2024">Calf muscle</text></g>
+<g data-part="calf"><ellipse cx="555" cy="508" rx="13" ry="36" fill="#7986cb" stroke="#333" stroke-width="2" stroke-linejoin="round"/></g>
+</svg>
