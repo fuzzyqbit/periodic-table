@@ -1,0 +1,172 @@
+{
+  "id": "lungs",
+  "title": "Lungs",
+  "parts": {
+    "nose-mouth": {
+      "name": "Nose and mouth",
+      "summary": "The two openings where air enters and leaves the body.",
+      "details": "Air comes into the body through the nose or the mouth. The nose is the better way in. Inside it are small hairs and a lining coated with sticky mucus, which trap dust and germs before they can travel any deeper. The lining of the nose is also warm and wet, so it warms the air and adds moisture to it on the way through. During hard exercise you breathe through your mouth as well, because it lets a lot of air through quickly.",
+      "facts": [
+        "A sneeze is a sudden blast of air that clears out whatever is irritating the nose.",
+        "The nose is also the organ of smell.",
+        "Most of the mucus made in your nose is swallowed without you noticing."
+      ]
+    },
+    "pharynx": {
+      "name": "Throat (pharynx)",
+      "summary": "The passage behind the nose and mouth, shared by air and food.",
+      "details": "The pharynx is the space at the back of the nose and mouth. Both air and food pass through it, so it works like a crossroads. Air has to go into the windpipe at the front, while food has to go down the oesophagus, the food pipe, just behind it. When you swallow, a small flap called the epiglottis folds down over the top of the windpipe, so food and drink slide past the opening instead of going into the airway.",
+      "facts": [
+        "You cannot swallow and breathe in at the same moment.",
+        "If a crumb does get into the airway, a cough blasts it back out.",
+        "The tonsils sit at the sides of the throat and help to fight germs."
+      ]
+    },
+    "larynx": {
+      "name": "Voice box (larynx)",
+      "summary": "The box at the top of the windpipe that makes the sound of your voice.",
+      "details": "The larynx sits at the top of the windpipe, at the front of the neck. It is a short box made of cartilage, a tough but bendy material. Stretched across the inside are two folds called the vocal cords. When you breathe quietly they stay apart and air passes freely. When you speak or sing they are pulled close together, and air pushed up from the lungs makes them vibrate, which makes sound. Tighter cords vibrate faster and give a higher note.",
+      "facts": [
+        "The bump you can feel at the front of your neck is part of the larynx.",
+        "The larynx grows during puberty, so the vocal cords get longer and the voice gets deeper.",
+        "The tongue, lips and teeth shape the sound from the vocal cords into words."
+      ]
+    },
+    "trachea": {
+      "name": "Windpipe (trachea)",
+      "summary": "The main tube carrying air from the throat down into the chest.",
+      "details": "The trachea carries air from the voice box down into the chest. In an adult it is about 10 to 12 centimetres long. It is held open by C-shaped rings of cartilage, a tough but bendy material, so it cannot be squashed flat when you breathe in or bend your neck. Its lining makes sticky mucus that traps dust and germs. The lining is also covered with tiny hairs called cilia, which beat to and fro and sweep the dirty mucus up towards the throat and out of the airways.",
+      "facts": [
+        "You can feel the rings as ridges at the front of your neck, below the voice box.",
+        "The gap in each C faces the back, next to the food pipe.",
+        "Cigarette smoke damages the cilia, so dirt and mucus build up in a smoker's airways."
+      ]
+    },
+    "bronchi": {
+      "name": "Bronchi",
+      "summary": "The large branching tubes that carry air into each lung.",
+      "details": "At its lower end the windpipe splits into two tubes called bronchi. One of them, a bronchus, goes into each lung. Inside the lung it divides into smaller bronchi, and these keep dividing again and again, like the branches of a tree. Like the windpipe, the bronchi are held open by pieces of tough, bendy cartilage, and they are lined with sticky mucus and tiny hairs called cilia that clean the air. With each division the tubes get narrower, until they become the tiny bronchioles.",
+      "facts": [
+        "Bronchi is the plural; a single tube is a bronchus.",
+        "The right main bronchus is wider and steeper than the left, so something breathed in by accident more often ends up in the right lung.",
+        "Bronchitis is a swelling of the lining of the bronchi, which causes a cough and extra mucus."
+      ]
+    },
+    "bronchioles": {
+      "name": "Bronchioles",
+      "summary": "The finest airways, leading to the air sacs.",
+      "details": "Bronchioles are the finest airways, each one less than a millimetre wide. Unlike the bronchi, they have no stiff cartilage to hold them open. Their walls contain a thin layer of muscle instead, which can tighten or relax to change the width of the tube. The very smallest bronchioles end in clusters of air sacs. In asthma, the muscle around the bronchioles tightens and their lining swells. The tubes become narrower, so it is much harder to move air in and out.",
+      "facts": [
+        "A reliever inhaler for asthma contains a medicine that relaxes this muscle and opens the tubes again.",
+        "Each lung contains many thousands of bronchioles.",
+        "Wheezing is the sound of air squeezing through narrowed airways."
+      ]
+    },
+    "lungs": {
+      "name": "Lungs",
+      "summary": "The two spongy organs where air and blood are brought close together.",
+      "details": "The lungs are two soft, spongy organs that fill most of the chest, protected by the ribcage. The right lung is divided into three sections called lobes. The left lung has only two lobes and is a little smaller, with a notch that leaves room for the heart. Lungs feel spongy because they are mostly air, held in hundreds of millions of tiny air sacs. If all those air sacs were unfolded and laid flat, they would cover roughly half a tennis court.",
+      "facts": [
+        "Lungs have no muscle to move themselves; the diaphragm and rib muscles do the work.",
+        "Each lung is wrapped in a thin, slippery lining that lets it slide against the chest wall as you breathe.",
+        "A quiet breath moves only about half a litre of air, but an adult's lungs can hold several litres."
+      ]
+    },
+    "diaphragm": {
+      "name": "Diaphragm",
+      "summary": "The sheet of muscle under the lungs that does most of the work of breathing.",
+      "details": "The diaphragm is a dome-shaped sheet of muscle stretched across the bottom of the chest, under the lungs. It is the main breathing muscle. When it tightens, it pulls downwards and flattens. This makes the space inside the chest bigger, and air flows in to fill the lungs. When it relaxes, it rises back into its dome shape, the stretchy lungs spring back, and air is pushed out again. Hiccups are sudden jerks of the diaphragm that you cannot control.",
+      "facts": [
+        "It separates the chest from the belly, and the food pipe passes through a gap in it.",
+        "The brain keeps it working automatically, even while you are asleep.",
+        "The 'hic' of a hiccup is the vocal cords snapping shut just after the diaphragm jerks."
+      ]
+    },
+    "intercostals": {
+      "name": "Rib muscles (intercostals)",
+      "summary": "The muscles between the ribs that widen the chest when you breathe in.",
+      "details": "The intercostal muscles fill the gaps between the ribs. When you breathe in, they tighten and swing the ribcage upwards and outwards, a bit like lifting the handle of a bucket. This makes the chest bigger from side to side and from front to back, giving the lungs more room. They work together with the diaphragm to draw air in. When they relax, the ribs drop back down, the chest gets smaller and air is pushed out.",
+      "facts": [
+        "Intercostal means 'between the ribs'.",
+        "There are eleven gaps between the twelve ribs on each side, and every one contains these muscles.",
+        "Put your hands on your ribs and breathe in deeply: you can feel them rise and spread."
+      ]
+    },
+    "alveolus": {
+      "name": "Air sac (alveolus)",
+      "summary": "A tiny bag of air where gases are swapped between air and blood.",
+      "details": "An alveolus is a tiny bag of air at the very end of a bronchiole. Each one is only about a fifth of a millimetre across, so you would need a microscope to see it properly, but there are hundreds of millions of them in the lungs. This is the place where gases are swapped: oxygen passes from the air into the blood, and carbon dioxide passes from the blood into the air. Having so many tiny sacs gives a far bigger surface than one large bag would.",
+      "facts": [
+        "The plural of alveolus is alveoli.",
+        "Air sacs are grouped in clusters that look a little like bunches of grapes.",
+        "They never empty completely; each breath replaces only part of the air inside them."
+      ]
+    },
+    "alveolus-wall": {
+      "name": "Air sac wall",
+      "summary": "The very thin, moist layer of cells that gases pass through.",
+      "details": "The wall of an air sac is made of very thin, flat cells and is only one cell thick. The wall of the capillary pressed against it is only one cell thick as well. Together they make a barrier far thinner than a hair, so the gases have only a tiny distance to travel and can cross quickly. The inside of the wall is kept moist by a thin film of liquid. Oxygen dissolves in this film before it passes through into the blood.",
+      "facts": [
+        "Some cells in the wall make a soapy liquid that stops the wet sides of the sac sticking together.",
+        "White blood cells patrol the inside of the air sacs and swallow dust and germs that get this far.",
+        "Years of smoking can break down these walls, leaving less surface for swapping gases."
+      ]
+    },
+    "capillary": {
+      "name": "Capillary",
+      "summary": "A tiny blood vessel that carries blood past the air sac.",
+      "details": "A capillary is the smallest kind of blood vessel. Capillaries are wrapped closely round every air sac. The blood arriving in them has been pumped here from the heart. It is oxygen-poor and carries carbon dioxide collected from the rest of the body. As the blood flows round the air sac it gives up carbon dioxide and takes in oxygen. It leaves oxygen-rich and travels back to the heart, which then pumps it out around the body.",
+      "facts": [
+        "Blue for oxygen-poor and red for oxygen-rich is a drawing convention; real blood is always red.",
+        "The drawing shows one capillary, but a real air sac is covered by a dense net of them.",
+        "A capillary's wall is a single layer of thin, flat cells."
+      ]
+    },
+    "red-blood-cell": {
+      "name": "Red blood cell",
+      "summary": "The cell that picks up oxygen and carries it away in the blood.",
+      "details": "Red blood cells are the oxygen carriers of the blood. The capillaries round an air sac are so narrow that the cells have to squeeze through in single file, pressed close to the wall. This keeps the distance that oxygen has to travel very short. Each cell is packed with haemoglobin, a red substance containing iron, which grabs oxygen as soon as it arrives. A red blood cell spends less than a second passing an air sac, but that is long enough for it to fill up.",
+      "facts": [
+        "Haemoglobin becomes a brighter red when it is carrying oxygen.",
+        "A red blood cell is a disc with a dip on each side, and it has no nucleus.",
+        "Most carbon dioxide is carried in the plasma, the liquid part of the blood, rather than by haemoglobin."
+      ]
+    },
+    "oxygen": {
+      "name": "Oxygen moving in",
+      "summary": "Oxygen spreads from the air in the sac into the blood.",
+      "details": "Air is about 21% oxygen. After you breathe in, there is plenty of oxygen in the air sac but much less in the blood arriving in the capillary. The particles of a gas naturally spread from a place where there are more of them to a place where there are fewer. This spreading is called diffusion, and the body does not have to use any energy to make it happen. So oxygen moves through the thin walls, out of the air and into the blood.",
+      "facts": [
+        "Cells use oxygen to release energy from food, a process called respiration.",
+        "Breathed-out air still contains about 16% oxygen.",
+        "The blood keeps carrying oxygen away, so there is always less in the blood than in the air sac and diffusion never stops."
+      ]
+    },
+    "carbon-dioxide": {
+      "name": "Carbon dioxide moving out",
+      "summary": "Carbon dioxide spreads from the blood into the air sac to be breathed out.",
+      "details": "Carbon dioxide is a waste gas. Cells make it all the time as they release energy from food, and the blood carries it away to the lungs. Blood arriving at an air sac contains more carbon dioxide than the air inside the sac. So this gas spreads, or diffuses, the opposite way to oxygen: out of the blood, through the thin walls and into the air space. Then you breathe it out. Breathed-out air has about 100 times more carbon dioxide in it than fresh air.",
+      "facts": [
+        "Fresh air is only about 0.04% carbon dioxide; breathed-out air is about 4%.",
+        "Your brain decides how fast you breathe mainly by sensing how much carbon dioxide is in your blood.",
+        "Its chemical formula is CO2: one carbon atom joined to two oxygen atoms."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "breathing-system",
+      "title": "The breathing system",
+      "intro": "Breathing brings air deep into the lungs and pushes used air back out, about 12 to 20 times a minute when you are resting. The airways branch like an upside-down tree, from one windpipe down to thousands of tiny tubes. The person is facing you, so their right lung is on the left of the picture. This drawing is simplified: the real airways branch more than 20 times.",
+      "svg": "diagrams/breathing-system.svg",
+      "parts": ["nose-mouth", "pharynx", "larynx", "trachea", "bronchi", "bronchioles", "lungs", "diaphragm", "intercostals"]
+    },
+    {
+      "id": "air-sac",
+      "title": "Inside an air sac",
+      "intro": "This is one of the hundreds of millions of tiny air sacs at the ends of the airways, hugely magnified. It is where oxygen enters the blood and carbon dioxide leaves it. Blue shows oxygen-poor blood and red shows oxygen-rich blood, which is a drawing convention. The drawing is simplified and not to scale.",
+      "svg": "diagrams/air-sac.svg",
+      "parts": ["alveolus", "alveolus-wall", "capillary", "red-blood-cell", "oxygen", "carbon-dioxide"]
+    }
+  ]
+}

@@ -20,7 +20,8 @@
         { "id": "blood", "title": "Blood" },
         { "id": "nervous", "title": "Nervous System" },
         { "id": "skeleton", "title": "Skeleton" },
-        { "id": "heart", "title": "Heart" }
+        { "id": "heart", "title": "Heart" },
+        { "id": "lungs", "title": "Lungs" }
       ]
     }
   ]
