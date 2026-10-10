@@ -1,0 +1,232 @@
+{
+  "id": "heart",
+  "title": "Heart",
+  "parts": {
+    "right-atrium": {
+      "name": "Right atrium",
+      "summary": "The upper right chamber, where blood from the body arrives.",
+      "details": "The right atrium is the heart's collecting room for used blood. Blood that has given up its oxygen to the body flows in through two large veins, the venae cavae. The atrium's walls are thin, because it only has to push blood a short way down into the right ventricle below. A small patch of special cells in its wall, the heart's natural pacemaker, sends out the electrical signal that starts every heartbeat.",
+      "facts": [
+        "The word atrium is Latin for an entrance hall.",
+        "The natural pacemaker is properly called the sinoatrial node.",
+        "Both atria squeeze together, a fraction of a second before the ventricles."
+      ]
+    },
+    "right-ventricle": {
+      "name": "Right ventricle",
+      "summary": "The lower right chamber, which pumps blood to the lungs.",
+      "details": "The right ventricle receives oxygen-poor blood from the right atrium. When it squeezes, it pushes that blood out through the pulmonary valve and into the pulmonary artery, which leads to the lungs. The lungs are right next to the heart and their vessels are easy to push blood through, so this ventricle does not need to pump very hard. That is why its muscular wall is much thinner than the wall of the left ventricle.",
+      "facts": [
+        "Its wall is only about a third as thick as the left ventricle's.",
+        "It pumps exactly the same amount of blood as the left ventricle, just at a lower pressure.",
+        "It wraps partly around the left ventricle, like a pocket sewn onto its side."
+      ]
+    },
+    "left-atrium": {
+      "name": "Left atrium",
+      "summary": "The upper left chamber, where blood from the lungs arrives.",
+      "details": "The left atrium collects blood that has just picked up a fresh supply of oxygen in the lungs. This bright red, oxygen-rich blood arrives through the pulmonary veins. When the atrium squeezes, the blood passes down through the mitral valve into the left ventricle. Like the right atrium, it has thin walls, because the chamber it fills is only a few centimetres away.",
+      "facts": [
+        "Four pulmonary veins open into it, two from each lung.",
+        "It sits at the back of the heart, close to the spine.",
+        "Most of the blood flows down into the ventricle by itself; the atrium's squeeze tops it up."
+      ]
+    },
+    "left-ventricle": {
+      "name": "Left ventricle",
+      "summary": "The strongest chamber, which pumps blood to the whole body.",
+      "details": "The left ventricle has the hardest job in the heart. It has to push oxygen-rich blood out through the aortic valve into the aorta with enough force to reach every part of the body, from the brain to the toes. To do this it has the thickest, most muscular wall of the four chambers. Each squeeze sends a wave of pressure along the arteries, which you can feel as your pulse.",
+      "facts": [
+        "Its wall is roughly three times thicker than the right ventricle's.",
+        "It forms the pointed bottom tip of the heart.",
+        "Blood pressure readings measure the push made by this chamber."
+      ]
+    },
+    "tricuspid-valve": {
+      "name": "Tricuspid valve",
+      "summary": "The one-way door between the right atrium and right ventricle.",
+      "details": "The tricuspid valve lets blood flow down from the right atrium into the right ventricle, but not back up again. It is made of three thin, tough flaps. When the ventricle squeezes, the rising pressure pushes the flaps shut. Fine, strong cords anchor the edges of the flaps to the ventricle wall, so they cannot be blown backwards into the atrium, a bit like the strings on a parachute.",
+      "facts": [
+        "Tricuspid means 'three points', after its three flaps.",
+        "The anchoring cords are sometimes called the heart strings.",
+        "Valves have no muscles of their own; blood pressure opens and closes them."
+      ]
+    },
+    "pulmonary-valve": {
+      "name": "Pulmonary valve",
+      "summary": "The valve at the exit from the right ventricle.",
+      "details": "The pulmonary valve sits where the right ventricle joins the pulmonary artery. It is made of three flaps shaped like tiny cups or pockets. When the ventricle squeezes, blood pushes the cups flat against the artery wall and rushes past. When the ventricle relaxes, blood starting to fall back fills the cups, which swell and press together, closing the opening so nothing leaks back into the heart.",
+      "facts": [
+        "Pulmonary means 'to do with the lungs'.",
+        "Its cup-shaped flaps need no cords to hold them in place.",
+        "It opens and closes about once a second, all your life."
+      ]
+    },
+    "mitral-valve": {
+      "name": "Mitral valve",
+      "summary": "The one-way door between the left atrium and left ventricle.",
+      "details": "The mitral valve lets oxygen-rich blood pass from the left atrium down into the left ventricle and stops it going back. It is the only heart valve with two flaps instead of three. Because the left ventricle squeezes harder than any other chamber, this valve has to hold shut against the highest pressure in the heart. Like the tricuspid valve, its flaps are held steady by strong cords.",
+      "facts": [
+        "It is named after a mitre, a bishop's tall hat, which has a similar two-sided shape.",
+        "Its other name is the bicuspid valve, meaning 'two points'.",
+        "A mitral valve that does not close fully is one common cause of a heart murmur."
+      ]
+    },
+    "aortic-valve": {
+      "name": "Aortic valve",
+      "summary": "The valve at the exit from the left ventricle.",
+      "details": "The aortic valve guards the opening between the left ventricle and the aorta. Like the pulmonary valve, it has three cup-shaped flaps that open when the ventricle squeezes and snap shut when it relaxes. The 'lub-dub' sound of a heartbeat is the sound of valves closing. 'Lub' is the tricuspid and mitral valves shutting as the ventricles start to squeeze. 'Dub' is the aortic and pulmonary valves shutting afterwards.",
+      "facts": [
+        "Doctors listen to the valves closing through a stethoscope.",
+        "The arteries that feed the heart muscle itself branch off just above this valve.",
+        "Worn-out valves can be replaced with artificial ones."
+      ]
+    },
+    "septum": {
+      "name": "Septum",
+      "summary": "The wall of muscle that divides the heart into left and right sides.",
+      "details": "The septum runs down the middle of the heart and completely separates the right side from the left. This keeps oxygen-poor blood on the right from mixing with oxygen-rich blood on the left. In effect the heart is two pumps joined side by side: the right one sends blood to the lungs and the left one sends it around the body. The septum also carries the electrical signals that tell the ventricles to squeeze.",
+      "facts": [
+        "Septum is Latin for a fence or dividing wall.",
+        "Before birth there is a small opening in it, which normally closes soon after a baby's first breaths.",
+        "The part between the ventricles is thick muscle; the part between the atria is thin."
+      ]
+    },
+    "aorta": {
+      "name": "Aorta",
+      "summary": "The body's largest artery, carrying blood out of the heart to the body.",
+      "details": "All the oxygen-rich blood leaving the left ventricle goes into the aorta. It rises from the top of the heart, curves over in an arch and then runs down through the chest and belly in front of the spine. Branches from the arch carry blood to the head and arms, and many more branches lower down supply every other organ. Its stretchy wall bulges with each heartbeat and then springs back, helping to keep blood moving between beats.",
+      "facts": [
+        "In an adult it is about 2.5 centimetres wide, roughly as wide as a garden hose.",
+        "The first branches of all are the small arteries that feed the heart muscle.",
+        "Blood leaves the heart through it at about a metre per second."
+      ]
+    },
+    "pulmonary-artery": {
+      "name": "Pulmonary artery",
+      "summary": "The vessel carrying blood from the heart to the lungs.",
+      "details": "The pulmonary artery leaves the right ventricle and soon splits in two, sending one branch to each lung. It is called an artery because it carries blood away from the heart: that is what the word artery means. Unlike almost every other artery, though, the blood inside it is oxygen-poor, because it has not reached the lungs yet. That is why it is drawn in blue here.",
+      "facts": [
+        "It is the only artery in an adult that carries oxygen-poor blood.",
+        "The pressure in it is only about a fifth of the pressure in the aorta.",
+        "Its main trunk is short, about 5 centimetres long, before it divides."
+      ]
+    },
+    "pulmonary-veins": {
+      "name": "Pulmonary veins",
+      "summary": "The vessels bringing oxygen-rich blood back from the lungs.",
+      "details": "The pulmonary veins carry blood from the lungs to the left atrium. They are called veins because they carry blood towards the heart. They are unusual, because the blood inside them is rich in oxygen, freshly collected in the lungs, so they are drawn in red. There are four of them, two coming from each lung, and they enter the back of the left atrium.",
+      "facts": [
+        "They are the only veins in an adult that carry oxygen-rich blood.",
+        "The names artery and vein describe the direction of flow, not how much oxygen the blood carries.",
+        "Blood takes only a few seconds to go from the heart, through the lungs and back."
+      ]
+    },
+    "venae-cavae": {
+      "name": "Venae cavae",
+      "summary": "The two largest veins, returning blood from the body to the heart.",
+      "details": "All the blood coming back from the body reaches the heart through two great veins. The upper one, the superior vena cava, drains the head, neck, arms and chest. The lower one, the inferior vena cava, brings blood up from the legs, belly and back. Both empty into the right atrium. The blood they carry has given up much of its oxygen and picked up carbon dioxide, so they are drawn in blue.",
+      "facts": [
+        "Vena cava is Latin for 'hollow vein'; venae cavae is the plural.",
+        "The inferior vena cava is the widest vein in the body.",
+        "The blood in them is at very low pressure, and breathing in helps draw it towards the heart."
+      ]
+    },
+    "heart": {
+      "name": "Heart",
+      "summary": "The muscular pump that keeps blood moving round both loops.",
+      "details": "The heart is a hollow muscle about the size of your fist, sitting in the middle of the chest and tilted slightly to the left. It is really two pumps working side by side. The right side sends blood on the short trip to the lungs, and the left side sends it on the long trip around the body. Both sides squeeze at the same moment, and the heart never stops to rest.",
+      "facts": [
+        "At rest it beats about 70 times a minute, which is around 100,000 times a day.",
+        "It pumps about 5 litres of blood every minute at rest, and several times more during hard exercise.",
+        "Heart muscle is a special type found nowhere else in the body, and it does not tire."
+      ]
+    },
+    "lungs": {
+      "name": "Lungs",
+      "summary": "Where blood swaps carbon dioxide for fresh oxygen.",
+      "details": "Blood arriving at the lungs is low in oxygen and loaded with carbon dioxide, a waste gas made by the body's cells. In the lungs it flows through a huge net of capillaries wrapped around millions of tiny air sacs. Carbon dioxide passes out of the blood into the air sacs to be breathed out, and oxygen from the air you breathe in passes into the blood. The blood leaves the lungs oxygen-rich.",
+      "facts": [
+        "Oxygen-rich blood is bright red; oxygen-poor blood is a darker red, never really blue.",
+        "All of the blood pumped by the right side of the heart goes through the lungs.",
+        "The swap of gases takes less than a second for each red blood cell."
+      ]
+    },
+    "body": {
+      "name": "Body",
+      "summary": "All the organs and tissues that the blood supplies.",
+      "details": "The body loop reaches every organ and tissue: the brain, muscles, skin, gut, kidneys and all the rest. Every living cell needs a steady supply of oxygen and food to release energy, and each one makes carbon dioxide and other waste that must be taken away. As blood passes through the capillaries in each organ, it hands over oxygen and nutrients and collects the waste. It leaves oxygen-poor and heads back to the heart.",
+      "facts": [
+        "The brain uses about a fifth of the body's oxygen supply.",
+        "During exercise, much more of the blood is sent to the muscles.",
+        "The heart muscle has its own blood supply, from arteries that branch off the aorta."
+      ]
+    },
+    "arteries": {
+      "name": "Arteries",
+      "summary": "Vessels that carry blood away from the heart.",
+      "details": "An artery is any vessel that carries blood away from the heart. Blood in the arteries is under high pressure, because it has just been pushed out by a ventricle, so arteries have thick walls made of muscle and stretchy fibres. With every heartbeat the walls stretch and then spring back. Arteries divide again and again into smaller branches until they become capillaries.",
+      "facts": [
+        "You can feel an artery stretching with each beat at your wrist or neck: that is your pulse.",
+        "Arteries to the body carry oxygen-rich blood; the artery to the lungs carries oxygen-poor blood.",
+        "The smallest arteries can narrow or widen to control how much blood an organ gets."
+      ]
+    },
+    "veins": {
+      "name": "Veins",
+      "summary": "Vessels that carry blood back to the heart.",
+      "details": "A vein is any vessel that carries blood towards the heart. By the time blood reaches the veins it has lost most of its pressure, so veins have thinner, less muscular walls than arteries and are often wider. Many veins, especially in the arms and legs, contain small one-way valves that stop blood slipping backwards. When the muscles around a vein tighten, they squeeze it and help push the blood along.",
+      "facts": [
+        "At any moment, well over half of your blood is in your veins.",
+        "The bluish lines you can see under your skin are veins.",
+        "Walking helps the blood in your legs climb back up to the heart."
+      ]
+    },
+    "capillaries": {
+      "name": "Capillaries",
+      "summary": "The tiny vessels where blood and tissues swap materials.",
+      "details": "Capillaries are the smallest blood vessels, linking the ends of the arteries to the start of the veins. Their walls are just one cell thick, thin enough for oxygen, food and waste to pass through. This is where the blood actually does its work: in the lungs it picks up oxygen, and in the rest of the body it delivers it. Capillaries form dense nets, so that almost every cell has one close by.",
+      "facts": [
+        "Most capillaries are so narrow that red blood cells pass through one at a time.",
+        "They are too thin to see without a microscope.",
+        "Blood slows right down in the capillaries, giving time for the swap to happen."
+      ]
+    },
+    "pulmonary-circulation": {
+      "name": "Lung loop (pulmonary circulation)",
+      "summary": "The short loop from the heart to the lungs and back.",
+      "details": "In the lung loop, the right ventricle pumps oxygen-poor blood into the pulmonary artery, which carries it to the lungs. There it gets rid of carbon dioxide and takes on oxygen. The oxygen-rich blood then returns through the pulmonary veins to the left atrium. This loop is short and works at low pressure, and it has a single purpose: swapping gases between the blood and the air.",
+      "facts": [
+        "The route: right ventricle, pulmonary artery, lungs, pulmonary veins, left atrium.",
+        "Blood completes this loop in only a few seconds.",
+        "Low pressure protects the delicate air sacs of the lungs."
+      ]
+    },
+    "systemic-circulation": {
+      "name": "Body loop (systemic circulation)",
+      "summary": "The long loop from the heart around the body and back.",
+      "details": "In the body loop, the left ventricle pumps oxygen-rich blood into the aorta. Its branches carry the blood to every organ, where capillaries deliver oxygen and food and collect waste. The oxygen-poor blood then drains into veins that join together into the venae cavae and return it to the right atrium. From there it goes round the lung loop again. A blood cell always travels the two loops in turn, never the same one twice in a row.",
+      "facts": [
+        "The route: left ventricle, aorta, body, venae cavae, right atrium.",
+        "At rest, a blood cell goes right round both loops in about a minute.",
+        "This loop works at about five times the pressure of the lung loop."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "heart-inside",
+      "title": "Inside the heart",
+      "intro": "The heart is a muscular pump about the size of your fist. Here it is cut open to show its four chambers and four valves. It is drawn as if you were facing the person, so the heart's right side is on the left of the picture. Blue shows oxygen-poor blood and red shows oxygen-rich blood; this is a drawing convention, not the real colours. The shapes are simplified.",
+      "svg": "diagrams/heart-inside.svg",
+      "parts": ["right-atrium", "right-ventricle", "left-atrium", "left-ventricle", "tricuspid-valve", "pulmonary-valve", "mitral-valve", "aortic-valve", "septum", "aorta", "pulmonary-artery", "pulmonary-veins", "venae-cavae"]
+    },
+    {
+      "id": "circulation",
+      "title": "The two loops of circulation",
+      "intro": "Blood travels in two loops, and both start and end at the heart. A short loop takes it to the lungs to collect oxygen. A long loop takes it around the rest of the body to deliver that oxygen. This is a simplified map: real blood vessels branch to reach every part of the body.",
+      "svg": "diagrams/circulation.svg",
+      "parts": ["heart", "lungs", "body", "arteries", "veins", "capillaries", "pulmonary-circulation", "systemic-circulation"]
+    }
+  ]
+}
