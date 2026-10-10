@@ -1,0 +1,200 @@
+{
+  "id": "forces",
+  "title": "Forces & Machines",
+  "parts": {
+    "weight": {
+      "name": "Weight (gravity)",
+      "summary": "The pull of the Earth's gravity on the box, straight down.",
+      "details": "Weight is the force of gravity pulling on an object. It always points straight down, towards the centre of the Earth. Because weight is a force, it is measured in newtons, not kilograms. Kilograms measure mass, which is the amount of stuff in an object. On Earth, gravity pulls with about 10 newtons on every kilogram, so a 20 kilogram box weighs about 200 newtons. Take the box to the Moon and its mass stays exactly the same, but its weight drops to about a sixth, because the Moon's gravity is much weaker.",
+      "facts": [
+        "The newton is named after Isaac Newton, who worked out how gravity and motion are linked.",
+        "One newton is roughly the weight of a small apple.",
+        "Bathroom scales really measure the force pressing down on them, then show it as kilograms."
+      ]
+    },
+    "normal-force": {
+      "name": "The floor's push back (normal force)",
+      "summary": "The upward push of the floor that stops the box sinking into it.",
+      "details": "The box presses down on the floor, and the floor pushes back up on the box. This push is called the normal force. Here 'normal' does not mean ordinary. It is a word from mathematics meaning 'at right angles', because the push always acts at right angles to the surface. On a level floor that means straight up. With nothing else pushing the box up or down, the floor's push exactly balances the weight. That is why the box neither sinks into the floor nor lifts off it, and why the two arrows are the same length.",
+      "facts": [
+        "On a ramp the normal force leans over with the slope, so it no longer points straight up.",
+        "A floor can only push so hard: put too much weight on thin ice and it breaks.",
+        "When a lift starts moving upwards, the floor pushes harder on your feet and you feel heavier for a moment."
+      ]
+    },
+    "applied-force": {
+      "name": "The push (applied force)",
+      "summary": "The force the person puts on the box by pushing it.",
+      "details": "The applied force is the push the person gives the box. In this drawing it points to the right, the way the person is pushing. It is a contact force, which means it only acts while the person's hands are touching the box. The moment they let go, this force disappears completely. The box does not carry the push along with it. If it slows down and stops after that, it is because friction is still acting, not because the push has run out.",
+      "facts": [
+        "A pull on a rope tied to the box would be an applied force too.",
+        "Some forces act without touching: gravity, magnetism and static electricity.",
+        "When you push the box, the box pushes back on your hands just as hard."
+      ]
+    },
+    "friction": {
+      "name": "Friction",
+      "summary": "The rubbing force between the box and the floor, which acts against the sliding.",
+      "details": "Friction is the force between two surfaces that are rubbing, or trying to rub, against each other. It acts along the surface, in the direction that opposes the sliding. This box is being pushed to the right, so friction on it points to the left. Friction is bigger on rough surfaces than on smooth ones, and bigger for a heavy box than a light one, because the surfaces are pressed together harder. It turns the energy of movement into heat. Friction can be a nuisance, but without it your feet would slip and you could not walk.",
+      "facts": [
+        "Rubbing your hands together warms them up: that heat comes from friction.",
+        "Oil and grease cut down friction by keeping the surfaces slightly apart.",
+        "It usually takes more force to start a box sliding than to keep it sliding."
+      ]
+    },
+    "air-resistance": {
+      "name": "Air resistance",
+      "summary": "The push of the air against anything moving through it.",
+      "details": "Air may seem like nothing, but it is made of tiny particles, and a moving object has to shove them out of the way. The air pushes back, and this is air resistance. It always acts against the movement. It grows quickly as the speed goes up, and it is bigger when a larger area faces the air. For a box sliding slowly across a floor it is tiny, which is why its arrow is so short. For a parachute, with its huge area, it is big enough to slow a falling person to a safe speed.",
+      "facts": [
+        "Air resistance is also called drag.",
+        "Racing cyclists crouch low to make the area facing the air smaller.",
+        "The Moon has no air, so a hammer and a feather dropped there by an astronaut in 1971 hit the ground together."
+      ]
+    },
+    "net-force": {
+      "name": "Overall (net) force",
+      "summary": "What you get when all the forces on the box are added together.",
+      "details": "The overall force, or net force, is all the forces on an object added together, taking their directions into account. Forces in opposite directions cancel each other out. Here the weight and the floor's push cancel. The push to the right is bigger than friction and air resistance together, so a small force to the right is left over. If the forces on an object balance, it stays still or keeps moving at a steady speed in a straight line. If they do not balance, it speeds up, slows down or changes direction.",
+      "facts": [
+        "Force = mass × acceleration. Acceleration is how quickly the speed changes, so a bigger overall force changes the speed faster.",
+        "The overall force is also called the resultant force.",
+        "For the same overall force, a box with more mass speeds up more slowly.",
+        "Balanced forces do not mean no movement: a car at a steady speed on a straight road has balanced forces."
+      ]
+    },
+    "lever": {
+      "name": "Lever",
+      "summary": "A stiff bar that turns on a pivot.",
+      "details": "A lever is a stiff bar that turns on a fixed point called a pivot. Push on one part of the bar and another part pushes on the thing you want to move. If you push a long way from the pivot, the load close to the pivot feels a much bigger force than the one you put in. Levers are everywhere. A seesaw is a lever, and so is a crowbar. A pair of scissors is two levers joined at the pivot. A wheelbarrow is a lever with its pivot at the wheel.",
+      "facts": [
+        "The Greek scientist Archimedes is said to have claimed he could move the Earth with a long enough lever and a place to stand.",
+        "Your forearm is a lever, with the elbow as its pivot.",
+        "Levers are sorted into three classes by the order of the pivot, the load and the effort along the bar."
+      ]
+    },
+    "wheel-axle": {
+      "name": "Wheel and axle",
+      "summary": "A wheel fixed to a thinner rod so that the two turn together.",
+      "details": "A wheel and axle is a large wheel fixed to a thinner rod, the axle, so that they always turn together. The rim of the wheel travels much further in one turn than the surface of the axle does. So a small force at the rim becomes a large force at the axle. A door knob works like this: the knob is the wheel and the thin spindle inside is the axle. So does a screwdriver, where the fat handle is the wheel, and so does a car's steering wheel.",
+      "facts": [
+        "A tap with its handle missing is very hard to turn, because you are gripping the axle alone.",
+        "The fatter a screwdriver's handle, the easier it is to turn a stiff screw.",
+        "It works the other way round as well: a bicycle's back wheel is driven near its centre, so the rim moves much further, but with less force."
+      ]
+    },
+    "pulley": {
+      "name": "Pulley",
+      "summary": "A grooved wheel with a rope running over it.",
+      "details": "A pulley is a wheel with a groove round its edge and a rope running in the groove. A single pulley fixed overhead does not make the load feel any lighter. It simply changes the direction of the pull, so you can pull down, using your body weight, to lift something up. Use several pulleys together and the load is shared between several stretches of rope. Now you can lift it with less force, but you have to pull more rope through to raise it the same height.",
+      "facts": [
+        "A flagpole has a fixed pulley at the top: pull the rope down and the flag goes up.",
+        "A set of pulleys working together is called a block and tackle.",
+        "Cranes, lifts and the rigging of sailing ships all rely on pulleys."
+      ]
+    },
+    "inclined-plane": {
+      "name": "Ramp (inclined plane)",
+      "summary": "A sloping surface for raising a load with less force.",
+      "details": "An inclined plane is simply a flat, sloping surface: a ramp. Pushing a load up a ramp takes less force than lifting it straight up to the same height. The catch is that you have to push it further, because the slope is longer than the straight climb. The gentler the slope, the smaller the force and the longer the distance. A wheelchair ramp is an inclined plane. So is a mountain road that winds back and forth instead of going straight up the steep side.",
+      "facts": [
+        "The builders of the Egyptian pyramids are thought to have dragged stone blocks up ramps.",
+        "Removal lorries carry a ramp so that heavy furniture can be wheeled in, not lifted.",
+        "Friction on a real ramp means you always put in more energy than a straight lift would need."
+      ]
+    },
+    "wedge": {
+      "name": "Wedge",
+      "summary": "Two ramps back to back, pushed into something to split it.",
+      "details": "A wedge is like two ramps joined back to back, making a shape that is thick at one end and thin at the other. A ramp stays still while the load moves along it. A wedge is the other way round: the wedge itself is pushed into something. As it goes in, its sloping sides push outwards, turning a push along the wedge into a much bigger sideways force that splits the material apart. An axe is a wedge. So is a knife blade, and so are your front teeth.",
+      "facts": [
+        "The thinner and sharper the wedge, the less force is needed to push it in.",
+        "The point of a nail is a wedge that pushes the fibres of the wood aside.",
+        "A doorstop is a wedge used to hold something still instead of splitting it."
+      ]
+    },
+    "screw": {
+      "name": "Screw",
+      "summary": "A ramp wrapped round a rod.",
+      "details": "A screw is a ramp wrapped round and round a rod. The ramp is the raised spiral ridge, called the thread. Each full turn moves the screw forward by only the small gap between one ridge of the thread and the next. So you turn it a long way round to move it a short way in, and in return it pushes forward with great force and grips tightly. Wood screws work this way, and so do nuts and bolts. The lid of a jar is a screw as well.",
+      "facts": [
+        "The closer together the ridges of the thread, the easier the screw is to turn, but the more turns it needs.",
+        "Archimedes' screw is an ancient machine that lifts water by turning a large screw inside a tube.",
+        "You can see the ramp for yourself: cut a paper triangle and wrap it round a pencil."
+      ]
+    },
+    "fulcrum": {
+      "name": "Pivot (fulcrum)",
+      "summary": "The fixed point that the bar turns on.",
+      "details": "The pivot, also called the fulcrum, is the fixed point that a lever turns on. The bar swings round it while the pivot itself stays where it is. On a seesaw the pivot is the support in the middle. On a pair of scissors it is the small screw that joins the two blades. On a bottle opener it is the edge that rests on top of the cap. On a wheelbarrow it is the axle of the wheel. In this drawing the pivot is the triangle, set much nearer to the load than to the effort.",
+      "facts": [
+        "Fulcrum comes from a Latin word meaning to prop something up.",
+        "In your body the joints are the pivots, and the bones are the bars.",
+        "The pivot does not have to be in the middle, or even between the effort and the load."
+      ]
+    },
+    "effort": {
+      "name": "Effort",
+      "summary": "The force you put into the lever.",
+      "details": "The effort is the force you put into a lever. In this drawing it is the hand pushing down on the long end of the bar. On a seesaw the effort is your weight pressing down on your seat. On scissors it is your fingers squeezing the handles together. On a bottle opener it is your hand lifting the handle, and on a wheelbarrow it is your arms lifting the two handles. Like every force, effort is measured in newtons. The whole point of a well-chosen lever is to let a small effort do a big job.",
+      "facts": [
+        "When your body's bones act as levers, muscles supply the effort.",
+        "A lever can change the direction of a force: push down on one end and the other end goes up.",
+        "When the effort is smaller than the load, the end you push moves further than the load does. That is the price of the smaller force."
+      ]
+    },
+    "load": {
+      "name": "Load",
+      "summary": "The weight or resistance that the lever is being used to move.",
+      "details": "The load is the thing the lever is working against. Often it is a weight to be lifted, like the box in this drawing or the soil in a wheelbarrow. On a seesaw the load is the person sitting on the other end. But a load does not have to be a weight. It can be anything that resists being moved. For a pair of scissors the load is the paper resisting the cut. For a bottle opener it is the metal cap gripping the top of the bottle.",
+      "facts": [
+        "In a wheelbarrow the load sits between the pivot and the effort, not at the far end.",
+        "A claw hammer pulling out a nail is a lever: the load is the grip of the wood on the nail.",
+        "In tweezers the effort is bigger than the load. They are built for fine control, not for strength."
+      ]
+    },
+    "effort-arm": {
+      "name": "Effort arm",
+      "summary": "The distance from the pivot to the place where you push.",
+      "details": "The effort arm is the distance along the bar from the pivot to the point where the effort is applied. It is the long side of the lever in this drawing. The longer the effort arm, the less effort you need to move the same load. That is why you push a door at the edge furthest from the hinges, and why a long crowbar shifts things that a short one cannot. If a nut is too tight to undo, a spanner with a longer handle will often do the job.",
+      "facts": [
+        "A wheelbarrow has long handles so that you lift a long way from the wheel, which is its pivot.",
+        "Bolt cutters have very long handles and very short jaws.",
+        "A longer effort arm means your hand has to travel further to move the load the same amount."
+      ]
+    },
+    "load-arm": {
+      "name": "Load arm",
+      "summary": "The distance from the pivot to the load.",
+      "details": "The load arm is the distance from the pivot to the load. It is the short side of the lever in this drawing. When a lever is balanced, effort × effort arm = load × load arm. So if the effort arm is twice as long as the load arm, the effort needed is only half the load. Here the effort arm is three times as long as the load arm, so a push of about a third of the load's weight is enough to balance it. Keeping the load close to the pivot lets a small effort move a bigger load.",
+      "facts": [
+        "Tough card is easiest to cut close to the pivot of the scissors, where the load arm is shortest.",
+        "On a seesaw a heavy person can balance a lighter one by sitting nearer the middle.",
+        "The turning effect of a force, force × distance from the pivot, is called its moment."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "box-forces",
+      "title": "Forces on a pushed box",
+      "intro": "A force is a push or a pull, and it is measured in newtons. Several forces usually act on an object at the same time. Here a person is pushing a box across a level floor. Each arrow shows one force: its direction is the way the force acts, and its length shows how strong it is. The drawing is simplified.",
+      "svg": "diagrams/box-forces.svg",
+      "parts": ["weight", "normal-force", "applied-force", "friction", "air-resistance", "net-force"]
+    },
+    {
+      "id": "simple-machines",
+      "title": "The six simple machines",
+      "intro": "A simple machine makes a job easier by changing the size or the direction of a force. None of them gives you something for nothing: a smaller force always has to move through a longer distance. However complicated a machine looks, its moving parts are mostly built up from these six.",
+      "svg": "diagrams/simple-machines.svg",
+      "parts": ["lever", "wheel-axle", "pulley", "inclined-plane", "wedge", "screw"]
+    },
+    {
+      "id": "lever",
+      "title": "Parts of a lever",
+      "intro": "A lever is a stiff bar that turns on a fixed point. Where that point sits decides how much the lever helps. In this lever it is close to the load, so a small push on the long end balances a heavy box on the short end. The drawing is simplified.",
+      "svg": "diagrams/lever.svg",
+      "parts": ["fulcrum", "effort", "load", "effort-arm", "load-arm"]
+    }
+  ]
+}

@@ -34,7 +34,8 @@
       "topics": [
         { "id": "atom", "title": "Inside the Atom" },
         { "id": "circuits", "title": "Circuits" },
-        { "id": "light", "title": "Light & the Spectrum" }
+        { "id": "light", "title": "Light & the Spectrum" },
+        { "id": "forces", "title": "Forces & Machines" }
       ]
     }
   ]
