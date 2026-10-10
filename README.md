@@ -32,9 +32,13 @@ The GUI smoke test is skipped on systems where Tk cannot open a display.
 
 ## Website
 
-A browser version lives in `docs/` and is published with GitHub Pages. As
-well as the periodic table it has Cells, Blood, Nervous System and Skeleton
-tabs with clickable diagrams.
+A browser version, **Science Explorer**, lives in `docs/` and is published
+with GitHub Pages. Its home page has a card for each subject (Chemistry,
+Human Body & Cells, Physics) linking to every topic: the periodic table and
+twelve topics with clickable diagrams.
+
+The subjects and topics are listed in `docs/site.json`, the site map. The
+home page and the navigation inside a topic are drawn from it.
 
 Preview it locally:
 
@@ -50,5 +54,7 @@ Then open http://localhost:8000/.
    part in `<g data-part="some-id">`.
 2. Write `docs/topics/<topic>.json` with the text for each part and the
    list of diagrams.
-3. Add a tab button with `data-tab="<topic>"` to `docs/index.html`.
-4. Run `pytest tests/test_topics.py`; it checks the drawings and text match.
+3. Add an entry to `docs/site.json` under the topic's subject, with the
+   same `id` and `title` as the topic file.
+4. Run `pytest tests/test_topics.py tests/test_site.py`; it checks the
+   drawings, the text and the site map match.
