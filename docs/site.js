@@ -9,20 +9,28 @@ const TABLE_PAGE = "table";
 const site = {
   map: null,           // parsed site.json
   pages: new Map(),    // topic id -> { topic, subject }
+  loading: false,      // a second Retry click must not start a second load
 };
 
 async function loadSite() {
+  if (site.loading) return;
+  site.loading = true;
   try {
     const res = await fetch("site.json");
     if (!res.ok) throw new Error(`site.json: HTTP ${res.status}`);
-    site.map = await res.json();
+    const map = await res.json();
+    const pages = new Map();
+    for (const subject of map.subjects) {
+      for (const topic of subject.topics) pages.set(topic.id, { topic, subject });
+    }
+    site.map = map;
+    site.pages = pages;
   } catch (err) {
     console.error(err);
     renderSiteError();
     return;
-  }
-  for (const subject of site.map.subjects) {
-    for (const topic of subject.topics) site.pages.set(topic.id, { topic, subject });
+  } finally {
+    site.loading = false;
   }
   renderHome();
   window.addEventListener("hashchange", () => showPage(true));

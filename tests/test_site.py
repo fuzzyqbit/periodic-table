@@ -76,3 +76,16 @@ def test_index_has_views_and_no_tabs():
     for element_id in ("home-view", "table-view", "topic-view", "topic-nav"):
         assert f'id="{element_id}"' in html, element_id
     assert "data-tab" not in html, "old tab buttons are still in index.html"
+
+
+def test_index_loads_scripts_in_order():
+    html = (DOCS / "index.html").read_text(encoding="utf-8")
+    scripts = re.findall(r'<script src="([^"]+)"></script>', html)
+    assert scripts == ["app.js", "topics.js", "site.js"]
+
+
+def test_pulmonary_veins_text_matches_drawing():
+    # The drawing shows one pair of veins; the text must not leave a
+    # student counting two lines against "four".
+    heart = load(DOCS / "topics" / "heart.json")
+    assert "only the pair from one lung" in heart["parts"]["pulmonary-veins"]["details"].lower()

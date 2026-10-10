@@ -19,6 +19,8 @@ async function fetchText(url) {
 
 async function showTopic(id, diagramId) {
   const token = ++viewer.loadToken;
+  // Do not leave another topic's diagram on screen while this one loads.
+  if (!viewer.topic || viewer.topic.id !== id) renderLoading();
   try {
     if (!viewer.topics.has(id)) {
       viewer.topics.set(id, JSON.parse(await fetchText(`topics/${id}.json`)));
@@ -171,14 +173,23 @@ function renderInfo() {
   );
 }
 
-function renderLoadError(retry) {
+function clearViewer(...holderContent) {
   document.getElementById("diagram-switcher").hidden = true;
   document.getElementById("part-buttons").replaceChildren();
   document.getElementById("info-panel").replaceChildren();
+  const holder = document.getElementById("diagram-holder");
+  holder.classList.remove("has-selection");
+  holder.replaceChildren(...holderContent);
+}
+
+function renderLoading() {
+  viewer.topic = null;   // nothing of the old topic is on screen any more
+  clearViewer(el("p", "Loading…", "muted"));
+}
+
+function renderLoadError(retry) {
   const btn = el("button", "Retry");
   btn.type = "button";
   btn.addEventListener("click", retry);
-  const holder = document.getElementById("diagram-holder");
-  holder.classList.remove("has-selection");
-  holder.replaceChildren(el("p", "Couldn't load this diagram."), btn);
+  clearViewer(el("p", "Couldn't load this diagram."), btn);
 }
