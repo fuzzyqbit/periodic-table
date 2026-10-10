@@ -1,0 +1,149 @@
+{
+  "id": "atom",
+  "title": "Inside the Atom",
+  "parts": {
+    "nucleus": {
+      "name": "Nucleus",
+      "summary": "The tiny, dense centre of the atom, made of protons and neutrons.",
+      "details": "The nucleus is the small, heavy core at the centre of every atom. It is a tight cluster of protons and neutrons. Because the protons carry a positive charge, the nucleus as a whole is positively charged, and this is what holds the negative electrons around it. The nucleus is astonishingly small: somewhere between 10,000 and 100,000 times narrower than the atom itself, depending on the element. Yet it holds more than 99.9% of the atom's mass. Almost all of the stuff in an atom is packed into this one tiny spot.",
+      "facts": [
+        "Nucleus comes from a Latin word meaning 'little nut' or kernel.",
+        "Protons and neutrons together are called nucleons.",
+        "The nucleus of this carbon atom has 12 nucleons, so it is called carbon-12."
+      ]
+    },
+    "proton": {
+      "name": "Proton",
+      "summary": "A positively charged particle in the nucleus.",
+      "details": "A proton is one of the two kinds of particle that make up the nucleus. Each proton carries one unit of positive electric charge. The number of protons in an atom is called its atomic number, and it decides which element the atom is: every atom with one proton is hydrogen, every atom with six is carbon, and every atom with eight is oxygen. A proton is not a solid ball. It is made of three smaller particles called quarks: two up quarks and one down quark.",
+      "facts": [
+        "The periodic table lists the elements in order of their number of protons.",
+        "Changing the number of protons would turn the atom into a different element.",
+        "The nucleus of an ordinary hydrogen atom is just a single proton."
+      ]
+    },
+    "neutron": {
+      "name": "Neutron",
+      "summary": "A particle in the nucleus with no electric charge.",
+      "details": "A neutron is the other kind of particle found in the nucleus. It has no electric charge at all, which is how it got its name: it is neutral. A neutron is very slightly heavier than a proton. Neutrons help to hold the nucleus together. Protons all push each other apart, because like charges repel, and the neutrons add extra holding force without adding any extra push. Like a proton, a neutron is made of three quarks, but in a different mix: one up quark and two down quarks.",
+      "facts": [
+        "The neutron was discovered in 1932 by James Chadwick, years after the proton and the electron.",
+        "Atoms of one element can have different numbers of neutrons; these versions are called isotopes.",
+        "A neutron on its own, outside a nucleus, lasts only about a quarter of an hour on average before it breaks down."
+      ]
+    },
+    "electron": {
+      "name": "Electron",
+      "summary": "A very light, negatively charged particle that moves around the nucleus.",
+      "details": "Electrons are tiny particles found in the space around the nucleus. Each one carries one unit of negative charge, exactly the opposite of a proton's charge. Opposite charges attract, and that pull keeps the electrons close to the nucleus. An electron is almost 2,000 times lighter than a proton, so electrons add very little to an atom's mass. A neutral atom has as many electrons as protons, so the charges cancel out. The outermost electrons are the ones that form chemical bonds, the links that join atoms to each other.",
+      "facts": [
+        "As far as anyone can tell, an electron is not made of anything smaller.",
+        "An electric current in a wire is a flow of electrons.",
+        "An atom that gains or loses electrons becomes a charged atom, called an ion."
+      ]
+    },
+    "electron-shells": {
+      "name": "Electron shells",
+      "summary": "The energy levels that an atom's electrons occupy.",
+      "details": "Electrons can only have certain amounts of energy, and these allowed energy levels are called shells. The shell nearest the nucleus has the lowest energy and fills first. It can hold up to 2 electrons. The second shell can hold up to 8. Carbon has 6 electrons, so 2 go in the first shell and 4 in the second. Drawing shells as rings is a simplified picture. Real electrons do not circle the nucleus like planets round the Sun. They form fuzzy clouds, and we can only say where an electron is likely to be.",
+      "facts": [
+        "The number of electrons in the outer shell largely decides how an element reacts.",
+        "An electron can jump to a higher shell by taking in energy, and gives out light when it drops back.",
+        "The ring picture comes from a model suggested by Niels Bohr in 1913."
+      ]
+    },
+    "empty-space": {
+      "name": "Empty space",
+      "summary": "Nearly all of an atom is empty space.",
+      "details": "An atom is almost entirely empty. If the nucleus were a pea in the middle of a football stadium, the electrons would be out at the stands, with nothing in between. This was discovered in the early 1900s, when Ernest Rutherford's team fired tiny, fast particles at a very thin sheet of gold foil. Nearly all of them went straight through, as if the gold were not there. Just a few bounced back, because they had run into something small, heavy and positively charged: the nucleus.",
+      "facts": [
+        "The particles fired at the foil were alpha particles, which are given out by some radioactive materials.",
+        "Solid things feel solid because the electrons of one atom push away the electrons of another.",
+        "This drawing could never be to scale: with a nucleus this size, the whole atom would be about a kilometre across or more."
+      ]
+    },
+    "up-quark": {
+      "name": "Up quark",
+      "summary": "A tiny particle with a charge of +2/3, found inside protons and neutrons.",
+      "details": "Quarks are among the smallest building blocks of matter that we know of. An up quark has a positive charge, but only two thirds as big as a proton's, written +2/3. A proton contains two up quarks and one down quark. Add up their charges, 2/3 + 2/3 − 1/3, and you get +1, which is exactly the charge of a proton. Quarks are never found on their own. They only exist locked together in groups, as they are inside protons and neutrons.",
+      "facts": [
+        "There are six kinds of quark: up, down, charm, strange, top and bottom.",
+        "Ordinary matter is built from just the two lightest kinds, up and down.",
+        "The name 'up' is only a label; it has nothing to do with direction."
+      ]
+    },
+    "down-quark": {
+      "name": "Down quark",
+      "summary": "A tiny particle with a charge of −1/3, found inside protons and neutrons.",
+      "details": "The down quark is the partner of the up quark. It has a negative charge, one third as big as an electron's, written −1/3. A neutron contains one up quark and two down quarks. Add up their charges, 2/3 − 1/3 − 1/3, and the answer is zero. That is why a neutron has no charge overall, even though the particles inside it are charged. A proton has one down quark too, alongside its two up quarks.",
+      "facts": [
+        "A down quark is a little heavier than an up quark, which is part of why a neutron is slightly heavier than a proton.",
+        "Swapping one up quark in a proton for a down quark would give the quark mix of a neutron.",
+        "Quarks are far too small to see with any microscope; they were first detected in the late 1960s."
+      ]
+    },
+    "strong-force": {
+      "name": "The strong force",
+      "summary": "The force that holds quarks, and the whole nucleus, together.",
+      "details": "The strong force is the strongest of the four basic forces of nature. It holds quarks together inside protons and neutrons. It also holds the protons and neutrons together in the nucleus, even though the positively charged protons are all pushing each other apart. It only works over tiny distances, no bigger than a nucleus, so we never notice it in everyday life. The force is carried by particles called gluons, which pass back and forth between the quarks. It is drawn here as springs.",
+      "facts": [
+        "The four basic forces are gravity, electromagnetism, the strong force and the weak force.",
+        "Gluons are named after glue, because they stick quarks together.",
+        "Most of the mass of a proton comes from the energy of the strong force inside it, not from the quarks themselves."
+      ]
+    },
+    "protium": {
+      "name": "Protium",
+      "summary": "Ordinary hydrogen: one proton and no neutrons.",
+      "details": "Protium is the everyday form of hydrogen. Its nucleus is a single proton, with no neutrons at all, and one electron moves around it. That makes it the simplest and lightest atom there is. About 99.98% of all hydrogen atoms are protium, so when people just say 'hydrogen' this is nearly always what they mean. It is also the only atom that has no neutron. Every other kind of atom needs at least one neutron in its nucleus.",
+      "facts": [
+        "Its symbol is ¹H; the small 1 counts the particles in the nucleus.",
+        "Hydrogen is the most common element in the universe.",
+        "The name comes from the Greek word for 'first'."
+      ]
+    },
+    "deuterium": {
+      "name": "Deuterium",
+      "summary": "Hydrogen with one proton and one neutron.",
+      "details": "Deuterium is a heavier form of hydrogen. Its nucleus contains one proton and one neutron, so a deuterium atom has about twice the mass of ordinary hydrogen. It still has one proton and one electron, so it is still hydrogen and behaves almost the same in chemical reactions. Deuterium is stable: its nucleus does not break down over time, so it is not radioactive. It is found naturally: about 1 in every 6,400 hydrogen atoms is deuterium. Water made with deuterium in place of ordinary hydrogen is called 'heavy water'.",
+      "facts": [
+        "Its symbol is ²H, and it is sometimes simply written D.",
+        "Heavy water is about a tenth denser than ordinary water, so an ice cube made of it sinks in a glass of tap water.",
+        "The name comes from the Greek word for 'second'."
+      ]
+    },
+    "tritium": {
+      "name": "Tritium",
+      "summary": "Radioactive hydrogen with one proton and two neutrons.",
+      "details": "Tritium is the heaviest of the three kinds of hydrogen found in nature. Its nucleus has one proton and two neutrons. That mix is not stable, so tritium is radioactive: sooner or later each nucleus breaks down, giving out a little radiation as it does so. Half of the atoms in any sample of tritium will have decayed after about 12 years. This time is called its half-life. Tritium is very rare in nature. It is used in some glow-in-the-dark signs and watch dials, which shine without batteries.",
+      "facts": [
+        "Its symbol is ³H, and it is sometimes written T.",
+        "Small amounts form high in the atmosphere, where particles from space hit the air.",
+        "When a tritium nucleus decays it turns into a light form of helium."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "atom-model",
+      "title": "An atom",
+      "intro": "Everything around you is made of atoms. This is a carbon atom, with 6 protons and 6 neutrons in its nucleus and 6 electrons around it. The drawing is not to scale: at this size the real nucleus would be far too small to see. The shells are a simplified model too. Electrons do not really travel in neat circles.",
+      "svg": "diagrams/atom-model.svg",
+      "parts": ["nucleus", "proton", "neutron", "electron", "electron-shells", "empty-space"]
+    },
+    {
+      "id": "nucleus",
+      "title": "Inside the nucleus",
+      "intro": "Protons and neutrons are not the smallest pieces of matter. Each one is made of three smaller particles called quarks, held together by the strongest force in nature. This drawing shows one proton and one neutron. It is not to scale, and the colours are only there to tell the particles apart.",
+      "svg": "diagrams/nucleus.svg",
+      "parts": ["proton", "neutron", "up-quark", "down-quark", "strong-force"]
+    },
+    {
+      "id": "hydrogen-isotopes",
+      "title": "Hydrogen's three isotopes",
+      "intro": "Atoms of the same element always have the same number of protons, but they can have different numbers of neutrons. These different versions are called isotopes. Hydrogen has three that are found in nature. Each has one proton and one electron; only the number of neutrons changes. The drawings are simplified and not to scale.",
+      "svg": "diagrams/hydrogen-isotopes.svg",
+      "parts": ["protium", "deuterium", "tritium"]
+    }
+  ]
+}

@@ -25,6 +25,15 @@
         { "id": "digestion", "title": "Digestion" },
         { "id": "muscles", "title": "Muscles" }
       ]
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "blurb": "Matter, energy and forces: the rules that everything follows.",
+      "color": "#7d4fc4",
+      "topics": [
+        { "id": "atom", "title": "Inside the Atom" }
+      ]
     }
   ]
 }
