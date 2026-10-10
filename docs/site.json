@@ -33,7 +33,8 @@
       "color": "#7d4fc4",
       "topics": [
         { "id": "atom", "title": "Inside the Atom" },
-        { "id": "circuits", "title": "Circuits" }
+        { "id": "circuits", "title": "Circuits" },
+        { "id": "light", "title": "Light & the Spectrum" }
       ]
     }
   ]

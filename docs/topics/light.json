@@ -1,0 +1,190 @@
+{
+  "id": "light",
+  "title": "Light & the Spectrum",
+  "parts": {
+    "radio-waves": {
+      "name": "Radio waves",
+      "summary": "The longest waves in the spectrum, used to send signals over long distances.",
+      "details": "Radio waves have the longest wavelengths of the whole family, from about a metre up to many kilometres. They also carry the least energy. That makes them safe and very useful for sending information. Radio and television stations send out their programmes as radio waves, and an aerial picks them up again. Radio waves can pass through walls and bend around hills and buildings, which is why a radio still works indoors. They are made by pushing an electric current quickly back and forth in a metal aerial.",
+      "facts": [
+        "Heinrich Hertz was the first person to make and detect radio waves on purpose, in the late 1880s.",
+        "Stars and galaxies give out radio waves, and astronomers collect them with huge dish-shaped radio telescopes.",
+        "A radio wave is not a sound wave. The radio set turns the signal it carries into sound."
+      ]
+    },
+    "microwaves": {
+      "name": "Microwaves",
+      "summary": "Short radio-type waves used for cooking, phones, Wi-Fi and radar.",
+      "details": "Microwaves have wavelengths from about a millimetre to about a metre, shorter than radio waves but longer than infrared. In a microwave oven they make the water molecules in food jiggle about, and that jiggling is heat, so the food warms up. Much weaker microwaves carry information. Wi-Fi, mobile phones and satellite links all send their signals as microwaves. Radar uses them too: it sends out a burst of microwaves and times the echo that bounces back from a ship, an aircraft or a rain cloud.",
+      "facts": [
+        "The waves inside a microwave oven are about 12 centimetres long.",
+        "The metal mesh in an oven door has holes much smaller than the waves, so the microwaves stay inside while light gets out.",
+        "Faint microwaves left over from the very early universe still arrive from every direction in space."
+      ]
+    },
+    "infrared": {
+      "name": "Infrared",
+      "summary": "Waves a little longer than red light, which we feel as warmth.",
+      "details": "Infrared waves are just a little longer than red light, too long for our eyes to see. We can feel them, though. The warmth on your face from a fire, a radiator or the Sun is infrared being taken in by your skin. Every warm object gives off infrared, and the hotter it is, the more it gives off. A heat-sensing camera uses this to make pictures of people and animals in complete darkness. A TV remote control sends its commands as quick flashes of infrared from a small lamp at the front.",
+      "facts": [
+        "Infrared was discovered in 1800 by the astronomer William Herschel, using a prism and a thermometer.",
+        "Infra means below: infrared has a lower frequency than red light.",
+        "Some snakes, such as pit vipers, can sense the infrared coming from warm prey."
+      ]
+    },
+    "visible-light": {
+      "name": "Visible light",
+      "summary": "The narrow band of waves that human eyes can detect.",
+      "details": "Visible light is the only part of the spectrum that our eyes can detect. Its wavelengths run from about 400 nanometres for violet light to about 700 nanometres for red light. A nanometre is a billionth of a metre, so these waves are far too small to see one by one. Each wavelength in between looks like a different colour. Compared with the whole spectrum, visible light is a very thin slice. Radio waves can be kilometres long and gamma rays are smaller than an atom, and our eyes miss all of it except this one small band.",
+      "facts": [
+        "Human eyes are most sensitive to yellow-green light, near the middle of the visible band.",
+        "The Sun gives out its strongest light in the visible band.",
+        "Plants use visible light, mostly red and blue, to make their food by photosynthesis."
+      ]
+    },
+    "ultraviolet": {
+      "name": "Ultraviolet",
+      "summary": "Waves a little shorter than violet light, which can burn the skin.",
+      "details": "Ultraviolet, or UV, has wavelengths just shorter than violet light, so we cannot see it. It carries more energy than visible light, enough to change living cells. UV from the Sun causes tanning and sunburn, and too much of it over the years can lead to skin cancer. A little is useful, because it helps the skin to make vitamin D. The most harmful kinds of UV from the Sun are soaked up high in the air by a gas called ozone, in the ozone layer. Sunscreen, clothes and shade block much of the rest.",
+      "facts": [
+        "Ultra means beyond: ultraviolet has a higher frequency than violet light.",
+        "Bees and many other insects can see ultraviolet, and some flowers have UV patterns that guide them in.",
+        "Some inks glow under a UV lamp, which is used to check that banknotes are real."
+      ]
+    },
+    "x-rays": {
+      "name": "X-rays",
+      "summary": "High-energy waves that pass through soft parts of the body but not bone.",
+      "details": "X-rays have very short wavelengths and a lot of energy. They pass easily through soft parts of the body such as skin and muscle, but most are stopped by dense material such as bone. This is how an X-ray picture works. X-rays are shone through the body onto a detector. Where they get through, the picture turns dark. Bones block them and leave pale shadows, so a break shows up clearly. Because X-rays carry enough energy to damage cells, each dose is kept as small as possible.",
+      "facts": [
+        "X-rays were discovered by Wilhelm Röntgen in 1895. He called them X because nobody knew what they were.",
+        "Dentists use X-rays to find decay hidden inside teeth.",
+        "Airport scanners use X-rays to look inside bags without opening them."
+      ]
+    },
+    "gamma-rays": {
+      "name": "Gamma rays",
+      "summary": "The shortest waves, with the most energy of all.",
+      "details": "Gamma rays have the shortest wavelengths and the highest energy in the whole spectrum. They come from the nuclei of radioactive atoms and from violent events in space, such as exploding stars. Gamma rays pass through most materials and can damage or kill living cells, so people who work with them stay behind thick shielding. That same power can be put to good use. Carefully aimed beams of gamma rays are used to kill cancer cells, and gamma rays are used to sterilise medical equipment, which means killing every germ on it.",
+      "facts": [
+        "It takes thick lead or concrete to stop most gamma rays.",
+        "The air soaks up gamma rays from space before they reach the ground, so gamma-ray telescopes are put on satellites.",
+        "Gamma is the third letter of the Greek alphabet. Alpha and beta radiation were named first."
+      ]
+    },
+    "crest": {
+      "name": "Crest",
+      "summary": "The highest point of a wave.",
+      "details": "A crest is the highest point of a wave, the top of each hump. Picture a swell rolling across the sea. A boat is lifted to its highest point as each crest passes underneath, then sinks again. The water itself does not travel along with the wave. It bobs up and down, and a little back and forth, and ends up close to where it started, while the wave shape moves forward. In a light wave nothing solid is moving at all. What rises and falls is the strength of an electric and magnetic field, and a crest is where that strength is greatest in one direction.",
+      "facts": [
+        "On a graph of a wave, the crests are the peaks of the curve.",
+        "Crests in an ocean swell can be more than a hundred metres apart.",
+        "A sound wave has no humps. Its 'crests' are places where the air is squashed together, called compressions."
+      ]
+    },
+    "trough": {
+      "name": "Trough",
+      "summary": "The lowest point of a wave.",
+      "details": "A trough is the lowest point of a wave, the bottom of each dip between two crests. On the sea, a boat drops to its lowest point as a trough passes underneath. In a big swell a small boat can sink out of sight of another boat nearby until the next crest lifts it up again. A trough lies as far below the middle line as a crest rises above it. In a light wave, a trough is where the electric and magnetic field is at its strongest in the opposite direction to a crest.",
+      "facts": [
+        "Trough is pronounced 'troff'. The same word means a long, low container that farm animals feed from.",
+        "Crests and troughs take turns: every crest is followed by a trough.",
+        "In a sound wave, the 'troughs' are places where the air is spread out more thinly than usual."
+      ]
+    },
+    "wavelength": {
+      "name": "Wavelength",
+      "summary": "The length of one complete wave, from one crest to the next.",
+      "details": "The wavelength is the distance from one crest to the next crest. You get the same answer measuring from one trough to the next trough, or between any two matching points on neighbouring waves. It is the length of one complete wave. Wavelength is a distance, so it is measured in metres, or in tiny fractions of a metre for light. For light, the wavelength decides the colour we see: red light has the longest waves we can see and violet the shortest. For sound, the wavelength goes with the pitch: long waves are low notes.",
+      "facts": [
+        "Scientists write wavelength with the Greek letter lambda, λ.",
+        "More than a thousand waves of red light would fit end to end in one millimetre.",
+        "The sound wave of the note middle C is about 1.3 metres long in air."
+      ]
+    },
+    "amplitude": {
+      "name": "Amplitude",
+      "summary": "How far a wave rises above its middle line.",
+      "details": "The amplitude is the height of a crest above the middle line, the level where everything would rest if there were no wave. It is also the depth of a trough below that line. A common mistake is to measure from the bottom of a trough to the top of a crest, which gives twice the amplitude. Amplitude tells you how much energy the wave carries. A bigger amplitude means more energy. For light that means a brighter light, for sound a louder sound, and for the sea a higher and more powerful wave.",
+      "facts": [
+        "Changing the amplitude does not change the wavelength or the frequency. A louder note is still the same note.",
+        "A wave's amplitude usually shrinks as it spreads out, which is why sounds are quieter from far away.",
+        "Out in the deep ocean a tsunami can have an amplitude of less than a metre. It only grows tall near the shore."
+      ]
+    },
+    "frequency": {
+      "name": "Frequency",
+      "summary": "How many waves pass a point every second.",
+      "details": "Frequency is the number of complete waves that pass a point each second. It is measured in hertz, written Hz. If two crests go past a post every second, the frequency is 2 hertz. In the picture both waves are drawn across the same one second, and the lower one fits in more waves, so its frequency is higher. Frequency and wavelength are tied together by the wave's speed: wave speed = frequency × wavelength. So for waves travelling at the same speed, a higher frequency always means a shorter wavelength.",
+      "facts": [
+        "The hertz is named after Heinrich Hertz. One hertz means one wave every second.",
+        "Young people can hear sounds from about 20 hertz up to about 20,000 hertz.",
+        "Visible light has a frequency of hundreds of millions of millions of hertz.",
+        "For sound, a higher frequency is heard as a higher note."
+      ]
+    },
+    "white-light": {
+      "name": "White light",
+      "summary": "Light that is a mixture of all the colours.",
+      "details": "White light looks as if it has no colour, but it is really a mixture of all the colours of the rainbow travelling together. Sunlight is white light, and so is the light from an ordinary lamp. When all the colours arrive at your eye at once, your brain sees white. You only find out that the colours are in there when something separates them, as the prism does here. In the picture the white light comes in from the left as a single narrow beam.",
+      "facts": [
+        "A phone or TV screen makes white by lighting tiny red, green and blue dots together.",
+        "A white object bounces back all the colours that fall on it. A black object soaks nearly all of them up.",
+        "Mixing paints works differently from mixing light: the more paints you mix, the darker the result."
+      ]
+    },
+    "prism": {
+      "name": "Prism",
+      "summary": "A triangular block of glass that spreads white light into colours.",
+      "details": "A prism is a block of clear glass or plastic. The kind used to split light is shaped like a triangle when seen from the end, with flat, smooth faces. Light can pass through it, but not at the same speed as outside. Light travels more slowly in glass than in air. Because the faces of the prism are tilted, the light meets them at a slant, and the change in speed makes it turn. The triangular shape means the light is turned the same way at both faces, which spreads the colours widely apart.",
+      "facts": [
+        "In ordinary glass, light travels at about 200,000 km every second, roughly two thirds of its speed in air.",
+        "Binoculars have prisms inside to fold the path of the light and turn the picture the right way up.",
+        "A cut diamond sparkles with colour because its many faces act like tiny prisms."
+      ]
+    },
+    "spectrum": {
+      "name": "Spectrum of colours",
+      "summary": "The band of colours that white light spreads into.",
+      "details": "The light leaving the prism is spread into a band of colours called a spectrum. In order they are red, orange, yellow, green, blue, indigo and violet. They separate because each colour is bent by a slightly different amount. Red is bent least and violet is bent most, so they end up at opposite edges of the band. A rainbow is the same effect, made when sunlight is bent inside millions of raindrops instead of a prism. Isaac Newton showed in the 1660s that the colours come from the white light itself and are not added by the glass.",
+      "facts": [
+        "The colours blend smoothly into each other with no sharp edges. Newton chose to name seven.",
+        "Newton also showed that the spread-out colours can be brought back together to make white light again.",
+        "Violet light slows down a little more than red light in glass, which is why it bends more."
+      ]
+    },
+    "refraction": {
+      "name": "Bending (refraction)",
+      "summary": "The change in direction of light as it passes from one material into another.",
+      "details": "Refraction is the bending of light when it crosses from one clear material into another, such as from air into glass. It happens because the light changes speed. If the light meets the surface at a slant, the change in speed makes it change direction. In the prism the light bends twice: once at the first face on the way into the glass, and again at the second face on the way back out into the air. Refraction is also why a straw standing in a glass of water looks bent or broken at the surface.",
+      "facts": [
+        "Light that hits a surface straight on changes speed but does not bend.",
+        "The lenses in glasses, cameras and your own eyes all use refraction to bring light to a focus.",
+        "Refraction makes a swimming pool look shallower than it really is."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "em-spectrum",
+      "title": "The electromagnetic spectrum",
+      "intro": "Light is a wave, and the light we see is one small part of a much larger family called the electromagnetic spectrum. All of these waves travel at the same speed in empty space, about 300,000 km every second. What sets them apart is their wavelength: long on the left, short on the right. The shorter the wavelength, the more energy the wave carries. The drawing is not to scale.",
+      "svg": "diagrams/em-spectrum.svg",
+      "parts": ["radio-waves", "microwaves", "infrared", "visible-light", "ultraviolet", "x-rays", "gamma-rays"]
+    },
+    {
+      "id": "wave-parts",
+      "title": "Parts of a wave",
+      "intro": "Every wave, whether it is light, sound or a ripple on a pond, can be described with the same few measurements. The dashed line is the middle or rest line, where things would sit if there were no wave.",
+      "svg": "diagrams/wave-parts.svg",
+      "parts": ["crest", "trough", "wavelength", "amplitude", "frequency"]
+    },
+    {
+      "id": "prism",
+      "title": "A prism splitting light",
+      "intro": "White light is a mixture of colours. A block of glass called a prism spreads them out so that each can be seen. The angles in this drawing are exaggerated to make the bending easy to see.",
+      "svg": "diagrams/prism.svg",
+      "parts": ["white-light", "prism", "spectrum", "refraction"]
+    }
+  ]
+}
