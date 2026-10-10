@@ -1,0 +1,182 @@
+{
+  "id": "digestion",
+  "title": "Digestion",
+  "parts": {
+    "mouth": {
+      "name": "Mouth",
+      "summary": "Where food enters the body and digestion begins.",
+      "details": "Digestion starts the moment you take a bite. Your front teeth cut the food and your back teeth grind it into small pieces, which gives digestive juices more surface to work on. Meanwhile the tongue pushes the food around and mixes it with saliva until it is soft and slippery. Finally the tongue shapes the mush into a small ball and pushes it to the back of the mouth, ready to be swallowed.",
+      "facts": [
+        "A full set of adult teeth has 32 teeth, including four wisdom teeth.",
+        "Tooth enamel is the hardest substance in the human body.",
+        "The ball of chewed food that you swallow is called a bolus."
+      ]
+    },
+    "salivary-glands": {
+      "name": "Salivary glands",
+      "summary": "Glands around the mouth that make saliva.",
+      "details": "Three pairs of salivary glands lie around the mouth: one pair in front of the ears, one under the jaw and one under the tongue. Together they make about a litre of saliva a day, sometimes more. Saliva wets food so that it is easy to chew and swallow. It also contains an enzyme called amylase. An enzyme is a substance that speeds up a chemical change, and amylase starts turning starch into sugar while the food is still in your mouth.",
+      "facts": [
+        "Chew a piece of plain bread for a long time and it begins to taste slightly sweet, because amylase is turning its starch into sugar.",
+        "Saliva is about 99 per cent water.",
+        "Just smelling or thinking about food makes the glands release more saliva."
+      ]
+    },
+    "oesophagus": {
+      "name": "Oesophagus",
+      "summary": "The muscular tube that carries food from the throat to the stomach.",
+      "details": "The oesophagus, or food pipe, is a muscular tube about 25 centimetres long that joins the throat to the stomach. Food does not simply fall down it. Rings of muscle in its wall squeeze one after another, just behind the ball of food, and push it along like toothpaste being squeezed along a tube. This wave of squeezing is called peristalsis. It is strong enough to work against gravity, which is why you can still swallow when you are lying down.",
+      "facts": [
+        "Food takes only about five to ten seconds to travel down it.",
+        "A ring of muscle at the bottom closes to stop the stomach's contents coming back up.",
+        "It runs behind the windpipe, and a flap called the epiglottis covers the windpipe as you swallow."
+      ]
+    },
+    "stomach": {
+      "name": "Stomach",
+      "summary": "A stretchy muscular bag that churns food and mixes it with acid.",
+      "details": "The stomach is a stretchy bag with muscular walls. Food usually stays in it for a few hours while the muscles churn it into a thick, soupy liquid. Glands in the stomach lining add strong acid, which kills most of the germs swallowed with food. They also add an enzyme that begins breaking down protein. A thick layer of slimy mucus coats the inside of the stomach and stops the acid and the enzyme from attacking the stomach's own wall.",
+      "facts": [
+        "The acid is hydrochloric acid, and the protein-digesting enzyme is called pepsin.",
+        "An adult's stomach can stretch to hold more than a litre of food and drink.",
+        "A ring of muscle at the exit lets food through into the small intestine a little at a time."
+      ]
+    },
+    "liver": {
+      "name": "Liver",
+      "summary": "A large organ that makes bile and processes the food absorbed from the gut.",
+      "details": "The liver is the largest organ inside the body and weighs about 1.5 kilograms in an adult. Food never passes through it, but it has several important jobs in digestion. It makes bile, a greenish liquid that helps to digest fat. Blood carrying food absorbed from the intestine goes to the liver first, where the nutrients are sorted, changed and stored until they are needed. The liver also breaks down harmful substances, such as alcohol, so that the body can get rid of them.",
+      "facts": [
+        "It stores spare sugar as a substance called glycogen and releases it when blood sugar falls.",
+        "The liver can regrow after part of it has been removed.",
+        "It sits under the ribs, mostly on the right-hand side of the body."
+      ]
+    },
+    "gallbladder": {
+      "name": "Gallbladder",
+      "summary": "A small pouch under the liver that stores bile.",
+      "details": "The gallbladder is a small, pear-shaped pouch tucked under the liver. The liver makes bile all the time, and the gallbladder stores it between meals. When fatty food arrives in the small intestine, the gallbladder squeezes and squirts bile down a narrow tube to meet it. Bile does not digest fat itself. Instead it breaks large blobs of fat into tiny droplets, much as washing-up liquid breaks up grease, so that enzymes can reach the fat and digest it far more quickly.",
+      "facts": [
+        "It is only about 8 centimetres long.",
+        "While bile is stored, water is removed from it, which makes it stronger.",
+        "People can live healthily without a gallbladder; bile then trickles straight from the liver into the intestine."
+      ]
+    },
+    "pancreas": {
+      "name": "Pancreas",
+      "summary": "A gland that makes digestive enzymes and the hormone insulin.",
+      "details": "The pancreas is a soft, leaf-shaped gland that lies behind the stomach. It makes a juice that flows down a tube into the first part of the small intestine. The juice contains enzymes that digest all three main kinds of food: starch, protein and fat. It also contains an alkali, the chemical opposite of an acid, which cancels out the stomach acid mixed into the food. The pancreas has a second, separate job too: it makes insulin, a hormone that controls the amount of sugar in the blood.",
+      "facts": [
+        "Insulin goes straight into the blood, not down the tube into the intestine.",
+        "In type 1 diabetes the pancreas makes little or no insulin.",
+        "It is about 15 centimetres long."
+      ]
+    },
+    "small-intestine": {
+      "name": "Small intestine",
+      "summary": "The long, narrow tube where food is finally digested and absorbed.",
+      "details": "The small intestine is a narrow tube about 6 metres long, folded and coiled to fit inside the belly. It is called small because it is narrow, not because it is short. Here bile and pancreatic juice mix with the food, and enzymes finish breaking it down into pieces small enough to be absorbed. Nearly all the nutrients from a meal then pass through the wall of the small intestine on their way into the blood, leaving mostly water and material that cannot be digested.",
+      "facts": [
+        "It is about 2.5 centimetres wide.",
+        "Its first section, the duodenum, is where bile and pancreatic juice enter.",
+        "Food usually spends several hours passing through it."
+      ]
+    },
+    "large-intestine": {
+      "name": "Large intestine",
+      "summary": "The wider tube that takes back water and forms solid waste.",
+      "details": "The large intestine is wider than the small intestine but much shorter, about 1.5 metres long. It frames the small intestine, running up one side of the belly, across the top and down the other side. Its main job is to take water and salts back into the body, which turns the runny leftovers into solid waste. It is also home to trillions of helpful bacteria. They break down some of the fibre that we cannot digest ourselves and make some vitamins.",
+      "facts": [
+        "Its main part is also called the colon.",
+        "Leftovers can spend a day or more here, far longer than anywhere else in the gut.",
+        "Gas made by the bacteria as they break down fibre is what causes wind."
+      ]
+    },
+    "appendix": {
+      "name": "Appendix",
+      "summary": "A small, finger-shaped pouch at the start of the large intestine.",
+      "details": "The appendix is a narrow pouch, closed at one end, that hangs from the very start of the large intestine. Food does not need to go into it, and it is not needed for digestion. Scientists think it may act as a shelter for helpful bacteria, which can spread out again after an illness has flushed out the intestine. Sometimes the appendix becomes blocked and inflamed, which means swollen and painful. This is called appendicitis, and the appendix is usually removed by an operation.",
+      "facts": [
+        "It is usually somewhere between 5 and 10 centimetres long.",
+        "People live perfectly well without one.",
+        "It lies in the lower right-hand side of the belly."
+      ]
+    },
+    "rectum": {
+      "name": "Rectum",
+      "summary": "The last section of the large intestine, where solid waste is stored.",
+      "details": "The rectum is the final, straight section of the large intestine. By the time leftovers arrive here, most of their water has been taken back and they have become solid waste, called faeces. The rectum stores this waste until it is convenient to go to the toilet. As it fills, its wall stretches and sends a signal to the brain that it needs emptying. The waste then leaves the body through an opening called the anus, which is held shut by rings of muscle.",
+      "facts": [
+        "It is roughly 12 to 15 centimetres long.",
+        "Faeces are mostly water, with bacteria and undigested fibre making up much of the rest.",
+        "The brown colour comes from broken-down bile."
+      ]
+    },
+    "villus": {
+      "name": "Villi",
+      "summary": "Tiny finger-like bumps that cover the inner wall of the small intestine.",
+      "details": "The inside of the small intestine is not smooth. It is covered in tiny, finger-like bumps called villi, each one up to about a millimetre tall. One of them is called a villus. There are millions of villi, and together they give the intestine an enormous surface, far larger than a smooth tube would have. The more surface there is, the more digested food can pass through it at once. This is why the small intestine is so good at absorbing nutrients.",
+      "facts": [
+        "To the naked eye, villi make the lining of the intestine look like velvet.",
+        "They sway gently, which stirs the liquid food around them.",
+        "Villus is the Latin word for a tuft of shaggy hair."
+      ]
+    },
+    "lining-cells": {
+      "name": "Lining cells",
+      "summary": "The single layer of cells that covers each villus and takes in nutrients.",
+      "details": "Every villus is covered by a single layer of cells, so digested food has only one cell to cross to get inside the villus. The side of each cell that faces the food has its own even tinier folds, called microvilli, which add still more surface. The cells take in nutrients on that side and pass them out on the other side, towards the vessels in the middle of the villus. It is hard work in a harsh place, so each cell lasts only a few days before it is replaced.",
+      "facts": [
+        "Under a microscope the microvilli look like the bristles of a brush, so they are called the brush border.",
+        "New cells are made in pits between the villi and move up towards the tips.",
+        "Some cells in the lining make slimy mucus, which protects it and helps food slide past."
+      ]
+    },
+    "blood-capillaries": {
+      "name": "Blood capillaries",
+      "summary": "A net of tiny blood vessels that carries absorbed food away.",
+      "details": "Inside each villus is a net of capillaries, the smallest blood vessels of all. Sugars and amino acids, the small building blocks that proteins are broken into, pass out of the lining cells and into the blood in these capillaries. The blood is then carried away, so there is always fresh blood ready to collect more. Blood leaving the villi does not go straight back to the heart. It travels to the liver first, where the food is sorted and stored.",
+      "facts": [
+        "The vessel that carries this blood to the liver is called the hepatic portal vein.",
+        "Vitamins and minerals that dissolve in water are also absorbed into the blood here.",
+        "Capillary walls are only one cell thick."
+      ]
+    },
+    "lacteal": {
+      "name": "Lacteal",
+      "summary": "A small tube in the middle of each villus that takes up digested fat.",
+      "details": "Running up the middle of each villus is a small tube with a closed end, called a lacteal. It is not a blood vessel. It belongs to the lymph system, a second set of vessels that drains fluid from all around the body. Most digested fat does not go into the blood capillaries. Instead it passes into the lacteal. After a fatty meal, the fluid inside looks white and milky, which is how the lacteal got its name.",
+      "facts": [
+        "The name comes from lac, the Latin word for milk.",
+        "The fatty fluid joins the blood later, where the lymph system empties into a large vein near the base of the neck.",
+        "Vitamins that dissolve in fat, such as vitamins A and D, are absorbed along with the fat."
+      ]
+    },
+    "muscle-layer": {
+      "name": "Muscle layer",
+      "summary": "Smooth muscle in the intestine wall that mixes food and moves it along.",
+      "details": "Underneath the villi, the wall of the intestine contains layers of muscle. This is smooth muscle, a kind that works by itself without you having to think about it. The muscle squeezes in slow waves, called peristalsis, that push the food steadily along the tube. Other squeezing movements slosh the food backwards and forwards. This mixes it with digestive juices and keeps bringing fresh food up against the villi so that it can be absorbed.",
+      "facts": [
+        "There are two layers: one runs around the tube and the other runs along its length.",
+        "The rumbling of a hungry stomach is the sound of these muscles moving gas and liquid.",
+        "Nerves in the gut wall keep the squeezing in rhythm."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "digestive-system",
+      "title": "The digestive system",
+      "intro": "Digestion breaks food down into pieces small enough to pass into the blood. Food travels through one long tube, about 9 metres from end to end, helped along the way by organs that add digestive juices. The whole journey takes roughly one to three days. The body is drawn as if you were facing the person, so the liver, on their right, is on the left of the picture. The drawing is simplified: the real intestines are tightly coiled and packed close together.",
+      "svg": "diagrams/digestive-system.svg",
+      "parts": ["mouth", "salivary-glands", "oesophagus", "stomach", "liver", "gallbladder", "pancreas", "small-intestine", "large-intestine", "appendix", "rectum"]
+    },
+    {
+      "id": "villi",
+      "title": "Inside the small intestine",
+      "intro": "This is a slice through the inner wall of the small intestine, magnified many times. The wall is covered in millions of tiny, finger-like villi that soak up digested food. Three are shown here. Red shows blood arriving and blue shows blood leaving; the colours are a drawing convention. The shapes are simplified and not to scale.",
+      "svg": "diagrams/villi.svg",
+      "parts": ["villus", "lining-cells", "blood-capillaries", "lacteal", "muscle-layer"]
+    }
+  ]
+}
