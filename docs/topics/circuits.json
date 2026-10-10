@@ -1,0 +1,142 @@
+{
+  "id": "circuits",
+  "title": "Circuits",
+  "parts": {
+    "battery": {
+      "name": "Battery",
+      "summary": "The energy source that pushes electric charge around the circuit.",
+      "details": "A battery is what drives a circuit. Chemicals stored inside it react, and this turns stored chemical energy into electrical energy. The battery does not make electric charge. The charge is already in the wires, and the battery pushes it round the loop, a bit like a pump pushing water round a pipe. The size of that push is called the voltage, and it is measured in volts. Every battery has two ends, called terminals: one positive and one negative. In the circuit symbol the longer, thinner line is the positive end and the shorter, thicker line is the negative end.",
+      "facts": [
+        "An ordinary AA battery gives about 1.5 volts.",
+        "Strictly, a single unit like this is called a cell, and a battery is two or more cells joined together.",
+        "A battery goes flat when the chemicals inside it are used up; a rechargeable one can run the reaction backwards."
+      ]
+    },
+    "wires": {
+      "name": "Wires",
+      "summary": "Metal paths that carry the current from one component to the next.",
+      "details": "Wires join the parts of a circuit, called components, together. They are made of metal, usually copper, because electric charge flows through metals very easily. A material like this is called a conductor. Most wires are coated in plastic. Plastic does not conduct, so it is called an insulator, and it stops the current leaking out or giving you a shock. For anything to flow, the wires must make a complete loop from one end of the battery all the way round to the other. If there is a gap anywhere, nothing flows at all. In a circuit diagram wires are drawn as straight lines.",
+      "facts": [
+        "Copper is used because it conducts very well and bends easily without snapping.",
+        "Metals conduct because some of the electrons in them are free to move from atom to atom.",
+        "A thin wire has more resistance than a thick wire of the same metal and length."
+      ]
+    },
+    "switch": {
+      "name": "Switch",
+      "summary": "Opens or closes a gap in the circuit to turn the current off or on.",
+      "details": "A switch is a simple way to break a circuit and join it up again. Inside is a piece of metal that can move. When the switch is closed, the metal bridges the gap, the loop is complete and current flows. When the switch is open, there is a gap that charge cannot cross. The loop is broken, so the current stops everywhere in it at once, not just at the switch. The switch in this drawing is shown closed. That is why the bulb would be lit.",
+      "facts": [
+        "Confusingly, a closed switch means on and an open switch means off.",
+        "In a single loop it does not matter where the switch is put: it controls the whole loop.",
+        "The gap in an open switch is filled with air, which is a very poor conductor."
+      ]
+    },
+    "bulb": {
+      "name": "Bulb",
+      "summary": "Turns electrical energy into light, and some heat.",
+      "details": "A bulb turns electrical energy into light and heat. An old-style filament bulb contains a very thin coil of wire called a filament. The filament is hard for current to get through, so it becomes extremely hot, hot enough to glow white. Most of the energy is given out as heat rather than light, which is wasteful. Modern bulbs use LEDs, short for light-emitting diodes. An LED makes the same amount of light using far less energy and stays much cooler. In a circuit diagram a bulb is drawn as a circle with a cross inside.",
+      "facts": [
+        "The filament is made of tungsten, a metal with a very high melting point.",
+        "In a simple circuit the brightness of a bulb shows how much current is flowing through it.",
+        "A filament bulb 'blows' when its filament finally snaps, which breaks the circuit."
+      ]
+    },
+    "resistor": {
+      "name": "Resistor",
+      "summary": "A component that makes it harder for current to flow.",
+      "details": "A resistor is a component, a working part of a circuit, that makes it harder for current to flow. How hard it makes it is called resistance, and it is measured in ohms. For the same battery, the bigger the resistance, the smaller the current. Resistors are used to limit the current, so that delicate parts such as LEDs are not damaged by too much. Voltage (the push), current and resistance are linked by a simple rule: voltage = current × resistance. As current passes through a resistor, some electrical energy is turned into heat, so resistors warm up when they are working.",
+      "facts": [
+        "The symbol for the ohm is the Greek letter omega, Ω.",
+        "Everything in a circuit has some resistance, even the wires, but in good wires it is very small.",
+        "The rule voltage = current × resistance is known as Ohm's law, after the German scientist Georg Ohm."
+      ]
+    },
+    "ammeter": {
+      "name": "Ammeter",
+      "summary": "A meter that measures the current flowing through it.",
+      "details": "An ammeter measures current, which is how much electric charge flows past a point each second. Current is measured in amperes, nearly always shortened to amps. An ammeter has to be connected in the loop itself, so that all the current being measured passes through it. This is called connecting it in series. The ammeter must not make the current smaller, or it would change the very thing it is measuring, so it is built to have a very small resistance. Its symbol is a circle with the letter A inside.",
+      "facts": [
+        "The symbol for the amp is A, so a reading might be written 0.2 A.",
+        "In a single loop an ammeter reads the same wherever it is placed.",
+        "The ampere is named after the French scientist André-Marie Ampère."
+      ]
+    },
+    "voltmeter": {
+      "name": "Voltmeter",
+      "summary": "A meter that measures the voltage across a component.",
+      "details": "A voltmeter measures voltage. It compares the two sides of a component, such as a bulb, and shows the difference between them, which tells you how much energy each bit of charge gives up as it passes through. Because it needs to touch both sides, a voltmeter is not put in the main loop. It is connected across the component on a separate side path, with one lead on each side. This is called connecting it in parallel. Here it is measuring the voltage across the bulb. Its symbol is a circle with the letter V inside.",
+      "facts": [
+        "A voltmeter has a very high resistance, so hardly any current takes the path through it.",
+        "Voltage is also called potential difference.",
+        "The volt is named after Alessandro Volta, who built the first battery in 1800."
+      ]
+    },
+    "current": {
+      "name": "Direction of current",
+      "summary": "Current is drawn flowing from the battery's positive end round to its negative end.",
+      "details": "Electric current is a flow of electric charge. It is measured in amps. By agreement, current is always drawn going out of the positive end of the battery, round the circuit and back to the negative end. This is called conventional current, and it is what the arrows show. In a metal wire the moving charges are actually electrons. They are negatively charged, so they drift the other way, from negative to positive. The direction was agreed long before anyone knew that electrons existed, and it has been kept ever since. Either way, the circuit works the same.",
+      "facts": [
+        "The electron was discovered in 1897, by J. J. Thomson.",
+        "Current is not used up as it goes round: the same amount returns to the battery as left it.",
+        "Electrons in a wire drift along surprisingly slowly, often less than a millimetre each second, yet a bulb lights almost at once because the electrons all round the loop start moving together."
+      ]
+    },
+    "series-circuit": {
+      "name": "Series circuit",
+      "summary": "Bulbs or other parts joined one after another in a single loop.",
+      "details": "In a series circuit everything is connected one after another in a single loop. There is only one path, so the same current goes through every part in turn. The battery's voltage, the size of its push, has to be shared out between the bulbs. Add more bulbs and each one gets a smaller share, so each glows more dimly. A series circuit has one big weakness. If one bulb breaks, it leaves a gap in the only path there is. The loop is no longer complete, the current stops, and every bulb goes out together.",
+      "facts": [
+        "With two identical bulbs in series, each gets half of the battery's voltage.",
+        "Adding bulbs in series adds resistance, so the current in the whole loop gets smaller.",
+        "Some old strings of festive lights were wired in series, so one dead bulb put out the whole string."
+      ]
+    },
+    "parallel-circuit": {
+      "name": "Parallel circuit",
+      "summary": "Bulbs or other parts joined side by side on separate paths.",
+      "details": "In a parallel circuit there is more than one path for the current to take. Each bulb sits on its own path, and both ends of every path are joined straight back to the battery. That means each one gets the full battery voltage, so each bulb stays about as bright as it would be on its own, even when more are added. The paths also work on their own. If one bulb breaks, current can still flow through the others, and they stay lit. The lights and sockets in homes are wired in parallel, which is why you can switch one lamp off without the rest going out.",
+      "facts": [
+        "The current leaving the battery is the total of the currents in all the separate paths.",
+        "Adding more bulbs in parallel draws more current, so the battery runs down faster.",
+        "Each path can be given its own switch."
+      ]
+    },
+    "branch": {
+      "name": "Branch",
+      "summary": "One of the separate paths in a parallel circuit.",
+      "details": "A branch is one of the separate paths in a parallel circuit. This circuit has two branches, each with a single bulb on it. The current from the battery divides between them, so each branch carries its own share of the current. The shares need not be equal. A branch with less resistance is easier to get through, so it carries more of the current. Here the two bulbs are identical, so the current splits evenly, half going along each branch. The branches are drawn in two different colours only to help you tell them apart.",
+      "facts": [
+        "Add up the currents in all the branches and you get the current through the battery.",
+        "Every branch of a simple parallel circuit has the same voltage across it.",
+        "Breaking one branch does not stop the current in the others."
+      ]
+    },
+    "junction": {
+      "name": "Junction",
+      "summary": "A point where wires meet and the current splits or joins.",
+      "details": "A junction is a point where three or more wires meet. In a circuit diagram it is marked with a solid dot. At one junction the current arriving from the battery splits, with some going down each branch. At the other, the currents from the branches join up again and flow back to the battery. Charge cannot pile up at a junction or go missing there. So the total current flowing into a junction is always exactly equal to the total current flowing out of it.",
+      "facts": [
+        "This rule is one of Kirchhoff's laws, worked out by the German scientist Gustav Kirchhoff in the 1840s.",
+        "Lines that cross on a circuit diagram without a dot are not joined to each other.",
+        "A series circuit has no junctions at all."
+      ]
+    }
+  },
+  "diagrams": [
+    {
+      "id": "simple-circuit",
+      "title": "A simple circuit",
+      "intro": "Electricity flows only around a complete loop, called a circuit. This one is drawn with the standard symbols used in circuit diagrams, so the parts do not look like the real objects. The arrows show the direction current is drawn in, from the battery's positive end round to its negative end.",
+      "svg": "diagrams/simple-circuit.svg",
+      "parts": ["battery", "wires", "switch", "bulb", "resistor", "ammeter", "voltmeter", "current"]
+    },
+    {
+      "id": "series-parallel",
+      "title": "Series and parallel",
+      "intro": "There are two basic ways to connect more than one bulb: one after another in a single loop, called series, or side by side on separate paths, called parallel. Both circuits here have the same battery and two identical bulbs, drawn with standard circuit symbols.",
+      "svg": "diagrams/series-parallel.svg",
+      "parts": ["series-circuit", "parallel-circuit", "branch", "junction"]
+    }
+  ]
+}

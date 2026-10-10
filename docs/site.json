@@ -32,7 +32,8 @@
       "blurb": "Matter, energy and forces: the rules that everything follows.",
       "color": "#7d4fc4",
       "topics": [
-        { "id": "atom", "title": "Inside the Atom" }
+        { "id": "atom", "title": "Inside the Atom" },
+        { "id": "circuits", "title": "Circuits" }
       ]
     }
   ]
