@@ -1,7 +1,7 @@
-"""Contract tests for the website's biology tabs.
+"""Contract tests for the website's diagram topics.
 
-Checks that docs/index.html, docs/topics/*.json and docs/diagrams/*.svg
-agree with each other. Standard library only.
+Checks that docs/topics/*.json and docs/diagrams/*.svg agree with each
+other. Standard library only.
 """
 import json
 import re
@@ -27,15 +27,6 @@ def text_ok(value):
 
 def local(tag):
     return tag.split("}")[-1]
-
-
-def test_tabs_match_topic_files():
-    html = (DOCS / "index.html").read_text(encoding="utf-8")
-    tabs = re.findall(r'data-tab="([^"]+)"', html)
-    assert tabs, "index.html has no tab buttons"
-    assert tabs[0] == "table"
-    assert len(tabs) == len(set(tabs)), "duplicate tab"
-    assert set(tabs[1:]) == {p.stem for p in TOPIC_FILES}
 
 
 @pytest.mark.parametrize("path", TOPIC_FILES, ids=lambda p: p.stem)

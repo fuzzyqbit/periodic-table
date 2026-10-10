@@ -1,0 +1,26 @@
+{
+  "title": "Science Explorer",
+  "subjects": [
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "blurb": "The elements that everything is made of, and how they are arranged.",
+      "color": "#2c6df0",
+      "topics": [
+        { "id": "table", "title": "Periodic Table" }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Human Body & Cells",
+      "blurb": "How your body is built and how it works, from single cells to whole systems.",
+      "color": "#c0392b",
+      "topics": [
+        { "id": "cells", "title": "Cells" },
+        { "id": "blood", "title": "Blood" },
+        { "id": "nervous", "title": "Nervous System" },
+        { "id": "skeleton", "title": "Skeleton" }
+      ]
+    }
+  ]
+}

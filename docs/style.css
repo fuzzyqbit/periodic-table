@@ -314,7 +314,22 @@ main {
   box-shadow: 0 12px 36px rgba(0,0,0,0.32);
 }
 
-.tabs {
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.trail { margin: 0 0 8px 0; }
+.trail a { color: var(--accent); text-decoration: none; }
+.trail a:hover { text-decoration: underline; }
+#trail-subject { font-weight: 600; }
+
+.topic-row {
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
@@ -322,19 +337,63 @@ main {
   border-bottom: 1px solid var(--border);
 }
 
-.tabs button {
-  background: transparent;
+.topic-row a {
+  padding: 8px 14px;
   color: var(--muted);
-  border-radius: 6px 6px 0 0;
+  text-decoration: none;
+  white-space: nowrap;
   border-bottom: 2px solid transparent;
   margin-bottom: -1px;
 }
 
-.tabs button[aria-selected="true"] {
+.topic-row a:hover { color: var(--text); }
+
+.topic-row a[aria-current="page"] {
   color: var(--accent);
   border-bottom-color: var(--accent);
   font-weight: 600;
 }
+
+#home-view { max-width: 1400px; margin: 0 auto; }
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+
+.subject-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-top: 6px solid var(--subject);
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+
+.subject-card h2 { margin: 0 0 6px 0; font-size: 20px; }
+.subject-card p { margin: 0 0 14px 0; color: var(--muted); font-size: 15px; }
+
+.subject-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.subject-card a {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.subject-card a:hover { border-color: var(--accent); color: var(--accent); }
 
 #topic-view { max-width: 1400px; margin: 0 auto; }
 
@@ -426,6 +485,9 @@ main {
 
 @media (max-width: 900px) {
   .topic-layout { grid-template-columns: 1fr; }
+  .home-cards { grid-template-columns: 1fr; }
+  .topic-row { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; }
+  .topic-row a { margin-bottom: 0; }
   #grid { grid-template-columns: repeat(18, minmax(28px, 1fr)); }
   .cell { min-height: 38px; padding: 2px; }
   .cell .sym { font-size: 13px; }

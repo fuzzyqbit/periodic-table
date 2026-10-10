@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Periodic Table of Elements</title>
+<title>Science Explorer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Periodic Table of Elements</h1>
-    <nav id="tabs" class="tabs" role="tablist" aria-label="Sections">
-      <button type="button" role="tab" data-tab="table" aria-selected="true">Periodic Table</button>
-      <button type="button" role="tab" data-tab="cells" aria-selected="false">Cells</button>
-      <button type="button" role="tab" data-tab="blood" aria-selected="false">Blood</button>
-      <button type="button" role="tab" data-tab="nervous" aria-selected="false">Nervous System</button>
-      <button type="button" role="tab" data-tab="skeleton" aria-selected="false">Skeleton</button>
+    <h1>Science Explorer</h1>
+    <nav id="topic-nav" aria-label="Topics" hidden>
+      <p class="trail">
+        <a href="#home">⌂ Home</a>
+        <span aria-hidden="true">›</span>
+        <span id="trail-subject"></span>
+      </p>
+      <div id="topic-row" class="topic-row"></div>
     </nav>
-    <div id="table-controls">
+    <div id="table-controls" hidden>
       <div class="toolbar">
         <input id="search" type="text" placeholder="Search by symbol, name, or atomic number…" autocomplete="off">
         <button id="quiz-btn">Quiz</button>
@@ -31,7 +32,12 @@
     </div>
   </header>
 
-  <main id="table-view">
+  <!-- Names the current page for screen readers; site.js moves focus here. -->
+  <h2 id="page-heading" class="sr-only" tabindex="-1">Home</h2>
+
+  <main id="home-view"></main>
+
+  <main id="table-view" hidden>
     <div id="grid" aria-label="Periodic table grid"></div>
     <div id="legend" aria-label="Category legend"></div>
   </main>
@@ -92,5 +98,6 @@
 
   <script src="app.js"></script>
   <script src="topics.js"></script>
+  <script src="site.js"></script>
 </body>
 </html>
